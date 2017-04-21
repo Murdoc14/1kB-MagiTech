@@ -1,0 +1,11 @@
+press=
+    actuallyadditions:blockCrystal ae2:material.LogicProcessorPrint ae2:material.SiliconPrint
+    -> ae2:material.LogicProcessor
+
+press=
+    actuallyadditions:blockCrystal ae2:material.CalcProcessorPrint ae2:material.SiliconPrint
+    -> ae2:material.CalcProcessor
+
+press=
+    actuallyadditions:blockCrystal ae2:material.EngProcessorPrint ae2:material.SiliconPrint
+    -> ae2:material.EngProcessor

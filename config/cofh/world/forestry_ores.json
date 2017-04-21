@@ -1,0 +1,24 @@
+{
+	"populate": {
+		"apatite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "forestry:resources",
+				"material": "stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"min-height": 54,
+			"max-height": 96,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

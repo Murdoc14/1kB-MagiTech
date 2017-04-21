@@ -1,0 +1,8 @@
+{
+  "path": "mod_mysticalagriculture/mutations/signalum_mutation.json",
+  "enabled": true,
+  "chance": 0.15,
+  "child": "signalum_plant",
+  "parent1": "constantan_plant",
+  "parent2": "electrum_plant"
+}

@@ -1,0 +1,23 @@
+inscribe=
+    forestry:thermionicTubes:4
+	ae2:material.LogicProcessorPress
+	appliedenergistics2:certus_quartz_wrench
+    -> ae2:material.LogicProcessorPrint
+
+inscribe=
+    forestry:thermionicTubes:11
+	ae2:material.CalcProcessorPress
+	appliedenergistics2:certus_quartz_wrench
+    -> ae2:material.CalcProcessorPrint
+
+inscribe=
+    forestry:thermionicTubes:5 
+	ae2:material.EngProcessorPress
+	appliedenergistics2:certus_quartz_wrench
+    -> ae2:material.EngProcessorPrint
+
+inscribe=
+    forestry:thermionicTubes:8 
+	ae2:material.SiliconPress
+	appliedenergistics2:certus_quartz_wrench
+    -> ae2:material.SiliconPrint

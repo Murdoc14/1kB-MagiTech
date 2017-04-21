@@ -1,0 +1,8 @@
+{
+  "path": "vanilla/mutations/pinktulip_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "pinktulip_plant",
+  "parent1": "allium_plant",
+  "parent2": "dandelion_plant"
+}

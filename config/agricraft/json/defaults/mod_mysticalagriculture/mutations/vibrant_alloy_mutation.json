@@ -1,0 +1,8 @@
+{
+  "path": "mod_mysticalagriculture/mutations/vibrant_alloy_mutation.json",
+  "enabled": true,
+  "chance": 0.15,
+  "child": "vibrant_alloy_plant",
+  "parent1": "energetic_alloy_plant",
+  "parent2": "enderman_plant"
+}

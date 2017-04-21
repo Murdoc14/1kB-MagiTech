@@ -1,0 +1,18 @@
+{
+  "path": "mod_mysticalagriculture/soils/fertilizedfarmland_soil.json",
+  "enabled": true,
+  "id": "fertilizedfarmland_soil",
+  "name": "Fertilized Farmland",
+  "varients": [
+    {
+      "item": "hatchery:fertilized_farmland",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

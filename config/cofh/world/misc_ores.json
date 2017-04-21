@@ -1,0 +1,64 @@
+{
+	"populate": {
+		"draconium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "draconicevolution:draconium_ore",
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 8,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"monazit": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "modularforcefieldsystem:monazitOre",
+				"material": "stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 4,
+			"min-height": 24,
+			"max-height": 42,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"resonating": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "deepresonance:resonating_ore",
+				"material": "stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 4,
+			"min-height": 16,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

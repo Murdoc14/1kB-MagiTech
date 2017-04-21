@@ -1,0 +1,8 @@
+{
+  "path": "mod_mysticalagriculture/mutations/aluminum_brass_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "aluminum_brass_plant",
+  "parent1": "copper_plant",
+  "parent2": "aluminum_plant"
+}

@@ -1,0 +1,8 @@
+{
+  "path": "mod_mysticalagriculture/mutations/ice_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "ice_plant",
+  "parent1": "nature_plant",
+  "parent2": "water_plant"
+}

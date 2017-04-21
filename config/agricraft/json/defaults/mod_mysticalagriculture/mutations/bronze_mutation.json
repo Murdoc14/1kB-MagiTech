@@ -1,0 +1,8 @@
+{
+  "path": "mod_mysticalagriculture/mutations/bronze_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "bronze_plant",
+  "parent1": "copper_plant",
+  "parent2": "tin_plant"
+}

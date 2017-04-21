@@ -1,0 +1,84 @@
+{
+	"populate": {
+		"electrotine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {"name": "projectred-exploration:ore", "metadata": 6},
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"ruby": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "projectred-exploration:ore",
+				"material": "stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 3,
+			"min-height": 18,
+			"max-height": 42,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {"name": "projectred-exploration:ore", "metadata": 1},
+				"material": "stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 3,
+			"min-height": 18,
+			"max-height": 42,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"peridot": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {"name": "projectred-exploration:ore", "metadata": 2},
+				"material": "stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 3,
+			"min-height": 18,
+			"max-height": 42,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

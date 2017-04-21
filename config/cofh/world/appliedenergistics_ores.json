@@ -1,0 +1,27 @@
+{
+	"populate": {
+		"certus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{"name": "appliedenergistics2:quartz_ore", "weight":95},
+					{"name": "appliedenergistics2:charged_quartz_ore", "weight":5}
+				],
+				"material": "stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 10,
+			"min-height": 24,
+			"max-height": 48,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

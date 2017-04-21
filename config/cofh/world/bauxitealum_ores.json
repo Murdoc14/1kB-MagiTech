@@ -1,0 +1,27 @@
+{
+	"populate": {
+		"bauxitealum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{"name": "thermalfoundation:ore", "metadata": 4, "weight":70},
+					{"name": "techreborn:techreborn.ore", "metadata": 4, "weight":30}
+				],
+				"material": "stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 8,
+			"min-height": 48,
+			"max-height": 72,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

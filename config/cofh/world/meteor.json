@@ -1,0 +1,31 @@
+{
+	"populate": {
+		"meteor": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{"name": "thermalfoundation:ore", "metadata": 6, "weight":5},
+					{"name": "thermalfoundation:ore", "metadata": 7, "weight":5},
+					{"name": "minecraft:obsidian", "weight":90}
+				],
+				"material": "stone",
+				"cluster-size": 2,
+				"crust": "minecraft:obsidian"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 40,
+			"max-height": 60,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

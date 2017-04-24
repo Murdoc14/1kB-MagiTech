@@ -72,7 +72,8 @@ recipes.addShaped(<extrautils2:klein>, [[null, <substratum:bottleLiquid:2>, null
 recipes.remove(<extrautils2:drum:1>);
 recipes.addShaped(<extrautils2:drum:1>, [[<ore:plateIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:plateIron>], [<ore:plateSteel>, <mekanism:MachineBlock2:11>.withTag({tier: 3}), <ore:plateSteel>], [<ore:plateIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:plateIron>]]);
 
-
+recipes.remove(<extrautils2:user>);
+recipes.addShaped(<extrautils2:user>, [[<ore:plateSteel>, <ore:gemRedstone>, <ore:plateSteel>], [<ore:gearSteel>, <thermalexpansion:frame:64>, <ore:gearSteel>], [<ore:plateSteel>, <thermalfoundation:material:512>, <ore:plateSteel>]]);
 
 
 

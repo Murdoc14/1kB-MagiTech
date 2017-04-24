@@ -140,24 +140,24 @@ recipes.remove(<ore:plateConstantan>);
 recipes.remove(<ore:plateSignalum>);
 recipes.remove(<ore:plateLumium>);
 recipes.remove(<ore:plateEnderium>);
-recipes.addShapeless(<thermalfoundation:material:32>, [<ore:ingotIron>, <ore:ingotIron>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:33>, [<ore:ingotGold>, <ore:ingotGold>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:320>, [<ore:ingotCopper>, <ore:ingotCopper>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:321>, [<ore:ingotTin>, <ore:ingotTin>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:322>, [<ore:ingotSilver>, <ore:ingotSilver>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:323>, [<ore:ingotLead>, <ore:ingotLead>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:324>, [<ore:ingotAluminum>, <ore:ingotAluminum>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:325>, [<ore:ingotNickel>, <ore:ingotNickel>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:326>, [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:327>, [<ore:ingotIridium>, <ore:ingotIridium>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:352>, [<ore:ingotSteel>, <ore:ingotSteel>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:353>, [<ore:ingotElectrum>, <ore:ingotElectrum>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:354>, [<ore:ingotInvar>, <ore:ingotInvar>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:355>, [<ore:ingotBronze>, <ore:ingotBronze>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:356>, [<ore:ingotConstantan>, <ore:ingotConstantan>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:357>, [<ore:ingotSignalum>, <ore:ingotSignalum>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:358>, [<ore:ingotLumium>, <ore:ingotLumium>, <immersiveengineering:tool>]);
-recipes.addShapeless(<thermalfoundation:material:359>, [<ore:ingotEnderium>, <ore:ingotEnderium>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:32>, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:33>, [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:320>, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:321>, [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:322>, [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:323>, [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:324>, [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:325>, [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:326>, [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:327>, [<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:352>, [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:353>, [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:354>, [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:355>, [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:356>, [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:357>, [<ore:ingotSignalum>, <ore:ingotSignalum>, <ore:ingotSignalum>, <ore:ingotSignalum>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:358>, [<ore:ingotLumium>, <ore:ingotLumium>, <ore:ingotLumium>, <ore:ingotLumium>, <immersiveengineering:tool>]);
+recipes.addShapeless(<thermalfoundation:material:359>, [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>, <immersiveengineering:tool>]);
 
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:32>, <liquid:iron>, <tconstruct:cast_custom:3>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:32>, <liquid:iron> * 288, <tconstruct:cast_custom:3>, false, 120);
@@ -242,6 +242,11 @@ recipes.remove(<thermalfoundation:material:292>);
 recipes.remove(<thermalfoundation:material:293>);
 recipes.remove(<thermalfoundation:material:294>);
 recipes.remove(<thermalfoundation:material:295>);
+recipes.remove(<redstonearsenal:material:96>);
+recipes.remove(<embers:plateDawnstone>);
+recipes.addShapeless(<embers:plateDawnstone>, [<ore:ingotDawnstone>, <ore:ingotDawnstone>, <ore:ingotDawnstone>, <ore:ingotDawnstone>, <immersiveengineering:tool>]);
+recipes.remove(<enderio:itemMachinePart:1>);
+recipes.addShaped(<enderio:itemMachinePart:1>, [[null, <ore:stone>, null], [<ore:stone>, <ore:gearWood>, <ore:stone>], [null, <ore:stone>, null]]);
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:24>);
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:25>);
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:256>);
@@ -260,7 +265,7 @@ mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:29
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:293>);
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:294>);
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:295>);
-
+mods.immersiveengineering.MetalPress.removeRecipe(<redstonearsenal:material:96>);
 
 
 

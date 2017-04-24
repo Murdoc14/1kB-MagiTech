@@ -1,3 +1,4 @@
+recipes.remove(<embers:tinkerHammer>);
 recipes.remove(<embers:blendCaminite>);
 recipes.addShapeless(<embers:blendCaminite> * 2, [<tconstruct:soil>, <roots:dustPetal>, <tconstruct:soil>, <tconstruct:soil>]);
 recipes.remove(<embers:alchemyTablet>);

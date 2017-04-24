@@ -1,7 +1,7 @@
 #Tic Grout reduction
 recipes.remove(<tconstruct:soil>);
 recipes.addShapeless(<tconstruct:soil>, [<ore:gravel>, <ore:itemClay>, <ore:sand>]);
-recipes.remove(<immersiveengineering:stoneDecoration>);
+
 recipes.remove(<tconstruct:toolforge>);
 recipes.addShaped(<tconstruct:toolforge>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ore:plateDenseSteel>, <tconstruct:tooltables:3>, <ore:plateDenseSteel>], [<ore:plateDenseSteel>, null, <ore:plateDenseSteel>]]);
 recipes.addShaped(<tconstruct:toolforge>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ore:ingotTerrasteel>, <tconstruct:tooltables:3>, <ore:ingotTerrasteel>], [<ore:ingotTerrasteel>, null, <ore:ingotTerrasteel>]]);

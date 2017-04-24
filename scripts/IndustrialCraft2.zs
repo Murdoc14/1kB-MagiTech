@@ -47,4 +47,3 @@ recipes.addShaped(<ic2:nano_chestplate:26>, [[<ic2:crafting:15>, <minecraft:diam
 
 
 
-

@@ -24,7 +24,7 @@ recipes.addShaped(<botania:livingwood:5>, [[<ore:nuggetTerrasteel>, <ore:dustGlo
 
 # -- Elven Gateway Core
 ###recipes.remove(<botania:alfheimPortal>);
-recipes.addShaped(<botania:alfheimPortal>, [[<ore:livingwood>, <bloodmagic:ItemBloodOrb:2>, <ore:livingwood>], [<mysticalagriculture:mystical_flower_essence>, <ore:ingotTerrasteel>, <mysticalagriculture:mystical_flower_essence>], [<ore:livingwood>, <botanicaladdons:spellFocus>, <ore:livingwood>]]);
+###recipes.addShaped(<botania:alfheimPortal>, [[<ore:livingwood>, <bloodmagic:ItemBloodOrb:2>, <ore:livingwood>], [<mysticalagriculture:mystical_flower_essence>, <ore:ingotTerrasteel>, <mysticalagriculture:mystical_flower_essence>], [<ore:livingwood>, <botanicaladdons:spellFocus>, <ore:livingwood>]]);
 
 # -- Mana Lenses
 recipes.remove(<botania:lens>);

@@ -16,7 +16,7 @@ mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemInscriptionTool:5>.withTag({uses
 ###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:6>.withTag({uses: 0}));
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemInscriptionTool:6>.withTag({uses: 0}), 6, 200000, 100, 200, [<embers:aspectusDawnstone>]);
 ###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemTelepositionFocus>);
-mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemTelepositionFocus>, 4, 2000, 10, 10, [<avaritiaadditions:endest_pearl>]);
+mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemTelepositionFocus>, 4, 2000, 10, 10, [<avaritia:endest_pearl>]);
 
 
 

@@ -1,6 +1,10 @@
 # -- Coke Brick
 recipes.remove(<immersiveengineering:stoneDecoration>);
-recipes.addShaped(<immersiveengineering:stoneDecoration> * 2, [[<ore:itemClay>, <ore:ingotBrickSeared>, <ore:itemClay>], [<ore:ingotBrickSeared>, <ore:sandstone>, <ore:ingotBrickSeared>], [<ore:itemClay>, <ore:ingotBrickSeared>, <ore:itemClay>]]);
+recipes.addShaped(<immersiveengineering:stoneDecoration> *2, [[<ore:itemClay>, <ore:ingotBrickSeared>, <ore:itemClay>], [<ore:ingotBrickSeared>, <ore:sandstone>, <ore:ingotBrickSeared>], [<ore:itemClay>, <ore:ingotBrickSeared>, <ore:itemClay>]]);
+
+recipes.remove(<immersiveengineering:stoneDecoration:1>);
+recipes.addShaped(<immersiveengineering:stoneDecoration:1> * 2, [[<ore:blockSeared>, <minecraft:brick_block>, <ore:blockSeared>], [<minecraft:brick_block>, <minecraft:lava_bucket>, <minecraft:brick_block>], [<ore:blockSeared>, <minecraft:brick_block>, <ore:blockSeared>]]);
+
 
 # -- Wire
 recipes.remove(<immersiveengineering:wirecoil:2>);

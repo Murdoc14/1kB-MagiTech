@@ -10,6 +10,8 @@ recipes.addShaped(<substratum:ingot:2>, [[<ore:nuggetBronze>, <ore:nuggetBronze>
 recipes.addShaped(<substratum:ingot:2> * 4, [[<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>], [<mysticalagriculture:bronze_essence>, null, <mysticalagriculture:bronze_essence>], [<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>]]);
 recipes.remove(<railcraft:generic:7>);
 
+furnace.remove(<ore:nuggetSteel>);
+
 recipes.addShapeless(<railcraft:generic:7>, [<ic2:forge_hammer>.noReturn(), <minecraft:obsidian>.noReturn()]);
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<minecraft:obsidian>,<railcraft:generic:7>,30000);
 

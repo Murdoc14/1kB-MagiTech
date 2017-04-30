@@ -143,7 +143,7 @@ mods.forestry.ThermionicFabricator.addCast(<actuallyadditions:itemDrillUpgradeFi
 # -- Ender Star
 recipes.remove(<actuallyadditions:itemMisc:19>);
 mods.actuallyadditions.Empowerer.addRecipe(<minecraft:nether_star>,<actuallyadditions:itemMisc:19>,
-<extrautils2:ingredients:11>,<minecraft:dragon_breath>,<botanicaladdons:resource:5>,<botania:manaResource:5>, 10000, 5, 5000, 5000, 5);
+<extrautils2:ingredients:11>,<minecraft:dragon_breath>,<bloodmagic:ItemComponent:8>,<botania:manaResource:5>, 10000, 5, 5000, 5000, 5);
 
 
 recipes.remove(<actuallyadditions:itemSpawnerChanger>);

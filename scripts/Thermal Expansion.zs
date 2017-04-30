@@ -1,6 +1,8 @@
 recipes.remove(<thermalexpansion:upgrade:33>);
 recipes.remove(<thermalexpansion:upgrade:34>);
 recipes.remove(<thermalexpansion:upgrade:35>);
+recipes.remove(<thermalfoundation:material:512>);
+recipes.addShaped(<thermalfoundation:material:512>, [[<thermalfoundation:material:515>, null, <thermalfoundation:material:515>], [null, <ore:gearSteel>, null], [<thermalfoundation:material:515>, null, <thermalfoundation:material:515>]]);
 recipes.remove(<thermalexpansion:cache>);
 recipes.addShaped(<thermalexpansion:cache>, [[null, <ore:plateTin>, null], [<ore:plateTin>, <ore:chest>, <ore:plateTin>], [null, <thermalfoundation:material:512>, null]]);
 recipes.remove(<thermalexpansion:frame:128>);
@@ -74,6 +76,61 @@ recipes.remove(<thermalexpansion:augment:128>);
 mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:128>, [[null, <ore:plateGold>, null], [<ore:plateGold>, <thermalfoundation:material:513>, <ore:plateGold>], [<ore:dustRedstone>, <ore:plateGold>, <ore:dustRedstone>]], 1000);
 recipes.remove(<thermalexpansion:augment:129>);
 mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:129>, [[null, <ore:plateBronze>, null], [<ore:plateBronze>, <thermalfoundation:material:512>, <ore:plateBronze>], [<ic2:crafting:14>, <ore:plateBronze>, <ic2:crafting:14>]], 1000);
+recipes.remove(<thermalexpansion:augment:130>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:130>, [[null, <ore:nuggetInvar>, null], [<ore:nuggetInvar>, <minecraft:lava_bucket>, <ore:nuggetInvar>], [<ore:fusedGlass>, <ore:nuggetInvar>, <ore:fusedGlass>]], 1000);
+recipes.remove(<thermalexpansion:augment:256>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:256>, [[<ore:foodExtremechili>, <ore:foodCharsiu>, <ore:foodShrimpokrahushpuppies>], [<ore:plateSilver>, <thermalfoundation:material:515>, <ore:plateSilver>], [<ore:dustRedstone>, <ore:blockSeared>, <ore:dustRedstone>]], 1000);
+recipes.remove(<thermalexpansion:augment:257>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:257>, [[null, <ore:gearPlatinum>, null], [<ore:plateInvar>, <thermalfoundation:material:515>, <ore:plateInvar>], [<ore:dustPyrotheum>, <fluxnetworks:FluxBlock>, <ore:dustPyrotheum>]], 1000);
+recipes.remove(<thermalexpansion:augment:273>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:273>, [[null, <ore:gearSignalum>, null], [<ore:plateSignalum>, <thermalfoundation:material:512>, <ore:plateSignalum>], [<ore:dustPetrotheum>, <thermalfoundation:glass_alloy:5>, <ore:dustPetrotheum>]], 1000);
+recipes.remove(<thermalexpansion:augment:288>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:288>, [[<ic2:treetap>, <ore:gearTin>, <ic2:treetap>], [<ore:plateCopper>, <thermalfoundation:material:512>, <ore:plateCopper>], [<ore:dustRedstone>, <minecraft:bucket>, <ore:dustRedstone>]], 1000);
+recipes.remove(<thermalexpansion:augment:304>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:304>, [[null, <ore:gearSignalum>, null], [<ore:plateSignalum>, <thermalfoundation:material:515>, <ore:plateSignalum>], [<ore:dustPyrotheum>, <thermalfoundation:glass_alloy:5>, <ore:dustPyrotheum>]], 1000);
+recipes.remove(<thermalexpansion:augment:320>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:320>, [[<minecraft:brown_mushroom>, <ore:gearConstantan>, <minecraft:red_mushroom>], [<ore:plateLead>, <thermalfoundation:material:512>, <ore:plateLead>], [<ore:dustRedstone>, <ore:mycelium>, <ore:dustRedstone>]], 1000);
+recipes.remove(<thermalexpansion:augment:321>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:321>, [[<minecraft:nether_wart>, <ore:gearConstantan>, <minecraft:nether_wart>], [<ore:plateLumium>, <thermalfoundation:material:512>, <ore:plateLumium>], [<ore:dustGlowstone>, <ore:soulSand>, <ore:dustGlowstone>]], 1000);
+recipes.remove(<thermalexpansion:augment:322>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:322>, [[<minecraft:chorus_flower>, <ore:gearConstantan>, <extrautils2:enderlilly>], [<ore:plateEnderium>, <thermalfoundation:material:512>, <ore:plateEnderium>], [<ore:dustCryotheum>, <ore:endstone>, <ore:dustCryotheum>]], 1000);
+recipes.remove(<thermalexpansion:augment:336>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:336>, [[null, <ore:gearInvar>, null], [<ore:plateElectrum>, <thermalfoundation:material:512>, <ore:plateElectrum>], [<ore:dustGlowstone>, <ore:gemEmerald>, <ore:dustGlowstone>]], 1000);
+recipes.remove(<thermalexpansion:augment:400>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:400>, [[null, <ore:gearElectrumFlux>, null], [<ore:platePlatinum>, <thermalfoundation:material:515>, <ore:platePlatinum>], [<ore:dustElectrumFlux>, <ore:ingotPlatinum>, <ore:dustElectrumFlux>]], 1000);
+recipes.remove(<thermalexpansion:augment:512>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:512>, [[null, <ore:plateSilver>, null], [<ore:plateSilver>, <thermalfoundation:material:514>, <ore:plateSilver>], [<ore:dustRedstone>, <ore:plateSilver>, <ore:dustRedstone>]], 1000);
+recipes.remove(<thermalexpansion:augment:513>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:513>, [[null, <ore:plateLead>, null], [<ore:plateLead>, <thermalfoundation:material:515>, <ore:plateLead>], [<ore:dustGlowstone>, <ore:plateLead>, <ore:dustGlowstone>]], 1000);
+recipes.remove(<thermalexpansion:augment:514>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:514>, [[<thermalfoundation:material:512>, <ore:nuggetElectrumFlux>, <thermalfoundation:material:512>], [<ore:nuggetElectrumFlux>, <thermalfoundation:material:515>, <ore:nuggetElectrumFlux>], [<thermalfoundation:material:512>, <ore:nuggetElectrumFlux>, <thermalfoundation:material:512>]], 1000);
+recipes.remove(<thermalexpansion:augment:515>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:515>, [[<fluxnetworks:FluxCore>, <ore:plateLead>, <fluxnetworks:FluxCore>], [<ore:plateLead>, <ore:gearElectrumFlux>, <ore:plateLead>], [<fluxnetworks:FluxCore>, <ore:plateLead>, <fluxnetworks:FluxCore>]], 1000);
+recipes.remove(<thermalexpansion:augment:640>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:640>, [[<ic2:crafting:35>, <ore:plateCopper>, <ic2:crafting:35>], [<ore:plateCopper>, <thermalfoundation:material:515>, <ore:plateCopper>], [<ic2:crafting:35>, <ore:plateCopper>, <ic2:crafting:35>]], 1000);
+recipes.remove(<thermalexpansion:augment:656>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:656>, [[null, <ore:gearSignalum>, null], [<ore:plateSignalum>, <thermalfoundation:material:515>, <ore:plateSignalum>], [<ore:dustCryotheum>, <ore:blockGlassHardened>, <ore:dustCryotheum>]], 1000);
+recipes.remove(<thermalexpansion:augment:672>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:672>, [[<ore:gearPlatinum>, <ore:platePlatinum>, <ore:gearPlatinum>], [<ore:platePlatinum>, <thermalfoundation:material:515>, <ore:platePlatinum>], [<ore:dustCryotheum>, <ore:blockGlassHardened>, <ore:dustCryotheum>]], 1000);
+recipes.remove(<thermalexpansion:augment:673>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:673>, [[<ore:gearSignalum>, <ore:plateSignalum>, <ore:gearSignalum>], [<ore:plateSignalum>, <thermalfoundation:material:515>, <ore:plateSignalum>], [<ore:dustPyrotheum>, <ore:blockGlassHardened>, <ore:dustPyrotheum>]], 1000);
+recipes.remove(<thermalexpansion:augment:497>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:497>, [[<ore:gearCopper>, <ore:plateInvar>, <ore:gearCopper>], [<ore:plateInvar>, <thermalfoundation:material:512>, <ore:plateInvar>], [<ore:dustRedstone>, <ore:stoneGranite>, <ore:dustRedstone>]], 1000);
+recipes.remove(<thermalexpansion:augment:498>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:498>, [[<ore:gearCopper>, <ore:plateInvar>, <ore:gearCopper>], [<ore:plateInvar>, <thermalfoundation:material:512>, <ore:plateInvar>], [<ore:dustRedstone>, <ore:stoneDiorite>, <ore:dustRedstone>]], 1000);
+recipes.remove(<thermalexpansion:augment:499>);
+mods.forestry.ThermionicFabricator.addCast(<thermalexpansion:augment:499>, [[<ore:gearCopper>, <ore:plateInvar>, <ore:gearCopper>], [<ore:plateInvar>, <thermalfoundation:material:512>, <ore:plateInvar>], [<ore:dustRedstone>, <ore:stoneAndesite>, <ore:dustRedstone>]], 1000);
+
+
+
+
+
+
+
+
+
+
+
 
 
 

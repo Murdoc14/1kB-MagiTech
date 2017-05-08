@@ -20,7 +20,7 @@ recipes.addShaped(<actuallyadditions:blockFurnaceDouble>, [[<ore:plateSteel>, <a
 
 # -- Double Grinder
 recipes.remove(<actuallyadditions:blockGrinderDouble>);
-recipes.addShaped(<actuallyadditions:blockGrinderDouble>, [[<ore:plateSteel>, <actuallyadditions:itemMisc:8>, <substratum:plate:11>], [<appliedenergistics2:grindstone>, <ic2:resource:12>, <appliedenergistics2:grindstone>], [<ore:plateSteel>, <actuallyadditions:itemMisc:8>, <ore:plateSteel>]]);
+recipes.addShaped(<actuallyadditions:blockGrinderDouble>, [[<ore:plateSteel>, <actuallyadditions:itemMisc:8>, <ore:plateSteel>], [<appliedenergistics2:grindstone>, <ic2:resource:12>, <appliedenergistics2:grindstone>], [<ore:plateSteel>, <actuallyadditions:itemMisc:8>, <ore:plateSteel>]]);
 
 # -- Drill
 recipes.remove(<actuallyadditions:itemDrill:3>);

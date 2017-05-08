@@ -135,7 +135,7 @@ mods.forestry.Carpenter.addRecipe(<mekanism:ControlCircuit:3>, [[null, <forestry
   
 recipes.remove(<gendustry:GeneticsProcessor>); 
 mods.forestry.ThermionicFabricator.addCast(<gendustry:GeneticsProcessor>,
- [[<ore:manaDiamond>, <forestry:thermionicTubes:12>, <ore:manaDiamond>], [<actuallyadditions:blockCrystalEmpowered>, <substratum:blockMetal2>, <actuallyadditions:blockCrystalEmpowered>], [<ore:manaDiamond>, <forestry:thermionicTubes:12>, <ore:manaDiamond>]],10000);                  
+ [[<ore:manaDiamond>, <forestry:thermionicTubes:12>, <ore:manaDiamond>], [<actuallyadditions:blockCrystalEmpowered>, <thermalfoundation:storage_alloy:7>, <actuallyadditions:blockCrystalEmpowered>], [<ore:manaDiamond>, <forestry:thermionicTubes:12>, <ore:manaDiamond>]],10000);                  
  
 recipes.remove(<gendustry:EnvProcessor>); 
 mods.forestry.ThermionicFabricator.addCast(<gendustry:EnvProcessor>,
@@ -195,20 +195,20 @@ mods.forestry.ThermionicFabricator.addCast(<mekanism:TierInstaller>,
 
 
 
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:11>, <minecraft:leather>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:10>, <gendustry:Waste>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:12>, <minecraft:leather>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:13>, <minecraft:leather>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:14>, <minecraft:leather>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:15>, <minecraft:leather>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:15>, <minecraft:leather>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:20>, <minecraft:bone>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:21>, <minecraft:bone>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:22>, <minecraft:bone>, 6000);
+mods.tconstruct.Drying.addRecipe(<tconstruct:edible:23>, <minecraft:bone>, 6000);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+recipes.remove(<ic2:plating>); 
+recipes.addShaped(<ic2:plating>, [[<ore:plateDenseSteel>, <ic2:crafting:3>, <ore:plateDenseSteel>], [<ic2:crafting:3>, <ore:plateLead>, <ic2:crafting:3>], [<ore:plateDenseSteel>, <ic2:crafting:3>, <ore:plateDenseSteel>]]);
 
 
 

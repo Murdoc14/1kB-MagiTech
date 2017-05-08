@@ -1,9 +1,9 @@
 
 recipes.remove(<gendustry:Replicator>);
-recipes.addShaped(<gendustry:Replicator>, [[<substratum:gear:16>, <gendustry:GeneticsProcessor>, <ore:gearSignalum>], [<gendustry:PowerModule>, <forestry:hardenedMachine>, <gendustry:PowerModule>], [<ore:gearSignalum>, <gendustry:GeneticsProcessor>, <substratum:gear:16>]]);
+recipes.addShaped(<gendustry:Replicator>, [[<ore:gearSignalum>, <gendustry:GeneticsProcessor>, <ore:gearSignalum>], [<gendustry:PowerModule>, <forestry:hardenedMachine>, <gendustry:PowerModule>], [<ore:gearSignalum>, <gendustry:GeneticsProcessor>, <ore:gearSignalum>]]);
 
 recipes.remove(<gendustry:Extractor>);
-recipes.addShaped(<gendustry:Extractor>, [[<substratum:gear:16>, <ore:blockHopper>, <ore:gearSignalum>], [<gendustry:GeneticsProcessor>, <forestry:hardenedMachine>, <gendustry:GeneticsProcessor>], [<ore:gearSignalum>, <gendustry:PowerModule>, <ore:gearSignalum>]]);
+recipes.addShaped(<gendustry:Extractor>, [[<ore:gearSignalum>, <ore:blockHopper>, <ore:gearSignalum>], [<gendustry:GeneticsProcessor>, <forestry:hardenedMachine>, <gendustry:GeneticsProcessor>], [<ore:gearSignalum>, <gendustry:PowerModule>, <ore:gearSignalum>]]);
 
 recipes.remove(<gendustry:Liquifier>);
 recipes.addShaped(<gendustry:Liquifier>, [[<ore:gearSignalum>, <ore:blockHopper>, <ore:gearSignalum>], [<ore:craftingPiston>, <forestry:sturdyMachine>, <ore:craftingPiston>], [<ore:gearSignalum>, <gendustry:PowerModule>, <ore:gearSignalum>]]);

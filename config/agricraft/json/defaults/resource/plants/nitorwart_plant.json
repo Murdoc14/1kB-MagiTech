@@ -1,6 +1,6 @@
 {
   "path": "resource/plants/nitorwart_plant.json",
-  "enabled": false,
+  "enabled": true,
   "id": "nitorwart_plant",
   "plant_name": "Nitorwart",
   "seed_name": "Burning Spores",
@@ -18,8 +18,6 @@
   "spread_chance": 0.1,
   "spawn_chance": 0.0,
   "grass_drop_chance": 0.0,
-  "seed_drop_chance": 1.0,
-  "seed_drop_bonus": 0.0,
   "products": {
     "products": [
       {
@@ -42,7 +40,10 @@
     "soils": [
       "soul_sand_soil"
     ],
-    "conditions": []
+    "bases": [
+      "minecraft:glowstone"
+    ],
+    "nearby": {}
   },
   "texture": {
     "render_type": "hash",

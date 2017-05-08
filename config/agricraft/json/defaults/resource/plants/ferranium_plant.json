@@ -1,6 +1,6 @@
 {
   "path": "resource/plants/ferranium_plant.json",
-  "enabled": false,
+  "enabled": true,
   "id": "ferranium_plant",
   "plant_name": "Ferranium",
   "seed_name": "Ferranum Seeds",
@@ -18,8 +18,6 @@
   "spread_chance": 0.1,
   "spawn_chance": 0.0,
   "grass_drop_chance": 0.0,
-  "seed_drop_chance": 1.0,
-  "seed_drop_bonus": 0.0,
   "products": {
     "products": [
       {
@@ -42,7 +40,10 @@
     "soils": [
       "gravel_soil"
     ],
-    "conditions": []
+    "bases": [
+      "minecraft:iron_ore"
+    ],
+    "nearby": {}
   },
   "texture": {
     "render_type": "hash",

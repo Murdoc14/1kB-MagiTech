@@ -29,8 +29,6 @@
   "spread_chance": 0.1,
   "spawn_chance": 0.0,
   "grass_drop_chance": 0.0,
-  "seed_drop_chance": 1.0,
-  "seed_drop_bonus": 0.0,
   "products": {
     "products": [
       {
@@ -53,23 +51,10 @@
     "soils": [
       "compressedgravel_soil"
     ],
-    "conditions": [
-      {
-        "amount": 1,
-        "min_x": 0,
-        "min_y": -2,
-        "min_z": 0,
-        "max_x": 0,
-        "max_y": -2,
-        "max_z": 0,
-        "item": "minecraft:coal_ore",
-        "meta": 0,
-        "tags": "",
-        "ignoreMeta": true,
-        "ignoreTags": [],
-        "useOreDict": true
-      }
-    ]
+    "bases": [
+      "minecraft:coal_ore"
+    ],
+    "nearby": {}
   },
   "texture": {
     "render_type": "cross",

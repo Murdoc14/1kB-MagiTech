@@ -1,8 +1,0 @@
-{
-  "path": "mod_mysticalagriculture/mutations/refined_obsidian_mutation.json",
-  "enabled": true,
-  "chance": 0.15,
-  "child": "refined_obsidian_plant",
-  "parent1": "diamond_plant",
-  "parent2": "osmium_plant"
-}

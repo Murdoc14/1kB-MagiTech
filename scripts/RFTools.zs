@@ -4,7 +4,7 @@ recipes.addShaped(<rftools:machine_base>, [[null, null, null], [<ore:nuggetGold>
 
 
 recipes.remove(<rftools:endergenic>);
-recipes.addShaped(<rftools:endergenic>, [[<actuallyadditions:itemCrystalEmpowered:2>, <ore:gearEnderium>, <actuallyadditions:itemCrystalEmpowered:2>], [<substratum:gear:18>, <rftools:machine_frame>, <ore:gearEnderium>], [<actuallyadditions:itemCrystalEmpowered:2>, <ore:gearEnderium>, <actuallyadditions:itemCrystalEmpowered:2>]]);
+recipes.addShaped(<rftools:endergenic>, [[<actuallyadditions:itemCrystalEmpowered:2>, <ore:gearEnderium>, <actuallyadditions:itemCrystalEmpowered:2>], [<ore:gearEnderium>, <rftools:machine_frame>, <ore:gearEnderium>], [<actuallyadditions:itemCrystalEmpowered:2>, <ore:gearEnderium>, <actuallyadditions:itemCrystalEmpowered:2>]]);
 
 recipes.remove(<rftools:elevator>);
 recipes.addShaped(<rftools:elevator>, [[<ore:gearEnderium>, <minecraft:ender_eye>, <ore:gearEnderium>], [<ore:gearEnderium>, <rftools:machine_frame>, <ore:gearEnderium>], [<ore:gearEnderium>, <ore:torchRedstoneActive>, <ore:gearEnderium>]]);
@@ -28,7 +28,7 @@ recipes.remove(<rftools:matter_receiver>);
 recipes.addShaped(<rftools:matter_receiver>, [[<redstonearsenal:material:128>, <ore:blockLumium>, <redstonearsenal:material:128>], [<redstonearsenal:material:128>, <simplyjetpacks:metaItemEIO:3>, <redstonearsenal:material:128>], [<ore:gearEnderium>, <rftools:machine_frame>, <ore:gearEnderium>]]);
 
 recipes.remove(<rftools:dialing_device>);
-recipes.addShaped(<rftools:dialing_device>, [[<redstonearsenal:material:128>, <redstonearsenal:material:128>, <redstonearsenal:material:128>], [<ore:torchRedstoneActive>, <rftools:machine_frame>, <ore:torchRedstoneActive>], [<substratum:gear:18>, <redstonearsenal:material:128>, <substratum:gear:18>]]);
+recipes.addShaped(<rftools:dialing_device>, [[<redstonearsenal:material:128>, <redstonearsenal:material:128>, <redstonearsenal:material:128>], [<ore:torchRedstoneActive>, <rftools:machine_frame>, <ore:torchRedstoneActive>], [<ore:gearEnderium>, <redstonearsenal:material:128>, <ore:gearEnderium>]]);
 
 recipes.remove(<rftools:destination_analyzer>);
 recipes.addShaped(<rftools:destination_analyzer>, [[<ore:gearEnderium>, <ore:pearlEnderEye>, <ore:gearEnderium>], [<ore:pearlEnderEye>, <rftools:machine_frame>, <ore:pearlEnderEye>], [<ore:gearEnderium>, <redstonearsenal:material:128>, <ore:gearEnderium>]]);

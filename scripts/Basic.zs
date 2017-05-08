@@ -3,11 +3,13 @@ recipes.remove(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [[<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>], [<extrautils2:compressedcobblestone>, null, <extrautils2:compressedcobblestone>], [<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>]]);
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <ore:itemFlint>]);
+recipes.remove(<agricraft:clipper>);
+recipes.addShaped(<agricraft:clipper>, [[<mysticalagriculture:enderium_seeds>, <ore:ingotMirion>, <mysticalagriculture:draconium_seeds>], [<botanicaladdons:resource:2>, <mysticalagriculture:superium_shears>, <ore:ingotMirion>], [<mysticalagriculture:manyullyn_seeds>, <botanicaladdons:resource:2>, <mysticalagriculture:terrasteel_seeds>]]);
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
-recipes.remove(<substratum:ingot:2>);
-recipes.addShaped(<substratum:ingot:2>, [[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>], [<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>], [<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>]]);
-recipes.addShaped(<substratum:ingot:2> * 4, [[<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>], [<mysticalagriculture:bronze_essence>, null, <mysticalagriculture:bronze_essence>], [<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>]]);
+
+
+recipes.addShaped(<thermalfoundation:material:163> * 4, [[<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>], [<mysticalagriculture:bronze_essence>, null, <mysticalagriculture:bronze_essence>], [<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>]]);
 recipes.remove(<railcraft:generic:7>);
 
 furnace.remove(<ore:nuggetSteel>);
@@ -179,8 +181,8 @@ mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:325>, <liq
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:325>, <liquid:nickel> * 288, <tconstruct:cast_custom:3>, false, 120);
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:326>, <liquid:platinum>, <tconstruct:cast_custom:3>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:326>, <liquid:platinum> * 288, <tconstruct:cast_custom:3>, false, 120);
-mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:327>, <liquid:iridium>, <tconstruct:cast_custom:3>);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:327>, <liquid:iridium> * 288, <tconstruct:cast_custom:3>, false, 240);
+###mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:327>, <liquid:iridium>, <tconstruct:cast_custom:3>);
+###mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:327>, <liquid:iridium> * 288, <tconstruct:cast_custom:3>, false, 240);
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:352>, <liquid:steel>, <tconstruct:cast_custom:3>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:352>, <liquid:steel> * 288, <tconstruct:cast_custom:3>, false, 80);
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:353>, <liquid:electrum>, <tconstruct:cast_custom:3>);
@@ -191,12 +193,12 @@ mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:355>, <liq
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:355>, <liquid:bronze> * 288, <tconstruct:cast_custom:3>, false, 40);
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:356>, <liquid:constantan>, <tconstruct:cast_custom:3>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:356>, <liquid:constantan> * 288, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:357>, <liquid:signalum>, <tconstruct:cast_custom:3>);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:357>, <liquid:signalum> * 288, <tconstruct:cast_custom:3>, false, 160);
-mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:358>, <liquid:lumium>, <tconstruct:cast_custom:3>);
+###mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:357>, <liquid:signalum>, <tconstruct:cast_custom:3>);
+###mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:357>, <liquid:signalum> * 288, <tconstruct:cast_custom:3>, false, 160);
+###mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:358>, <liquid:lumium>, <tconstruct:cast_custom:3>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:358>, <liquid:lumium> * 288, <tconstruct:cast_custom:3>, false, 160);
-mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:359>, <liquid:enderium>, <tconstruct:cast_custom:3>);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:359>, <liquid:enderium> * 288, <tconstruct:cast_custom:3>, false, 200);
+###mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:359>, <liquid:enderium>, <tconstruct:cast_custom:3>);
+###mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:359>, <liquid:enderium> * 288, <tconstruct:cast_custom:3>, false, 200);
 
 
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:32>, <ore:ingotIron>, <immersiveengineering:mold>, 500);
@@ -282,7 +284,7 @@ mods.immersiveengineering.MetalPress.removeRecipe(<redstonearsenal:material:96>)
 
 
 
-
+recipes.remove(<appliedenergistics2:sky_stone_chest>);
 
 
 
@@ -419,3 +421,69 @@ recipes.addShaped(<minecraft:iron_chestplate>, [[<ore:plateIron>, <minecraft:lea
 recipes.addShaped(<minecraft:iron_helmet>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <minecraft:leather_helmet>, <ore:plateIron>]]);
 recipes.addShaped(<minecraft:leather_boots>, [[<ore:itemLeather>, null, <ore:itemLeather>], [<ore:itemLeather>, null, <ore:itemLeather>], [<ore:itemRubber>, null, <ore:itemRubber>]]);
 recipes.addShaped(<minecraft:leather_boots>, [[<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>], [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>], [<ore:itemRubber>, null, <ore:itemRubber>]]);
+
+//manasteel
+
+mods.tconstruct.Casting.addBasinRecipe(<botania:storage>, <liquid:manasteel> * 1296); //block
+
+//terresteel
+
+mods.tconstruct.Casting.addBasinRecipe(<botania:storage:1>, <liquid:terrasteel> * 1296); //block
+
+//elementium
+
+mods.tconstruct.Casting.addBasinRecipe(<botania:storage:2>, <liquid:elementium> * 1296); //block
+
+//thundersteel
+
+mods.tconstruct.Casting.addBasinRecipe(<botanicaladdons:storage>, <liquid:botanicaladdons_thundersteel> * 1296); //block
+mods.tconstruct.Casting.addTableRecipe(<botanicaladdons:resource>, <liquid:botanicaladdons_thundersteel> * 144, <tconstruct:cast_custom>); //ingot
+mods.tconstruct.Casting.addTableRecipe(<botanicaladdons:resource:6>, <liquid:botanicaladdons_thundersteel> * 16, <tconstruct:cast_custom:1>); //nugget
+
+
+
+
+
+
+
+
+//nugget oredic
+val nuggetIron = <ore:nuggetIron>;
+val nuggetCopper = <ore:nuggetCopper>;
+val nuggetTin = <ore:nuggetTin>;
+val nuggetLead = <ore:nuggetLead>;
+val nuggetSilver = <ore:nuggetSilver>;
+val nuggetNickel = <ore:nuggetNickel>;
+val nuggetPlatinum = <ore:nuggetPlatinum>;
+val nuggetEmerald = <ore:nuggetEmerald>;
+val nuggetDiamond = <ore:nuggetDiamond>;
+val nuggetOsmium = <ore:nuggetOsmium>;
+val nuggetAluminum = <ore:nuggetAluminum>;
+nuggetIron.add(<agricraft:agri_nugget:3>);
+nuggetCopper.add(<agricraft:agri_nugget:4>);
+nuggetTin.add(<agricraft:agri_nugget:5>);
+nuggetLead.add(<agricraft:agri_nugget:6>);
+nuggetSilver.add(<agricraft:agri_nugget:7>);
+nuggetNickel.add(<agricraft:agri_nugget:9>);
+nuggetPlatinum.add(<agricraft:agri_nugget:10>);
+nuggetEmerald.add(<agricraft:agri_nugget>);
+nuggetDiamond.add(<agricraft:agri_nugget:1>);
+nuggetOsmium.add(<agricraft:agri_nugget:11>);
+nuggetAluminum.add(<agricraft:agri_nugget:8>);
+
+
+
+mods.bloodmagic.Altar.addRecipe(<natura:respawn_obelisk>, 1, 1000, 5, 5, [<minecraft:bed>]);
+mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, <liquid:ender> * 250, <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}));
+mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, <liquid:ender> * 250, <tconstruct:clay_cast>.withTag({PartType: "tconstruct:pan_head"}), true, 32);
+
+
+
+
+
+//New Fuels For Smeltery
+//InputFluid, TemperatureAmount, Time in Ticks
+//mods.tconstruct.Smeltery.addFuel(<liquid:fire_water>);
+//mods.tconstruct.Smeltery.addFuel(<liquid:rocket_fuel>);
+//mods.tconstruct.Smeltery.addFuel(<liquid:pyrotheum>);
+//mods.tconstruct.Smeltery.removeFuel(<liquid:lava>);

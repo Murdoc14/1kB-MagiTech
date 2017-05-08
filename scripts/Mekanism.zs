@@ -33,9 +33,9 @@ recipes.addShaped(<mekanism:CardboardBox>, [[<ore:itemBinderComposite>, <ore:pul
 # -- Fluid Tanks
 recipes.remove(<mekanism:MachineBlock2:11>);
 recipes.addShaped(<mekanism:MachineBlock2:11>.withTag({tier: 0}), [[null, <tconstruct:clear_glass>, null], [<tconstruct:clear_glass>, <ore:ingotOsmium>, <tconstruct:clear_glass>], [null, <tconstruct:clear_glass>, null]]);
-recipes.addShaped(<mekanism:MachineBlock2:11>.withTag({tier: 1}), [[<mekanism:EnrichedAlloy>, <substratum:ingot:13>, <mekanism:EnrichedAlloy>], [<substratum:ingot:13>, <mekanism:MachineBlock2:11>.withTag({tier: 0}), <substratum:ingot:13>], [<mekanism:EnrichedAlloy>, <substratum:ingot:13>, <mekanism:EnrichedAlloy>]]);
-recipes.addShaped(<mekanism:MachineBlock2:11>.withTag({tier: 2}), [[<mekanism:ReinforcedAlloy>, <substratum:ingot:14>, <mekanism:ReinforcedAlloy>], [<substratum:ingot:14>, <mekanism:MachineBlock2:11>.withTag({tier: 1}), <substratum:ingot:14>], [<mekanism:ReinforcedAlloy>, <substratum:ingot:14>, <mekanism:ReinforcedAlloy>]]);
-recipes.addShaped(<mekanism:MachineBlock2:11>.withTag({tier: 3}), [[<mekanism:AtomicAlloy>, <substratum:ingot:15>, <mekanism:AtomicAlloy>], [<substratum:ingot:15>, <mekanism:MachineBlock2:11>.withTag({tier: 2}), <substratum:ingot:15>], [<mekanism:AtomicAlloy>, <substratum:ingot:15>, <mekanism:AtomicAlloy>]]);
+recipes.addShaped(<mekanism:MachineBlock2:11>.withTag({tier: 1}), [[<mekanism:EnrichedAlloy>, <thermalfoundation:material:165>, <mekanism:EnrichedAlloy>], [<thermalfoundation:material:165>, <mekanism:MachineBlock2:11>.withTag({tier: 0}), <thermalfoundation:material:165>], [<mekanism:EnrichedAlloy>, <thermalfoundation:material:165>, <mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<mekanism:MachineBlock2:11>.withTag({tier: 2}), [[<mekanism:ReinforcedAlloy>, <thermalfoundation:material:166>, <mekanism:ReinforcedAlloy>], [<thermalfoundation:material:166>, <mekanism:MachineBlock2:11>.withTag({tier: 1}), <thermalfoundation:material:166>], [<mekanism:ReinforcedAlloy>, <thermalfoundation:material:166>, <mekanism:ReinforcedAlloy>]]);
+recipes.addShaped(<mekanism:MachineBlock2:11>.withTag({tier: 3}), [[<mekanism:AtomicAlloy>, <thermalfoundation:material:167>, <mekanism:AtomicAlloy>], [<thermalfoundation:material:167>, <mekanism:MachineBlock2:11>.withTag({tier: 2}), <thermalfoundation:material:167>], [<mekanism:AtomicAlloy>, <thermalfoundation:material:167>, <mekanism:AtomicAlloy>]]);
 
 # -- Robit
 recipes.remove(<mekanism:Robit>);

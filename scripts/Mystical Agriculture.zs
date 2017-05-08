@@ -195,8 +195,8 @@ recipes.remove(<mysticalagriculture:ghast_seeds>);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:ghast_seeds>, [<mysticalagriculture:ghast_chunk>, <mysticalagriculture:ghast_chunk>, <minecraft:ghast_tear>, <minecraft:ghast_tear>, <xreliquary:mob_ingredient:3>, <xreliquary:mob_ingredient:3>, <mysticalagriculture:tier4_crafting_seed>, <mysticalagriculture:tier4_mob_chunk>, <mysticalagriculture:tier4_mob_chunk>, <mysticalagriculture:tier4_mob_chunk>, <mysticalagriculture:tier4_mob_chunk>, <mysticalagriculture:ghast_chunk>, <mysticalagriculture:ghast_chunk>], 48000);
 recipes.remove(<mysticalagriculture:wither_skeleton_seeds>);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:wither_skeleton_seeds>, [<mysticalagriculture:wither_skeleton_chunk>, <mysticalagriculture:wither_skeleton_chunk>, <tconstruct:materials:17>, <tconstruct:materials:17>, <xreliquary:mob_ingredient:1>, <xreliquary:mob_ingredient:1>, <mysticalagriculture:tier5_crafting_seed>, <mysticalagriculture:tier5_mob_chunk>, <mysticalagriculture:tier5_mob_chunk>, <mysticalagriculture:tier5_mob_chunk>, <mysticalagriculture:tier5_mob_chunk>, <mysticalagriculture:wither_skeleton_chunk>, <mysticalagriculture:wither_skeleton_chunk>], 75000);
-
-
+recipes.remove(<mysticalagriculture:master_infusion_crystal>);
+recipes.addShaped(<mysticalagriculture:master_infusion_crystal>, [[<mysticalagriculture:prosperity_shard>, <ore:ingotSupremium>, <mysticalagriculture:prosperity_shard>], [<ore:ingotSupremium>, <mysticalagriculture:infusion_crystal>, <ore:ingotSupremium>], [<mysticalagriculture:prosperity_shard>, <ore:ingotSupremium>, <mysticalagriculture:prosperity_shard>]]);
 
 
 

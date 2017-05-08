@@ -29,6 +29,8 @@
   "spread_chance": 0.1,
   "spawn_chance": 0.0,
   "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
   "products": {
     "products": [
       {
@@ -51,10 +53,23 @@
     "soils": [
       "compressedgravel_soil"
     ],
-    "bases": [
-      "thermalfoundation:storage_alloy:7"
-    ],
-    "nearby": {}
+    "conditions": [
+      {
+        "amount": 1,
+        "min_x": 0,
+        "min_y": -2,
+        "min_z": 0,
+        "max_x": 0,
+        "max_y": -2,
+        "max_z": 0,
+        "item": "thermalfoundation:storage_alloy",
+        "meta": 7,
+        "tags": "",
+        "ignoreMeta": true,
+        "ignoreTags": [],
+        "useOreDict": true
+      }
+    ]
   },
   "texture": {
     "render_type": "cross",

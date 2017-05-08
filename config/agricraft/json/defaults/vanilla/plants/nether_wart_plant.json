@@ -29,6 +29,8 @@
   "spread_chance": 0.1,
   "spawn_chance": 0.0,
   "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
   "products": {
     "products": [
       {
@@ -37,6 +39,18 @@
         "chance": 0.95,
         "required": true,
         "item": "minecraft:nether_wart",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.05,
+        "required": true,
+        "item": "roots:infernalStem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -51,8 +65,7 @@
     "soils": [
       "soul_sand_soil"
     ],
-    "bases": [],
-    "nearby": {}
+    "conditions": []
   },
   "texture": {
     "render_type": "hash",

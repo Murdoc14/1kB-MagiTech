@@ -1,0 +1,18 @@
+{
+  "path": "mod_mysticalagriculture/soils/waterpad_soil.json",
+  "enabled": true,
+  "id": "waterpad_soil",
+  "name": "Waterpad",
+  "varients": [
+    {
+      "item": "agricraft:water_pad",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

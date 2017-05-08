@@ -3,21 +3,6 @@ mods.botania.RuneAltar.addRecipe(<projecte:item.pe_philosophers_stone>, [<mystic
 recipes.remove(<tinker_io:WhatABeautifulBlock>);
 mods.tconstruct.Casting.addBasinRecipe(<tinker_io:WhatABeautifulBlock>, <liquid:lumium> * 10368, <minecraft:nether_star>);
 
-
-
-
-recipes.remove(<projecte:collector_mk2>);
-recipes.addShaped(<projecte:collector_mk2>, [[<tinker_io:WhatABeautifulBlock>, <projecte:item.pe_matter>, <tinker_io:WhatABeautifulBlock>], [<ore:blockRefinedGlowstone>, <projecte:collector_mk1>, <ore:blockRefinedGlowstone>], [<tinker_io:WhatABeautifulBlock>, <ore:blockRefinedGlowstone>, <tinker_io:WhatABeautifulBlock>]]);
-recipes.remove(<projecte:collector_mk3>);
-recipes.addShaped(<projecte:collector_mk3>, [[<tinker_io:WhatABeautifulBlock>, <projecte:item.pe_matter:1>, <tinker_io:WhatABeautifulBlock>], [<tinker_io:WhatABeautifulBlock>, <projecte:collector_mk2>, <tinker_io:WhatABeautifulBlock>], [<tinker_io:WhatABeautifulBlock>, <tinker_io:WhatABeautifulBlock>, <tinker_io:WhatABeautifulBlock>]]);
-
-recipes.remove(<projecte:relay_mk1>);
-recipes.addShaped(<projecte:relay_mk1>, [[<draconicevolution:chaotic_core>, <botania:elfGlassPane>, <draconicevolution:chaotic_core>], [<railcraft:generic:7>, <actuallyadditions:itemMisc:19>, <railcraft:generic:7>], [<railcraft:generic:7>, <mysticalagriculture:ultimate_furnace>, <railcraft:generic:7>]]);
-recipes.remove(<projecte:relay_mk2>);
-recipes.addShaped(<projecte:relay_mk2>, [[<draconicevolution:chaotic_core>, <projecte:item.pe_matter>, <draconicevolution:chaotic_core>], [<railcraft:generic:7>, <projecte:relay_mk1>, <railcraft:generic:7>], [<draconicevolution:chaotic_core>, <railcraft:generic:7>, <draconicevolution:chaotic_core>]]);
-recipes.remove(<projecte:relay_mk3>);
-recipes.addShaped(<projecte:relay_mk3>, [[<draconicevolution:chaotic_core>, <projecte:item.pe_matter:1>, <draconicevolution:chaotic_core>], [<draconicevolution:chaotic_core>, <projecte:relay_mk2>, <draconicevolution:chaotic_core>], [<draconicevolution:chaotic_core>, <draconicevolution:chaotic_core>, <draconicevolution:chaotic_core>]]);
-
 recipes.remove(<projecte:alchemical_chest>);
 recipes.addShaped(<projecte:alchemical_chest>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], [<simplyjetpacks:metaItemEIO:12>, <appliedenergistics2:sky_stone_chest>, <simplyjetpacks:metaItemEIO:12>], [<simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>]]);
 
@@ -33,7 +18,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<projecte:collector_mk1>,
   [<mekanism:BasicBlock:4>, <mekanism:BasicBlock:4>, <avaritia:resource:4>, <mekanism:BasicBlock:4>, <avaritia:resource:4>, <mekanism:BasicBlock:4>, <avaritia:resource:4>, <mekanism:BasicBlock:4>, <mekanism:BasicBlock:4>],
   [<mekanism:BasicBlock:4>, null, null, <avaritia:resource:4>, <mekanism:BasicBlock:4>, <avaritia:resource:4>, null, null, <mekanism:BasicBlock:4>],
   [<mekanism:BasicBlock:4>, <mekanism:BasicBlock:4>, <mekanism:BasicBlock:4>, <mekanism:BasicBlock:4>, <avaritia:resource:5>, <mekanism:BasicBlock:4>, <mekanism:BasicBlock:4>, <mekanism:BasicBlock:4>, <mekanism:BasicBlock:4>],
-  [<tinker_io:WhatABeautifulBlock>, <mekanism:BasicBlock:4>, <minecraft:furnace>, <minecraft:furnace>, <mysticalagriculture:ultimate_furnace>, <minecraft:furnace>, <minecraft:furnace>, <mekanism:BasicBlock:4>, <tinker_io:WhatABeautifulBlock>]]);
+  [<tinker_io:WhatABeautifulBlock>, <mekanism:BasicBlock:4>, <minecraft:furnace>, <minecraft:furnace>, <minecraft:furnace>, <minecraft:furnace>, <minecraft:furnace>, <mekanism:BasicBlock:4>, <tinker_io:WhatABeautifulBlock>]]);
 
 recipes.remove(<projecte:collector_mk2>);
 mods.avaritia.ExtremeCrafting.addShaped(<projecte:collector_mk2>,
@@ -70,7 +55,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<projecte:relay_mk1>,
   [<mekanism:BasicBlock:2>, <avaritia:resource:4>, <actuallyadditions:blockMisc:2>, <railcraft:generic:7>, <avaritia:resource:4>, <railcraft:generic:7>, <actuallyadditions:blockMisc:2>, <avaritia:resource:4>, <mekanism:BasicBlock:2>],
   [<railcraft:generic:7>, null, <avaritia:resource:4>, <actuallyadditions:blockMisc:2>, <mekanism:BasicBlock:2>, <actuallyadditions:blockMisc:2>, <avaritia:resource:4>, null, <railcraft:generic:7>],
   [<mekanism:BasicBlock:2>, null, null, <avaritia:resource:4>, <avaritia:resource:5>, <avaritia:resource:4>, null, null, <mekanism:BasicBlock:4>],
-  [<draconicevolution:chaotic_core>, <mekanism:BasicBlock:2>, <minecraft:furnace>, <minecraft:furnace>, <mysticalagriculture:ultimate_furnace>, <minecraft:furnace>, <minecraft:furnace>, <mekanism:BasicBlock:2>, <draconicevolution:chaotic_core>]]);
+  [<draconicevolution:chaotic_core>, <mekanism:BasicBlock:2>, <minecraft:furnace>, <minecraft:furnace>, <minecraft:furnace>, <minecraft:furnace>, <minecraft:furnace>, <mekanism:BasicBlock:2>, <draconicevolution:chaotic_core>]]);
   
 recipes.remove(<projecte:relay_mk2>);
 mods.avaritia.ExtremeCrafting.addShaped(<projecte:relay_mk2>,

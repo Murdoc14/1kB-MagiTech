@@ -91,8 +91,8 @@ recipes.addShaped(<enderio:blockTank:1>, [[<ore:ingotDarkSteel>, <enderio:blockD
 recipes.remove(<enderio:blockTank>);
 recipes.addShaped(<enderio:blockTank>, [[<ore:ingotIron>, <ore:barsIron>, <ore:ingotIron>], [<ore:barsIron>, <mekanism:MachineBlock2:11>, <ore:barsIron>], [<ore:ingotIron>, <ore:barsIron>, <ore:ingotIron>]]);
 
-
-
+recipes.remove(<enderio:blockEnchanter>);
+recipes.addShaped(<enderio:blockEnchanter>, [[<ore:blockDiamond>, <xreliquary:pedestal_passive>, <ore:blockDiamond>], [<ore:blockDarkSteel>, <minecraft:enchanting_table>, <ore:blockDarkSteel>], [<extrautils2:decorativesolidwood:1>, <ore:blockDarkSteel>, <extrautils2:decorativesolidwood:1>]]);
 
 
 

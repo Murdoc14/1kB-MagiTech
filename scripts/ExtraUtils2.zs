@@ -77,9 +77,18 @@ recipes.addShaped(<extrautils2:user>, [[<ore:plateSteel>, <ore:gemRedstone>, <or
 
 
 
-
-
-
+recipes.remove(<extrautils2:spike_diamond>);
+recipes.addShaped(<extrautils2:spike_diamond>, [[null, <minecraft:diamond_sword>, null], [<minecraft:diamond_sword>, <ore:blockDiamond>, <minecraft:diamond_sword>], [<ore:blockDiamond>, <extrautils2:spike_gold>, <ore:blockDiamond>]]);
+recipes.remove(<extrautils2:spike_gold>);
+recipes.addShaped(<extrautils2:spike_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <ore:blockMetal>, <minecraft:golden_sword>], [<ore:blockMetal>, <extrautils2:spike_iron>, <ore:blockMetal>]]);
+recipes.remove(<extrautils2:spike_iron>);
+recipes.addShaped(<extrautils2:spike_iron>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <ore:blockMetal>, <minecraft:iron_sword>], [<minecraft:iron_block>, <extrautils2:spike_stone>, <ore:blockMetal>]]);
+recipes.remove(<extrautils2:quarry>);
+recipes.addShaped(<extrautils2:quarry>, [[<actuallyadditions:blockMisc:8>, <stevescarts:ModuleComponents:18>, <actuallyadditions:blockMisc:8>], [<stevescarts:ModuleComponents:18>, <actuallyadditions:itemMisc:19>, <stevescarts:ModuleComponents:18>], [<actuallyadditions:blockMisc:8>, <stevescarts:ModuleComponents:18>, <actuallyadditions:blockMisc:8>]]);
+recipes.remove(<extrautils2:wateringcan>);
+recipes.addShaped(<extrautils2:wateringcan>, [[<stevescarts:ModuleComponents:22>, null, null], [<stevescarts:ModuleComponents:22>, <forge:bucketFilled>, <stevescarts:ModuleComponents:22>], [null, <stevescarts:ModuleComponents:22>, null]]);
+recipes.remove(<extrautils2:quarryproxy>);
+recipes.addShaped(<extrautils2:quarryproxy>, [[<ore:endstone>, <minecraft:end_rod>, <ore:endstone>], [<ore:endstone>, <ic2:diamond_drill:26>, <ore:endstone>], [<actuallyadditions:blockMisc:8>, <actuallyadditions:blockMisc:8>, <actuallyadditions:blockMisc:8>]]);
 
 
 

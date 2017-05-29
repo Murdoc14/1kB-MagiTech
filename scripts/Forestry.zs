@@ -34,31 +34,33 @@ mods.forestry.Carpenter.addRecipe(<forestry:hardenedMachine>, [[<stevescarts:Mod
 
 
 
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:8>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:8> * 2, [[null, <industrialwires:ic2Connector:8>, null], [<industrialwires:ic2Connector:8>, <appliedenergistics2:material:1>, <industrialwires:ic2Connector:8>], [<appliedenergistics2:material:1>, <ore:blockSignalum>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:10>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:10> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockApatite>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:7>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:7> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockArdite>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:12>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:12> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockEnderium>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:9>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:9> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockEmerald>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:6>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:6> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockManyullyn>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:11>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:11> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockCobalt>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:5>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:5> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockDiamond>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:4>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:4> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockGold>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:1>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:1> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <ore:slabTin>, <immersiveengineering:connector:12>], [<ore:nuggetElectrum>, <ore:slabTin>, <ore:nuggetElectrum>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:2>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:2> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <ore:slabBronze>, <immersiveengineering:connector:12>], [<ore:nuggetElectrum>, <ore:slabBronze>, <ore:nuggetElectrum>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:3>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:3> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <ore:slabIron>, <immersiveengineering:connector:12>], [<ore:nuggetElectrum>, <ore:slabIron>, <ore:nuggetElectrum>]],500);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes>);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <ore:slabCopper>, <immersiveengineering:connector:12>], [<ore:nuggetElectrum>, <ore:slabCopper>, <ore:nuggetElectrum>]],500);
 
-recipes.remove(<chickens:colored_egg:9>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:9>, <chickens:colored_egg:1>, 25000);
-recipes.remove(<chickens:colored_egg:10>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:10>, <chickens:colored_egg:2>, 25000);
-recipes.remove(<chickens:colored_egg:3>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:3>, <chickens:colored_egg:14>, 25000);
-recipes.remove(<chickens:colored_egg:14>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:14>, <chickens:colored_egg:11>, 25000);
-recipes.remove(<chickens:colored_egg:8>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:8>, <chickens:colored_egg>, 25000);
-recipes.remove(<chickens:colored_egg:7>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:7>, <chickens:colored_egg:8>, 25000);
-recipes.remove(<chickens:colored_egg:6>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:6>, <chickens:colored_egg:4>, 25000);
-recipes.remove(<chickens:colored_egg:12>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:12>, <chickens:colored_egg:6>, 25000);
-recipes.remove(<chickens:colored_egg:13>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:13>, <chickens:colored_egg:15>, 25000);
-recipes.remove(<chickens:colored_egg:5>);
-mods.botania.ManaInfusion.addAlchemy(<chickens:colored_egg:5>, <chickens:colored_egg:13>, 25000);
 
 
 
-
-
-
-####mods.botania.ManaInfusion.addConjuration(IItemStack output, IIngredient input, int mana);

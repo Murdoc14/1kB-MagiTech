@@ -18,10 +18,9 @@ recipes.remove(<ic2:nano_chestplate:26>);
 recipes.addShaped(<ic2:nano_chestplate:26>, [[<ic2:crafting:15>, <minecraft:diamond_chestplate>, <ic2:crafting:15>], [<ic2:crafting:15>, <ic2:energy_crystal:26>, <ic2:crafting:15>], [<ic2:crafting:15>, <ic2:crafting:15>, <ic2:crafting:15>]]);
 
 
-
-
-
-
+# -- Quartz Fiber
+recipes.remove(<ic2:nano_chestplate:26>);
+recipes.addShaped(<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}) * 3, [[<appliedenergistics2:material:1>, <appliedenergistics2:material:1>, <appliedenergistics2:material:1>], [<ic2:dust:6>, <ore:dustSilver>, <ic2:dust:6>], [<appliedenergistics2:material:1>, <appliedenergistics2:material:1>, <appliedenergistics2:material:1>]]);
 
 
 

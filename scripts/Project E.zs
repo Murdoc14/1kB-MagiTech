@@ -105,4 +105,14 @@ mods.avaritia.ExtremeCrafting.addShaped(<projecte:condenser_mk2>,
   [<extrautils2:compressedcobblestone:5>, <avaritia:resource:5>, <avaritia:resource:4>, <projecte:item.pe_matter>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter>, <avaritia:resource:4>, <avaritia:resource:5>, <extrautils2:compressedcobblestone:5>],
   [<extrautils2:compressedcobblestone:5>, <extrautils2:compressedcobblestone:5>, <embers:ashenStone>, <extrautils2:compressedcobblestone:5>, <extrautils2:compressedcobblestone:5>, <extrautils2:compressedcobblestone:5>, <embers:ashenStone>, <extrautils2:compressedcobblestone:5>, <extrautils2:compressedcobblestone:5>]]);    
   
-  
+recipes.remove(<projecte:item.pe_klein_star>);
+mods.avaritia.ExtremeCrafting.addShaped(<projecte:item.pe_klein_star>,
+[[<avaritia:singularity:1>, null, null, null, null, null, null, <avaritia:singularity>, <projecte:fuel_block:1>],
+  [null, <avaritia:singularity:1>, <avaritia:singularity:1>, null, null, null, <avaritia:singularity>, <avaritia:singularity:4>, <avaritia:singularity>],
+  [<avaritia:singularity:1>, <avaritia:singularity:1>, null, null, null, <avaritia:singularity>, <avaritia:singularity:4>, <avaritia:singularity>, null],
+  [null, null, <avaritia:singularity:1>, <projecte:fuel_block:1>, <avaritia:resource:6>, <avaritia:singularity:4>, <avaritia:singularity>, null, null],
+  [null, null, null, <avaritia:resource:6>, <projecte:fuel_block:1>, <avaritia:resource:6>, null, null, null],
+  [null, null, <avaritia:singularity>, <avaritia:singularity:4>, <avaritia:resource:6>, <projecte:fuel_block:1>, <avaritia:singularity:1>, null, null],
+  [null, <avaritia:singularity>, <avaritia:singularity:4>, <avaritia:singularity>, null, null, null, <avaritia:singularity:1>, <avaritia:singularity:1>],
+  [<avaritia:singularity>, <avaritia:singularity:4>, <avaritia:singularity>, null, null, null, <avaritia:singularity:1>, <avaritia:singularity:1>, null],
+  [<projecte:fuel_block:1>, <avaritia:singularity>, null, null, null, null, null, null, <avaritia:singularity:1>]]);      

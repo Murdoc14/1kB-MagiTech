@@ -193,12 +193,12 @@ mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:355>, <liq
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:355>, <liquid:bronze> * 288, <tconstruct:cast_custom:3>, false, 40);
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:356>, <liquid:constantan>, <tconstruct:cast_custom:3>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:356>, <liquid:constantan> * 288, <tconstruct:cast_custom:3>, false, 80);
-###mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:357>, <liquid:signalum>, <tconstruct:cast_custom:3>);
-###mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:357>, <liquid:signalum> * 288, <tconstruct:cast_custom:3>, false, 160);
-###mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:358>, <liquid:lumium>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:357>, <liquid:signalum>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:357>, <liquid:signalum> * 288, <tconstruct:cast_custom:3>, false, 160);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:358>, <liquid:lumium>, <tconstruct:cast_custom:3>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:358>, <liquid:lumium> * 288, <tconstruct:cast_custom:3>, false, 160);
-###mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:359>, <liquid:enderium>, <tconstruct:cast_custom:3>);
-###mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:359>, <liquid:enderium> * 288, <tconstruct:cast_custom:3>, false, 200);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:359>, <liquid:enderium>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:359>, <liquid:enderium> * 288, <tconstruct:cast_custom:3>, false, 200);
 
 
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:32>, <ore:ingotIron>, <immersiveengineering:mold>, 500);
@@ -448,28 +448,28 @@ mods.tconstruct.Casting.addTableRecipe(<botanicaladdons:resource:6>, <liquid:bot
 
 
 //nugget oredic
-val nuggetIron = <ore:nuggetIron>;
-val nuggetCopper = <ore:nuggetCopper>;
-val nuggetTin = <ore:nuggetTin>;
-val nuggetLead = <ore:nuggetLead>;
-val nuggetSilver = <ore:nuggetSilver>;
-val nuggetNickel = <ore:nuggetNickel>;
-val nuggetPlatinum = <ore:nuggetPlatinum>;
-val nuggetEmerald = <ore:nuggetEmerald>;
-val nuggetDiamond = <ore:nuggetDiamond>;
-val nuggetOsmium = <ore:nuggetOsmium>;
-val nuggetAluminum = <ore:nuggetAluminum>;
-nuggetIron.add(<agricraft:agri_nugget:3>);
-nuggetCopper.add(<agricraft:agri_nugget:4>);
-nuggetTin.add(<agricraft:agri_nugget:5>);
-nuggetLead.add(<agricraft:agri_nugget:6>);
-nuggetSilver.add(<agricraft:agri_nugget:7>);
-nuggetNickel.add(<agricraft:agri_nugget:9>);
-nuggetPlatinum.add(<agricraft:agri_nugget:10>);
-nuggetEmerald.add(<agricraft:agri_nugget>);
-nuggetDiamond.add(<agricraft:agri_nugget:1>);
-nuggetOsmium.add(<agricraft:agri_nugget:11>);
-nuggetAluminum.add(<agricraft:agri_nugget:8>);
+###val nuggetIron = <ore:nuggetIron>;
+###val nuggetCopper = <ore:nuggetCopper>;
+###val nuggetTin = <ore:nuggetTin>;
+###val nuggetLead = <ore:nuggetLead>;
+###val nuggetSilver = <ore:nuggetSilver>;
+###val nuggetNickel = <ore:nuggetNickel>;
+###val nuggetPlatinum = <ore:nuggetPlatinum>;
+###val nuggetEmerald = <ore:nuggetEmerald>;
+###val nuggetDiamond = <ore:nuggetDiamond>;
+###val nuggetOsmium = <ore:nuggetOsmium>;
+###val nuggetAluminum = <ore:nuggetAluminum>;
+###nuggetIron.add(<agricraft:agri_nugget:3>);
+###nuggetCopper.add(<agricraft:agri_nugget:4>);
+###nuggetTin.add(<agricraft:agri_nugget:5>);
+###nuggetLead.add(<agricraft:agri_nugget:6>);
+###nuggetSilver.add(<agricraft:agri_nugget:7>);
+###nuggetNickel.add(<agricraft:agri_nugget:9>);
+###nuggetPlatinum.add(<agricraft:agri_nugget:10>);
+###nuggetEmerald.add(<agricraft:agri_nugget>);
+###nuggetDiamond.add(<agricraft:agri_nugget:1>);
+###nuggetOsmium.add(<agricraft:agri_nugget:11>);
+###nuggetAluminum.add(<agricraft:agri_nugget:8>);
 
 
 

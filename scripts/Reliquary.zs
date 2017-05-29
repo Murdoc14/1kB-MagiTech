@@ -1,0 +1,14 @@
+recipes.remove(<xreliquary:apothecary_mortar>);
+recipes.addShaped(<xreliquary:apothecary_mortar>, [[<xreliquary:mob_ingredient:3>, <roots:mortar>, <xreliquary:mob_ingredient:3>], [<ore:blockQuartz>, <xreliquary:mob_ingredient:3>, <ore:blockQuartz>], [<ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>]]);
+recipes.remove(<xreliquary:fertile_lilypad>);
+recipes.addShaped(<xreliquary:fertile_lilypad>, [[<actuallyadditions:itemSolidifiedExperience>, <xreliquary:mob_ingredient:9>, <actuallyadditions:itemSolidifiedExperience>], [<xreliquary:mob_ingredient:9>, <minecraft:waterlily>, <xreliquary:mob_ingredient:9>], [<actuallyadditions:itemSolidifiedExperience>, <xreliquary:mob_ingredient:9>, <actuallyadditions:itemSolidifiedExperience>]]);
+recipes.remove(<xreliquary:altar_idle>);
+recipes.addShaped(<xreliquary:altar_idle>, [[<railcraft:generic:7>, <xreliquary:mob_ingredient:11>, <railcraft:generic:7>], [<xreliquary:mob_ingredient:3>, <extrautils2:suncrystal>, <xreliquary:mob_ingredient:3>], [<railcraft:generic:7>, <xreliquary:mob_ingredient:11>, <railcraft:generic:7>]]);
+recipes.remove(<xreliquary:interdiction_torch>);
+recipes.addShaped(<xreliquary:interdiction_torch> * 4, [[<mysticalagriculture:superium_essence>, <mysticalagriculture:superium_essence>, <mysticalagriculture:superium_essence>], [<xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:11>, <xreliquary:mob_ingredient:7>], [<xreliquary:mob_ingredient:8>, <notenoughwands:advanced_wandcore>, <xreliquary:mob_ingredient:8>]]);
+recipes.remove(<xreliquary:emperor_chalice>);
+recipes.addShaped(<xreliquary:emperor_chalice>, [[<ore:ingotGold>, <minecraft:bucket>, <ore:ingotGold>], [<xreliquary:void_tear_empty>, <ore:ingotGold>, <ore:gemEmerald>], [null, <ore:ingotGold>, null]]);
+recipes.remove(<xreliquary:magicbane>);
+recipes.addShaped(<xreliquary:magicbane>, [[null, <xreliquary:mob_ingredient:11>, <ore:blockGold>], [<xreliquary:mob_ingredient:11>, <roots:druidKnife>, <xreliquary:mob_ingredient:11>], [<ore:ingotOsmium>, <xreliquary:mob_ingredient:11>, null]]);
+recipes.remove(<xreliquary:infernal_chalice>);
+recipes.addShaped(<xreliquary:infernal_chalice>, [[null, <xreliquary:infernal_claws>, null], [<xreliquary:infernal_tear>, <xreliquary:emperor_chalice>, <roots:infernalStem>], [null, <ore:ingotDemonicMetal>, null]]);

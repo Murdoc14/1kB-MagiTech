@@ -15,9 +15,9 @@ mods.tconstruct.Smeltery.addMelting(<liquid:xpjuice> * 72, <actuallyadditions:it
 
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:materials:19>, <liquid:xpjuice> * 288, <tconstruct:materials:18>, true, 75);
 
-
-
-
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <liquid:gold> * 288, <enderio:itemMachinePart:1>, true, 60);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <liquid:brass> * 144, <enderio:itemMachinePart:1>, true, 20);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <liquid:alubrass> * 144, <enderio:itemMachinePart:1>, true, 40);
 
 
 

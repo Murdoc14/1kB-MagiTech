@@ -119,8 +119,8 @@ recipes.addShaped(<immersiveengineering:metalDecoration0:1>, [[<immersiveenginee
 recipes.addShaped(<immersiveengineering:metalDecoration0>, [[<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>], [<immersiveengineering:wirecoil>, <immersiveengineering:material:2>, <immersiveengineering:wirecoil>], [<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>]]);
 
 
-
-
+recipes.remove(<immersiveengineering:connector:12>);
+recipes.addShaped(<immersiveengineering:connector:12> * 4, [[<ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>], [<ore:itemSilicon>, <ore:itemSilicon>, <ore:itemSilicon>], [<ore:hardenedClay>, <ore:alloyBasic>, <ore:hardenedClay>]]);
 
 
 

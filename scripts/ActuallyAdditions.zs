@@ -148,3 +148,25 @@ mods.actuallyadditions.Empowerer.addRecipe(<minecraft:nether_star>,<actuallyaddi
 
 recipes.remove(<actuallyadditions:itemSpawnerChanger>);
 recipes.addShaped(<actuallyadditions:itemSpawnerChanger>, [[<xreliquary:mob_ingredient:10>, <actuallyadditions:itemMisc:20>, <xreliquary:mob_ingredient:8>], [<actuallyadditions:itemMisc:20>, <actuallyadditions:blockCrystalEmpowered:2>, <actuallyadditions:itemMisc:20>], [<xreliquary:mob_ingredient:9>, <actuallyadditions:itemMisc:20>, <xreliquary:mob_ingredient:11>]]);
+
+
+recipes.remove(<actuallyadditions:blockMisc:8>);
+recipes.addShaped(<actuallyadditions:blockMisc:8>, [[<ore:materialEnderPearl>, <actuallyadditions:itemCrystal:2>, <ore:materialEnderPearl>], [<actuallyadditions:itemCrystal:2>, <extrautils2:decorativesolid:3>, <actuallyadditions:itemCrystal:2>], [<ore:materialEnderPearl>, <actuallyadditions:itemCrystal:2>, <ore:materialEnderPearl>]]);
+recipes.remove(<actuallyadditions:itemVoidBag>);
+recipes.addShaped(<actuallyadditions:itemVoidBag>, [[<railcraft:generic:7>, <ore:materialEnderPearl>, <railcraft:generic:7>], [<ore:pearlFluix>, <actuallyadditions:itemBag>, <ore:pearlFluix>], [<railcraft:generic:7>, <minecraft:ender_pearl>, <railcraft:generic:7>]]);
+recipes.remove(<actuallyadditions:itemBag>);
+recipes.addShaped(<actuallyadditions:itemBag>, [[<ore:livingwoodTwig>, <harvestcraft:hardenedleatherItem>, <ore:livingwoodTwig>], [<ore:livingwoodTwig>, <extrautils2:filter>, <ore:livingwoodTwig>], [<harvestcraft:hardenedleatherItem>, <ore:chest>, <harvestcraft:hardenedleatherItem>]]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

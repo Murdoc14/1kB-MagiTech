@@ -19,9 +19,27 @@ mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <liquid:gold>
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <liquid:brass> * 144, <enderio:itemMachinePart:1>, true, 20);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <liquid:alubrass> * 144, <enderio:itemMachinePart:1>, true, 40);
 
+mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, <liquid:ender> * 250, <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}));
+mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, <liquid:ender> * 250, <tconstruct:clay_cast>.withTag({PartType: "tconstruct:pan_head"}), true, 32);
 
+recipes.remove(<tinker_io:SolidFuel>);
+mods.forestry.Carpenter.addRecipe(<tinker_io:SolidFuel> * 8, [[<ore:ingotAluminum>, <minecraft:gunpowder>, null], [<ore:coal>, null, null], [null, null, null]], 1800, <liquid:creosote> * 3000);
 
+recipes.remove(<enderio:itemMachinePart:1>);
+mods.tconstruct.Casting.addTableRecipe(<enderio:itemMachinePart:1>, <liquid:stone> * 288, <appliedenergistics2:material:40>, true, 60);
 
+recipes.remove(<tconstruct:materials:14>);
+recipes.addShaped(<tconstruct:materials:14>, [[<railcraft:generic:7>, <railcraft:generic:7>, <railcraft:generic:7>], [<railcraft:generic:7>, <ore:cast>, <railcraft:generic:7>], [<railcraft:generic:7>, <railcraft:generic:7>, <railcraft:generic:7>]]);
 
+recipes.remove(<tinker_io:smart_output>);
+recipes.addShaped(<tinker_io:smart_output>, [[<ore:blockSeared>, <minecraft:packed_ice>, <ore:blockSeared>], [<minecraft:packed_ice>, <tconstruct:smeltery_io>, <minecraft:packed_ice>], [<ore:blockSeared>, <minecraft:packed_ice>, <ore:blockSeared>]]);
+recipes.remove(<tinker_io:fuel_input_machine>);
+recipes.addShaped(<tinker_io:fuel_input_machine>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ore:blockSeared>, <natura:blaze_hopper>, <ore:blockSeared>], [<ore:blockSeared>, <minecraft:furnace>, <ore:blockSeared>]]);
 
+###New Fuels For Smeltery
+###InputFluid, TemperatureAmount, Time in Ticks
+###mods.tconstruct.Smeltery.addFuel(<liquid:fire_water>);
+###mods.tconstruct.Smeltery.addFuel(<liquid:rocket_fuel>);
+###mods.tconstruct.Smeltery.addFuel(<liquid:pyrotheum>);
+###mods.tconstruct.Smeltery.removeFuel(<liquid:lava>);
 

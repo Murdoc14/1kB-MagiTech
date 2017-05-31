@@ -23,7 +23,7 @@ recipes.remove(<ic2:nano_chestplate:26>);
 recipes.addShaped(<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}) * 3, [[<appliedenergistics2:material:1>, <appliedenergistics2:material:1>, <appliedenergistics2:material:1>], [<ic2:dust:6>, <ore:dustSilver>, <ic2:dust:6>], [<appliedenergistics2:material:1>, <appliedenergistics2:material:1>, <appliedenergistics2:material:1>]]);
 
 
-
+mods.tconstruct.Casting.addTableRecipe(<ic2:crafting:29>, <liquid:iron> * 3888, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), false, 100);
 
 
 

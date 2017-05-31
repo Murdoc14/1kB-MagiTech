@@ -154,7 +154,7 @@ mods.bloodmagic.SoulForge.removeRecipe(<bloodmagic:ItemComponent:31>);
 mods.bloodmagic.SoulForge.addRecipe(<bloodmagic:ItemComponent:31>, 200, 20, [<tconstruct:materials:9>, <botania:rune:11>, <botania:rune:11>, <embers:glimmerShard>]);
 
 
-
+mods.bloodmagic.Altar.addRecipe(<natura:respawn_obelisk>, 1, 1000, 5, 5, [<minecraft:bed>]);
 
 
 

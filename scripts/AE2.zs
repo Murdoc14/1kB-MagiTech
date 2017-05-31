@@ -73,13 +73,12 @@ recipes.remove(<appliedenergistics2:network_tool>);
 recipes.addShaped(<appliedenergistics2:network_tool>, [[<appliedenergistics2:nether_quartz_wrench>, <ore:itemIlluminatedPanel>], [<appliedenergistics2:material:23>, <ore:chest>]]);
 
 
+###recipes.remove(<appliedenergistics2:sky_stone_chest>);
 
+mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material:13>, <liquid:conductiveiron> * 2592, <immersiveengineering:mold>, true, 200);
+mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material:15>, <liquid:pigiron> * 2592, <immersiveengineering:mold>, true, 200);
+mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material:14>, <liquid:electricalsteel> * 2592, <immersiveengineering:mold>, true, 200);
+mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material:19>, <liquid:steel> * 2592, <immersiveengineering:mold>, true, 200);
 
-
-
-
-
-
-
-
-
+recipes.remove(<appliedenergistics2:material:40>);
+recipes.addShaped(<appliedenergistics2:material:40>, [[null, <ore:stickTreatedWood>, null], [<ore:stickTreatedWood>, null, <ore:stickTreatedWood>], [null, <ore:stickTreatedWood>, null]]);

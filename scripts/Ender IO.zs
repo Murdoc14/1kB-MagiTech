@@ -25,7 +25,8 @@ recipes.addShaped(<enderio:itemPowerConduit:2> * 2, [[<ore:itemConduitBinder>, <
 recipes.remove(<enderio:itemItemConduit>);
 recipes.addShaped(<enderio:itemItemConduit> * 3, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<mekanism:MultipartTransmitter:12>, <mekanism:MultipartTransmitter:12>, <mekanism:MultipartTransmitter:12>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
 
-
+recipes.remove(<enderio:itemMachinePart:1>);
+recipes.addShaped(<enderio:itemMachinePart:1>, [[null, <ore:stone>, null], [<ore:stone>, <ore:gearWood>, <ore:stone>], [null, <ore:stone>, null]]);
 
 
 

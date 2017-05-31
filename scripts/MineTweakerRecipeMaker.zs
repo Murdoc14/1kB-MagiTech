@@ -24,10 +24,10 @@
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<thermalfoundation:material:328>, [<ore:ingotMithril>, <ore:ingotMithril>, <ore:ingotMithril>, <ore:ingotMithril>, <immersiveengineering:tool>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<tconstruct:materials:14>, [[<railcraft:generic:7>, <railcraft:generic:7>, <railcraft:generic:7>], [<railcraft:generic:7>, <ore:cast>, <railcraft:generic:7>], [<railcraft:generic:7>, <railcraft:generic:7>, <railcraft:generic:7>]]);
-recipes.addShaped(<appliedenergistics2:material:40>, [[null, <ore:stickTreatedWood>, null], [<ore:stickTreatedWood>, null, <ore:stickTreatedWood>], [null, <ore:stickTreatedWood>, null]]);
+
+
+
 

@@ -1,0 +1,33 @@
+{
+	"populate": {
+		"abyssalnite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{"name": "abyssalcraft:abyore", "metadata": 0, "weight":100},
+				],
+				"material": "stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 2,
+			"min-height": 16,
+			"max-height": 0,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"darklands",
+							"darklands_forest",
+							"darklands_plains",
+							"darklands_highlands",
+							"darkland_mountains"
+						]
+					}
+				]
+			}
+		}
+	}
+}

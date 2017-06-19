@@ -1,21 +1,21 @@
 # -- Blood altar
-###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemSlate>);
+mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemSlate>);
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemSlate>, 1, 1000, 5, 5, [<botania:livingrock>]);
-###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemBloodOrb>);
+mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemBloodOrb>);
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemBloodOrb>, 1, 2000, 2, 1, [<embers:crystalEmber>]);
-###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:1>.withTag({uses: 0}));
+mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:1>.withTag({uses: 0}));
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemInscriptionTool:1>.withTag({uses: 0}), 3, 1000, 5, 5, [<botania:rune>]);
-###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:2>.withTag({uses: 0}));
+mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:2>.withTag({uses: 0}));
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemInscriptionTool:2>.withTag({uses: 0}), 3, 1000, 5, 5, [<botania:rune:1>]);
-###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:3>.withTag({uses: 0}));
+mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:3>.withTag({uses: 0}));
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemInscriptionTool:3>.withTag({uses: 0}), 3, 1000, 5, 5, [<botania:rune:2>]);
-###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:4>.withTag({uses: 0}));
+mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:4>.withTag({uses: 0}));
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemInscriptionTool:4>.withTag({uses: 0}), 3, 1000, 5, 5, [<botania:rune:3>]);
-###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:5>.withTag({uses: 0}));
+mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:5>.withTag({uses: 0}));
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemInscriptionTool:5>.withTag({uses: 0}), 4, 2000, 20, 10, [<embers:ashenStone>]);
-###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:6>.withTag({uses: 0}));
+mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemInscriptionTool:6>.withTag({uses: 0}));
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemInscriptionTool:6>.withTag({uses: 0}), 6, 200000, 100, 200, [<embers:aspectusDawnstone>]);
-###mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemTelepositionFocus>);
+mods.bloodmagic.Altar.removeRecipe(<bloodmagic:ItemTelepositionFocus>);
 mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemTelepositionFocus>, 4, 2000, 10, 10, [<avaritia:endest_pearl>]);
 
 

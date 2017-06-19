@@ -73,16 +73,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "ActuallyAdditions:items/itemRiceSeed",
+    "seed_texture": "actuallyadditions:items/itemRiceSeed",
     "plant_textures": [
-      "ActuallyAdditions:blocks/blockRiceStage1",
-      "ActuallyAdditions:blocks/blockRiceStage2",
-      "ActuallyAdditions:blocks/blockRiceStage3",
-      "ActuallyAdditions:blocks/blockRiceStage3",
-      "ActuallyAdditions:blocks/blockRiceStage4",
-      "ActuallyAdditions:blocks/blockRiceStage5",
-      "ActuallyAdditions:blocks/blockRiceStage5",
-      "ActuallyAdditions:blocks/blockRiceStage6"
+      "actuallyadditions:blocks/blockRiceStage1",
+      "actuallyadditions:blocks/blockRiceStage2",
+      "actuallyadditions:blocks/blockRiceStage2",
+      "actuallyadditions:blocks/blockRiceStage3",
+      "actuallyadditions:blocks/blockRiceStage4",
+      "actuallyadditions:blocks/blockRiceStage4",
+      "actuallyadditions:blocks/blockRiceStage5",
+      "actuallyadditions:blocks/blockRiceStage6"
     ]
   }
 }

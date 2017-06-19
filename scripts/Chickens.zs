@@ -43,3 +43,8 @@ recipes.remove(<hatchery:animalnet>);
 recipes.addShaped(<hatchery:animalnet>, [[null, <ore:stickTreatedWood>, <ore:stickTreatedWood>], [<ore:stickTreatedWood>, <ore:clothManaweave>, <extrautils2:goldenlasso>], [null, null, <ore:clothManaweave>]]);
 
 
+recipes.remove(<hatchery:nest>);
+mods.forestry.Carpenter.addRecipe(<hatchery:nest>, [[null, <minecraft:hay_block>, null], [<botania:manaResource:3>, <minecraft:bowl>, <botania:manaResource:3>], [<minecraft:hay_block>, <botania:manaResource:3>, <minecraft:hay_block>]], 1200, <liquid:seed.oil> * 500);
+
+recipes.remove(<hatchery:fertilized_dirt>);
+mods.forestry.Carpenter.addRecipe(<hatchery:fertilized_dirt>, [[<ore:manure>, <ore:gemApatite>, <ore:manure>], [<ore:gemApatite>, <ore:dirt>, <ore:gemApatite>], [<ore:manure>, <ore:gemApatite>, <ore:manure>]], 1200, <liquid:seed.oil> * 500);

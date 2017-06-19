@@ -155,15 +155,10 @@ recipes.addShaped(<actuallyadditions:blockMisc:8>, [[<ore:materialEnderPearl>, <
 recipes.remove(<actuallyadditions:itemVoidBag>);
 recipes.addShaped(<actuallyadditions:itemVoidBag>, [[<railcraft:generic:7>, <ore:materialEnderPearl>, <railcraft:generic:7>], [<ore:pearlFluix>, <actuallyadditions:itemBag>, <ore:pearlFluix>], [<railcraft:generic:7>, <minecraft:ender_pearl>, <railcraft:generic:7>]]);
 recipes.remove(<actuallyadditions:itemBag>);
-recipes.addShaped(<actuallyadditions:itemBag>, [[<ore:livingwoodTwig>, <harvestcraft:hardenedleatherItem>, <ore:livingwoodTwig>], [<ore:livingwoodTwig>, <extrautils2:filter>, <ore:livingwoodTwig>], [<harvestcraft:hardenedleatherItem>, <ore:chest>, <harvestcraft:hardenedleatherItem>]]);
+recipes.addShaped(<actuallyadditions:itemBag>, [[<ore:livingwoodTwig>, <harvestcraft:hardenedleatheritem>, <ore:livingwoodTwig>], [<ore:livingwoodTwig>, <extrautils2:filter>, <ore:livingwoodTwig>], [<harvestcraft:hardenedleatheritem>, <ore:chest>, <harvestcraft:hardenedleatheritem>]]);
 
 
-
-
-
-
-
-
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<botania:elfGlass>,<actuallyadditions:blockGreenhouseGlass>,250000);
 
 
 

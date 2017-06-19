@@ -22,10 +22,10 @@ recipes.remove(<rftools:remote_storage>);
 recipes.addShaped(<rftools:remote_storage>, [[<ore:gearEnderium>, <ore:chest>, <ore:gearEnderium>], [<redstonearsenal:material:128>, <rftools:machine_frame>, <redstonearsenal:material:128>], [<ore:gearEnderium>, <redstonearsenal:material:128>, <ore:gearEnderium>]]);
 
 recipes.remove(<rftools:matter_transmitter>);
-recipes.addShaped(<rftools:matter_transmitter>, [[<redstonearsenal:material:128>, <ore:blockEnderium>, <redstonearsenal:material:128>], [<redstonearsenal:material:128>, <simplyjetpacks:metaItemEIO:3>, <redstonearsenal:material:128>], [<ore:gearEnderium>, <rftools:machine_frame>, <ore:gearEnderium>]]);
+recipes.addShaped(<rftools:matter_transmitter>, [[<redstonearsenal:material:128>, <ore:blockEnderium>, <redstonearsenal:material:128>], [<redstonearsenal:material:128>, <simplyjetpacks:metaItemMods:3>, <redstonearsenal:material:128>], [<ore:gearEnderium>, <rftools:machine_frame>, <ore:gearEnderium>]]);
 
 recipes.remove(<rftools:matter_receiver>);
-recipes.addShaped(<rftools:matter_receiver>, [[<redstonearsenal:material:128>, <ore:blockLumium>, <redstonearsenal:material:128>], [<redstonearsenal:material:128>, <simplyjetpacks:metaItemEIO:3>, <redstonearsenal:material:128>], [<ore:gearEnderium>, <rftools:machine_frame>, <ore:gearEnderium>]]);
+recipes.addShaped(<rftools:matter_receiver>, [[<redstonearsenal:material:128>, <ore:blockLumium>, <redstonearsenal:material:128>], [<redstonearsenal:material:128>, <simplyjetpacks:metaItemMods:3>, <redstonearsenal:material:128>], [<ore:gearEnderium>, <rftools:machine_frame>, <ore:gearEnderium>]]);
 
 recipes.remove(<rftools:dialing_device>);
 recipes.addShaped(<rftools:dialing_device>, [[<redstonearsenal:material:128>, <redstonearsenal:material:128>, <redstonearsenal:material:128>], [<ore:torchRedstoneActive>, <rftools:machine_frame>, <ore:torchRedstoneActive>], [<ore:gearEnderium>, <redstonearsenal:material:128>, <ore:gearEnderium>]]);
@@ -40,7 +40,7 @@ recipes.remove(<rftools:charged_porter>);
 recipes.addShaped(<rftools:charged_porter>, [[null, <ore:ingotEnderium>, null], [<ore:ingotEnderium>, <actuallyadditions:blockCrystalEmpowered>, <ore:ingotEnderium>], [<enderio:itemAlloy>, <ore:ingotEnderium>, <enderio:itemAlloy>]]);
 
 recipes.remove(<rftools:machine_frame>);
-recipes.addShaped(<rftools:machine_frame>, [[<simplyjetpacks:metaItemEIO:11>, null, <simplyjetpacks:metaItemEIO:11>], [null, <forestry:hardenedMachine>, null], [<simplyjetpacks:metaItemEIO:11>, null, <simplyjetpacks:metaItemEIO:11>]]);
+recipes.addShaped(<rftools:machine_frame>, [[<simplyjetpacks:metaItemMods:11>, null, <simplyjetpacks:metaItemMods:11>], [null, <forestry:hardenedMachine>, null], [<simplyjetpacks:metaItemMods:11>, null, <simplyjetpacks:metaItemMods:11>]]);
 
 
 

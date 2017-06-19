@@ -9,6 +9,10 @@ recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 furnace.remove(<ore:nuggetSteel>);
 
+
+
+
+
 ###recipes.addShaped(<thermalfoundation:material:163> * 4, [[<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>], [<mysticalagriculture:bronze_essence>, null, <mysticalagriculture:bronze_essence>], [<mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>, <mysticalagriculture:bronze_essence>]]);
 recipes.remove(<railcraft:generic:7>);
 recipes.addShapeless(<railcraft:generic:7>, [<ic2:forge_hammer>.noReturn(), <minecraft:obsidian>.noReturn()]);
@@ -167,7 +171,7 @@ recipes.addShaped(<minecraft:iron_leggings>, [[<ore:plateIron>, <ore:plateIron>,
 recipes.addShaped(<minecraft:iron_chestplate>, [[<ore:plateIron>, <minecraft:leather_chestplate>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<minecraft:iron_helmet>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <minecraft:leather_helmet>, <ore:plateIron>]]);
 recipes.addShaped(<minecraft:leather_boots>, [[<ore:itemLeather>, null, <ore:itemLeather>], [<ore:itemLeather>, null, <ore:itemLeather>], [<ore:itemRubber>, null, <ore:itemRubber>]]);
-recipes.addShaped(<minecraft:leather_boots>, [[<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>], [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>], [<ore:itemRubber>, null, <ore:itemRubber>]]);
+recipes.addShaped(<minecraft:leather_boots>, [[<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>], [<ore:itemRubber>, null, <ore:itemRubber>]]);
 
 
 
@@ -204,8 +208,8 @@ recipes.addShaped(<minecraft:leather_boots>, [[<harvestcraft:wovencottonItem>, n
 
 
 
-
-
+recipes.remove(<cyclicmagic:sleeping_mat>);
+recipes.addShaped(<cyclicmagic:sleeping_mat>, [[<minecraft:carpet:*>, <minecraft:carpet:*>, null], [<minecraft:wool:*>, <minecraft:wool:*>, <minecraft:wool:*>]]);
 
 
 

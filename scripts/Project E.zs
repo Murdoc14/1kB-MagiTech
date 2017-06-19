@@ -4,7 +4,7 @@ recipes.remove(<tinker_io:WhatABeautifulBlock>);
 mods.tconstruct.Casting.addBasinRecipe(<tinker_io:WhatABeautifulBlock>, <liquid:lumium> * 10368, <minecraft:nether_star>);
 
 recipes.remove(<projecte:alchemical_chest>);
-recipes.addShaped(<projecte:alchemical_chest>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], [<simplyjetpacks:metaItemEIO:12>, <appliedenergistics2:sky_stone_chest>, <simplyjetpacks:metaItemEIO:12>], [<simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>]]);
+recipes.addShaped(<projecte:alchemical_chest>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], [<simplyjetpacks:metaItemMods:12>, <appliedenergistics2:sky_stone_chest>, <simplyjetpacks:metaItemMods:12>], [<simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>]]);
 
 
 

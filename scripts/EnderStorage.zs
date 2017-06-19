@@ -8,4 +8,4 @@ recipes.remove(<minecraft:ender_chest>);
 recipes.addShaped(<minecraft:ender_chest>, [[<ore:dustEnderium>, <ore:dustEnderium>, <ore:dustEnderium>], [<railcraft:generic:7>, <extrautils2:decorativesolidwood:1>, <railcraft:generic:7>], [<extrautils2:decorativesolidwood:1>, <railcraft:generic:7>, <extrautils2:decorativesolidwood:1>]]);
 
 recipes.remove(<enderstorage:enderPouch>);
-recipes.addShaped(<enderstorage:enderPouch>, [[<cyclicmagic:ender_blaze>, <harvestcraft:hardenedleatherItem>, <cyclicmagic:ender_blaze>], [<harvestcraft:hardenedleatherItem>, <cyclicmagic:sack_ender>, <harvestcraft:hardenedleatherItem>], [<cyclicmagic:ender_blaze>, <minecraft:wool>, <cyclicmagic:ender_blaze>]]);
+recipes.addShaped(<enderstorage:enderPouch>, [[<cyclicmagic:ender_blaze>, <harvestcraft:hardenedleatheritem>, <cyclicmagic:ender_blaze>], [<harvestcraft:hardenedleatheritem>, <cyclicmagic:sack_ender>, <harvestcraft:hardenedleatheritem>], [<cyclicmagic:ender_blaze>, <minecraft:wool>, <cyclicmagic:ender_blaze>]]);

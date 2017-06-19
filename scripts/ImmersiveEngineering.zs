@@ -7,12 +7,22 @@ recipes.addShaped(<immersiveengineering:stoneDecoration:1> * 2, [[<ore:blockSear
 
 
 # -- Wire
-recipes.remove(<immersiveengineering:wirecoil:2>);
-recipes.remove(<immersiveengineering:wirecoil:1>);
 recipes.remove(<immersiveengineering:wirecoil>);
-recipes.addShaped(<immersiveengineering:wirecoil:2> * 2, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <immersiveengineering:material>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-recipes.addShaped(<immersiveengineering:wirecoil:1> * 2, [[null, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, <immersiveengineering:material>, <ore:ingotElectrum>], [null, <ore:ingotElectrum>, null]]);
-recipes.addShaped(<immersiveengineering:wirecoil> * 2, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <immersiveengineering:material>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
+recipes.remove(<immersiveengineering:wirecoil:1>);
+recipes.remove(<immersiveengineering:wirecoil:2>);
+recipes.addShaped(<immersiveengineering:wirecoil>,
+	[[null,<immersiveengineering:material:20>,null],
+	[<immersiveengineering:material:20>,<immersiveengineering:material>,<immersiveengineering:material:20>],
+	[null,<immersiveengineering:material:20>,null]]);
+recipes.addShaped(<immersiveengineering:wirecoil:1>,
+	[[null,<immersiveengineering:material:21>,null],
+	[<immersiveengineering:material:21>,<immersiveengineering:material>,<immersiveengineering:material:21>],
+	[null,<immersiveengineering:material:21>,null]]);
+recipes.addShaped(<immersiveengineering:wirecoil:2>,
+	[[null,<immersiveengineering:material:22>,null],
+	[<immersiveengineering:material:22>,<immersiveengineering:material>,<immersiveengineering:material:22>],
+	[null,<immersiveengineering:material:22>,null]]);
+
 
 # -- PowerGen
 recipes.remove(<immersiveengineering:metalDevice1:2>);
@@ -89,26 +99,11 @@ recipes.addShapeless(<immersiveengineering:metal:36>, [<immersiveengineering:too
 recipes.addShapeless(<immersiveengineering:metal:37>, [<immersiveengineering:tool>, <ore:ingotElectrum>, <ore:ingotElectrum> ]);
 recipes.addShapeless(<immersiveengineering:metal:38>, [<immersiveengineering:tool>, <ore:ingotSteel>, <ore:ingotSteel> ]);
 recipes.addShapeless(<immersiveengineering:metal:39>, [<immersiveengineering:tool>, <ore:ingotIron>, <ore:ingotIron> ]);
-recipes.addShapeless(<immersiveengineering:material:20>, [<immersiveengineering:tool:1>, <immersiveengineering:metal:30> ]);
-recipes.addShapeless(<immersiveengineering:material:21>, [<immersiveengineering:tool:1>, <immersiveengineering:metal:37> ]);
-recipes.addShapeless(<immersiveengineering:material:22>, [<immersiveengineering:tool:1>, <immersiveengineering:metal:31> ]);
-recipes.addShapeless(<immersiveengineering:material:23>, [<immersiveengineering:tool:1>, <immersiveengineering:metal:38> ]);
+recipes.addShapeless(<immersiveengineering:material:20>, [<immersiveengineering:tool:1>, <ore:plateCopper> ]);
+recipes.addShapeless(<immersiveengineering:material:21>, [<immersiveengineering:tool:1>, <ore:plateElectrum> ]);
+recipes.addShapeless(<immersiveengineering:material:22>, [<immersiveengineering:tool:1>, <ore:plateAluminum> ]);
+recipes.addShapeless(<immersiveengineering:material:23>, [<immersiveengineering:tool:1>, <ore:plateSteel> ]);
 
-recipes.remove(<immersiveengineering:wirecoil>);
-recipes.remove(<immersiveengineering:wirecoil:1>);
-recipes.remove(<immersiveengineering:wirecoil:2>);
-recipes.addShaped(<immersiveengineering:wirecoil>,
-	[[null,<immersiveengineering:material:20>,null],
-	[<immersiveengineering:material:20>,<immersiveengineering:material>,<immersiveengineering:material:20>],
-	[null,<immersiveengineering:material:20>,null]]);
-recipes.addShaped(<immersiveengineering:wirecoil:1>,
-	[[null,<immersiveengineering:material:21>,null],
-	[<immersiveengineering:material:21>,<immersiveengineering:material>,<immersiveengineering:material:21>],
-	[null,<immersiveengineering:material:21>,null]]);
-recipes.addShaped(<immersiveengineering:wirecoil:2>,
-	[[null,<immersiveengineering:material:22>,null],
-	[<immersiveengineering:material:22>,<immersiveengineering:material>,<immersiveengineering:material:22>],
-	[null,<immersiveengineering:material:22>,null]]);
 
 
 recipes.remove(<immersiveengineering:metalDecoration0:2>);
@@ -124,11 +119,11 @@ recipes.addShaped(<immersiveengineering:connector:12> * 4, [[<ore:nuggetArdite>,
 
 
 
+recipes.remove(<immersiveengineering:metalDevice1:13>);
+mods.forestry.Carpenter.addRecipe(<immersiveengineering:metalDevice1:13>, [[<actuallyadditions:blockGreenhouseGlass>, <embers:blockLantern>, <actuallyadditions:blockGreenhouseGlass>], [<actuallyadditions:blockGreenhouseGlass>, <mysticalagriculture:growth_accelerator>, <actuallyadditions:blockGreenhouseGlass>], [<botania:livingwood:1>, <immersiveengineering:metalDecoration0:5>, <botania:livingwood:1>]], 600, <liquid:seed.oil> * 5000);
 
 
-
-
-
+mods.forestry.Carpenter.addRecipe(<immersiveengineering:metalDecoration0:4> * 2, [[<ore:plateIron>, <immersiveengineering:material:8>, <ore:plateIron>], [<ore:plateCopper>, <railcraft:generic:7>, <ore:plateCopper>], [<ore:plateIron>, <immersiveengineering:material:8>, <ore:plateIron>]], 600, <liquid:creosote> * 1000);
 
 
 

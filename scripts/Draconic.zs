@@ -12,7 +12,7 @@ mods.forestry.Carpenter.addRecipe(<draconicevolution:chaos_shard>, [[<draconicev
 
 
 recipes.remove(<draconicevolution:draconic_core>);
-recipes.addShaped(<draconicevolution:draconic_core>, [[<ore:ingotDraconium>, <ore:ingotCobalt>, <ore:ingotDraconium>], [<ore:ingotCobalt>, <actuallyadditions:itemCrystalEmpowered:2>, <ore:ingotCobalt>], [<ore:ingotDraconium>, <ore:ingotCobalt>, <ore:ingotDraconium>]]);
+recipes.addShaped(<draconicevolution:draconic_core>, [[<moreplates:CobaltGear>, <ore:ingotDraconium>, <moreplates:CobaltGear>], [<ore:ingotDraconium>, <actuallyadditions:itemCrystalEmpowered:2>, <ore:ingotDraconium>], [<moreplates:CobaltGear>, <ore:ingotDraconium>, <moreplates:CobaltGear>]]);
 
 
 recipes.remove(<draconicevolution:energy_storage_core>);
@@ -22,7 +22,7 @@ recipes.addShaped(<draconicevolution:dislocator>, [[<cyclicmagic:ender_blaze>, <
 recipes.remove(<draconicevolution:fusion_crafting_core>);
 recipes.addShaped(<draconicevolution:fusion_crafting_core>, [[<ore:blockCobalt>, <ore:netherStar>, <ore:blockCobalt>], [<ore:netherStar>, <draconicevolution:draconic_core>, <ore:netherStar>], [<tconstruct:metal>, <ore:netherStar>, <ore:blockCobalt>]]);
 recipes.remove(<draconicevolution:grinder>);
-recipes.addShaped(<draconicevolution:grinder>, [[<simplyjetpacks:metaItemEIO:12>, <draconicevolution:draconic_core>, <simplyjetpacks:metaItemEIO:12>], [<draconicevolution:wyvern_sword>, <enderio:blockKillerJoe>, <draconicevolution:wyvern_sword>], [<simplyjetpacks:metaItemEIO:12>, <mekanism:BasicBlock:8>, <simplyjetpacks:metaItemEIO:12>]]);
+recipes.addShaped(<draconicevolution:grinder>, [[<simplyjetpacks:metaItemMods:12>, <draconicevolution:draconic_core>, <simplyjetpacks:metaItemMods:12>], [<draconicevolution:wyvern_sword>, <enderio:blockKillerJoe>, <draconicevolution:wyvern_sword>], [<simplyjetpacks:metaItemMods:12>, <mekanism:BasicBlock:8>, <simplyjetpacks:metaItemMods:12>]]);
 recipes.remove(<draconicevolution:energy_pylon>);
 recipes.addShaped(<draconicevolution:energy_pylon>, [[<ore:ingotDraconium>, <stevescarts:ModuleComponents:22>, <ore:ingotDraconium>], [<stevescarts:ModuleComponents:22>, <draconicevolution:wyvern_core>, <stevescarts:ModuleComponents:22>], [<ore:ingotDraconium>, <stevescarts:ModuleComponents:22>, <ore:ingotDraconium>]]);
 recipes.remove(<draconicevolution:diss_enchanter>);
@@ -41,9 +41,9 @@ recipes.remove(<draconicevolution:dislocator_pedestal>);
 recipes.addShaped(<draconicevolution:dislocator_pedestal>, [[null, <xreliquary:pedestal>, null], [null, <extrautils2:decorativesolid:3>, null], [<ore:compressed3xCobblestone>, <cyclicmagic:ender_blaze>, <ore:compressed3xCobblestone>]]);
 recipes.remove(<draconicevolution:dislocator_receptacle>);
 recipes.addShaped(<draconicevolution:dislocator_receptacle>, [[<ore:ingotCobalt>, <draconicevolution:wyvern_core>, <ore:ingotCobalt>], [null, <draconicevolution:infused_obsidian>, null], [<ore:ingotCobalt>, null, <ore:ingotCobalt>]]);
-
-
-
-
+recipes.remove(<draconicevolution:wyvern_core>);
+recipes.addShaped(<draconicevolution:wyvern_core>, [[<moreplates:DraconiumGear>, <draconicevolution:draconic_core>, <moreplates:DraconiumGear>], [<draconicevolution:draconic_core>, <ore:netherStar>, <draconicevolution:draconic_core>], [<moreplates:DraconiumGear>, <draconicevolution:draconic_core>, <moreplates:DraconiumGear>]]);
+recipes.remove(<draconicevolution:draconic_energy_core>);
+recipes.addShaped(<draconicevolution:draconic_energy_core>, [[<moreplates:AwakenedDraconiumGear>, <draconicevolution:wyvern_energy_core>, <moreplates:AwakenedDraconiumGear>], [<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>], [<moreplates:AwakenedDraconiumGear>, <draconicevolution:wyvern_energy_core>, <moreplates:AwakenedDraconiumGear>]]);
 
 

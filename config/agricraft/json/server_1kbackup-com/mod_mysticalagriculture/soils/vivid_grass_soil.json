@@ -1,0 +1,18 @@
+{
+  "path": "mod_mysticalagriculture/soils/vivid_grass_soil.json",
+  "enabled": true,
+  "id": "vivid_grass_soil",
+  "name": "Vivid Grass",
+  "varients": [
+    {
+      "item": "botania:altGrass",
+      "meta": 2,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

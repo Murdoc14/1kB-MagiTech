@@ -42,8 +42,8 @@ recipes.addShaped(<embers:mixer>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:pla
 recipes.remove(<embers:stamper>);
 recipes.addShaped(<embers:stamper>, [[<embers:blockCaminiteBrick>, <ore:craftingPiston>, <embers:blockCaminiteBrick>], [<embers:blockCaminiteBrick>, <ore:blockOsmium>, <embers:blockCaminiteBrick>], [<embers:blockCaminiteBrickSlab>, null, <embers:blockCaminiteBrickSlab>]]);
 
-
-
+recipes.remove(<embers:blockLantern>);
+recipes.addShaped(<embers:blockLantern> * 4, [[null, <embers:shardEmber>, null], [<embers:shardEmber>, <immersiveengineering:metalDecoration2:4>, <embers:shardEmber>], [null, <embers:shardEmber>, null]]);
 
 
 

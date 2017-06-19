@@ -5,9 +5,9 @@
 			"generator": {
 				"block": "draconicevolution:draconium_ore",
 				"material": "stone",
-				"cluster-size": 0
+				"cluster-size": 1
 			},
-			"cluster-count": 0,
+			"cluster-count": 2,
 			"min-height": 0,
 			"max-height": 8,
 			"retrogen": "true",

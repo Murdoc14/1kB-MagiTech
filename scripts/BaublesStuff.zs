@@ -108,7 +108,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<baublesstuff:Ring_Magnet>,<baublesst
 
 
 recipes.remove(<baublesstuff:Belt_Core>);
-recipes.addShaped(<baublesstuff:Belt_Core>, [[null, <harvestcraft:hardenedleatherItem>, null], [<harvestcraft:hardenedleatherItem>, <ore:ingotElectrum>, <harvestcraft:hardenedleatherItem>], [null, <harvestcraft:hardenedleatherItem>, null]]);
+recipes.addShaped(<baublesstuff:Belt_Core>, [[null, <harvestcraft:hardenedleatheritem>, null], [<harvestcraft:hardenedleatheritem>, <ore:ingotElectrum>, <harvestcraft:hardenedleatheritem>], [null, <harvestcraft:hardenedleatheritem>, null]]);
 
 
 

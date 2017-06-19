@@ -1,0 +1,8 @@
+{
+  "path": "mod_mysticalagriculture/mutations/conductive_iron_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "conductive_iron_plant",
+  "parent1": "iron_plant",
+  "parent2": "redstone_plant"
+}

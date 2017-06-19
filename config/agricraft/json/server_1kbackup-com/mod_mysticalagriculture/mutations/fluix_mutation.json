@@ -1,0 +1,8 @@
+{
+  "path": "mod_mysticalagriculture/mutations/fluix_mutation.json",
+  "enabled": true,
+  "chance": 0.15,
+  "child": "fluix_plant",
+  "parent1": "certus_quartz_plant",
+  "parent2": "tanzanite_plant"
+}

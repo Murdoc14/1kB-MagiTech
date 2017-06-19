@@ -63,13 +63,13 @@ recipes.addShaped(<enderio:itemMaterial:2>*2, [[<ore:gravel>, <minecraft:clay>, 
 
 # -- Dark Steel Items
 recipes.remove(<enderio:darkSteel_chestplate>);
-recipes.addShaped(<enderio:darkSteel_chestplate>, [[<simplyjetpacks:metaItemEIO:12>, <mekanismtools:SteelChestplate>, <simplyjetpacks:metaItemEIO:12>], [<simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>], [<simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>]]);
+recipes.addShaped(<enderio:darkSteel_chestplate>, [[<simplyjetpacks:metaItemMods:12>, <mekanismtools:SteelChestplate>, <simplyjetpacks:metaItemMods:12>], [<simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>], [<simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>]]);
 recipes.remove(<enderio:darkSteel_leggings>);
-recipes.addShaped(<enderio:darkSteel_leggings>, [[<simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>], [<simplyjetpacks:metaItemEIO:12>, <mekanismtools:SteelLeggings>, <simplyjetpacks:metaItemEIO:12>], [<simplyjetpacks:metaItemEIO:12>, null, <simplyjetpacks:metaItemEIO:12>]]);
+recipes.addShaped(<enderio:darkSteel_leggings>, [[<simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>], [<simplyjetpacks:metaItemMods:12>, <mekanismtools:SteelLeggings>, <simplyjetpacks:metaItemMods:12>], [<simplyjetpacks:metaItemMods:12>, null, <simplyjetpacks:metaItemMods:12>]]);
 recipes.remove(<enderio:darkSteel_boots>);
-recipes.addShaped(<enderio:darkSteel_boots>, [[<simplyjetpacks:metaItemEIO:12>, null, <simplyjetpacks:metaItemEIO:12>], [<simplyjetpacks:metaItemEIO:12>, <mekanismtools:SteelBoots>, <simplyjetpacks:metaItemEIO:12>]]);
+recipes.addShaped(<enderio:darkSteel_boots>, [[<simplyjetpacks:metaItemMods:12>, null, <simplyjetpacks:metaItemMods:12>], [<simplyjetpacks:metaItemMods:12>, <mekanismtools:SteelBoots>, <simplyjetpacks:metaItemMods:12>]]);
 recipes.remove(<enderio:darkSteel_helmet>);
-recipes.addShaped(<enderio:darkSteel_helmet>, [[<simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>, <simplyjetpacks:metaItemEIO:12>], [<simplyjetpacks:metaItemEIO:12>, <mekanismtools:SteelHelmet>, <simplyjetpacks:metaItemEIO:12>]]);
+recipes.addShaped(<enderio:darkSteel_helmet>, [[<simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>, <simplyjetpacks:metaItemMods:12>], [<simplyjetpacks:metaItemMods:12>, <mekanismtools:SteelHelmet>, <simplyjetpacks:metaItemMods:12>]]);
 
 recipes.remove(<enderio:darkSteel_axe>);
 mods.actuallyadditions.Empowerer.addRecipe(<minecraft:diamond_axe>,<enderio:darkSteel_axe>,

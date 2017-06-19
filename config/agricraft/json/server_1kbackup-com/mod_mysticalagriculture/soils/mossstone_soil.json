@@ -1,0 +1,18 @@
+{
+  "path": "mod_mysticalagriculture/soils/mossstone_soil.json",
+  "enabled": true,
+  "id": "mossstone_soil",
+  "name": "Moss Stone",
+  "varients": [
+    {
+      "item": "minecraft:mossy_cobblestone",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

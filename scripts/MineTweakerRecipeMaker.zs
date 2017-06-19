@@ -12,6 +12,50 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<projecte:item.pe_dm_axe>);
+recipes.remove(<projecte:item.pe_dm_hammer>);
+recipes.remove(<projecte:item.pe_dm_hoe>);
+recipes.remove(<projecte:item.pe_dm_pick>);
+recipes.remove(<projecte:item.pe_dm_shears>);
+recipes.remove(<projecte:item.pe_dm_shovel>);
+recipes.remove(<projecte:item.pe_dm_sword>);
+recipes.remove(<projecte:item.pe_rm_axe>);
+recipes.remove(<projecte:item.pe_rm_hammer>);
+recipes.remove(<projecte:item.pe_rm_hoe>);
+recipes.remove(<projecte:item.pe_rm_katar>);
+recipes.remove(<projecte:item.pe_rm_morning_star>);
+recipes.remove(<projecte:item.pe_rm_pick>);
+recipes.remove(<projecte:item.pe_rm_shears>);
+recipes.remove(<projecte:item.pe_rm_shovel>);
+recipes.remove(<projecte:item.pe_rm_sword>);
+recipes.remove(<redstonearsenal:tool.bow_flux>);
+recipes.remove(<redstonearsenal:tool.axe_flux>);
+recipes.remove(<redstonearsenal:tool.battlewrench_flux>);
+recipes.remove(<redstonearsenal:tool.sword_flux>);
+recipes.remove(<redstonearsenal:tool.sickle_flux>);
+recipes.remove(<redstonearsenal:tool.shovel_flux>);
+recipes.remove(<redstonearsenal:tool.pickaxe_flux>);
+recipes.remove(<redstonearsenal:tool.hammer_flux>);
+recipes.remove(<projecte:item.pe_catalitic_lens>);
+recipes.remove(<projecte:item.pe_hyperkinetic_lens>);
+recipes.remove(<mysticalagriculture:mystical_flower_seeds>);
+recipes.remove(<projecte:item.pe_zero_ring>);
+recipes.remove(<projecte:item.pe_swrg>);
+recipes.remove(<projecte:item.pe_mercurial_eye>);
+recipes.remove(<projecte:item.pe_ignition>);
+recipes.remove(<projecte:item.pe_divining_rod_3>);
+recipes.remove(<projecte:item.pe_divining_rod_2>);
+recipes.remove(<projecte:item.pe_divining_rod_1>);
+recipes.remove(<projecte:item.pe_destruction_catalyst>);
+recipes.remove(<projecte:item.pe_archangel_smite>);
+recipes.remove(<projecte:item.pe_arcana_ring:3>);
+recipes.remove(<projecte:item.pe_arcana_ring:2>);
+recipes.remove(<projecte:item.pe_arcana_ring:1>);
+recipes.remove(<projecte:item.pe_arcana_ring>);
+recipes.remove(<mysticalagriculture:experience_seeds>);
+recipes.remove(<mysticalagriculture:dye_seeds>);
+recipes.remove(<eplus:table_upgrade>);
+recipes.remove(<eplus:advanced_table>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -24,9 +68,36 @@
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<moreplates:KnightslimePlate>, [<tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:PigIronPlate>, [<tconstruct:ingots:4>, <tconstruct:ingots:4>, <tconstruct:ingots:4>, <tconstruct:ingots:4>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:AwakenedDraconiumPlate>, [<draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:DraconiumPlate>, [<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:ElementiumPlate>, [<botania:manaResource:7>, <botania:manaResource:7>, <botania:manaResource:7>, <botania:manaResource:7>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:TerrasteelPlate>, [<botania:manaResource:4>, <botania:manaResource:4>, <botania:manaResource:4>, <botania:manaResource:4>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:ManasteelPlate>, [<botania:manaResource>, <botania:manaResource>, <botania:manaResource>, <botania:manaResource>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:SoulariumPlate>, [<enderio:itemAlloy:7>, <enderio:itemAlloy:7>, <enderio:itemAlloy:7>, <enderio:itemAlloy:7>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:VibrantAlloyPlate>, [<enderio:itemAlloy:2>, <enderio:itemAlloy:2>, <enderio:itemAlloy:2>, <enderio:itemAlloy:2>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:PulsatingIronPlate>, [<enderio:itemAlloy:5>, <enderio:itemAlloy:5>, <enderio:itemAlloy:5>, <enderio:itemAlloy:5>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:EnergeticAlloyPlate>, [<enderio:itemAlloy:1>, <enderio:itemAlloy:1>, <enderio:itemAlloy:1>, <enderio:itemAlloy:1>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:DarkSteelPlate>, [<enderio:itemAlloy:6>, <enderio:itemAlloy:6>, <enderio:itemAlloy:6>, <enderio:itemAlloy:6>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:ElectricalSteelPlate>, [<enderio:itemAlloy>, <enderio:itemAlloy>, <enderio:itemAlloy>, <enderio:itemAlloy>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:RedstoneAlloyPlate>, [<enderio:itemAlloy:3>, <enderio:itemAlloy:3>, <enderio:itemAlloy:3>, <enderio:itemAlloy:3>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:ConductiveIronPlate>, [<enderio:itemAlloy:4>, <enderio:itemAlloy:4>, <enderio:itemAlloy:4>, <enderio:itemAlloy:4>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:ManyullynPlate>, [<tconstruct:ingots:2>, <tconstruct:ingots:2>, <tconstruct:ingots:2>, <tconstruct:ingots:2>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:CobaltPlate>, [<tconstruct:ingots>, <tconstruct:ingots>, <tconstruct:ingots>, <tconstruct:ingots>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:ArditePlate>, [<ore:ingotArdite>, <ore:ingotArdite>, <ore:ingotArdite>, <ore:ingotArdite>, <immersiveengineering:tool>]);
+recipes.addShapeless(<moreplates:OsmiumPlate>, [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>, <immersiveengineering:tool>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<eplus:decoration:4>, [[null, <ore:rodBlaze>, null], [<ore:rodBlaze>, <minecraft:enchanted_book>, <ore:rodBlaze>], [null, <ore:rodBlaze>, null]]);
+recipes.addShaped(<eplus:advanced_table>, [[<extrautils2:decorativesolidwood:1>, <stevescarts:ModuleComponents:45>, <extrautils2:decorativesolidwood:1>], [<minecraft:ender_eye>, <minecraft:enchanting_table>, <minecraft:ender_eye>], [<extrautils2:decorativesolidwood:1>, <stevescarts:BlockMetalStorage:2>, <extrautils2:decorativesolidwood:1>]]);
+recipes.addShaped(<mysticalagriculture:watering_can:4>, [[<ore:ingotSupremium>, <mysticalagriculture:crafting:54>, null], [<ore:ingotSupremium>, <mysticalagriculture:watering_can:3>, <ore:ingotSupremium>], [null, <ore:ingotSupremium>, null]]);
+recipes.addShaped(<mysticalagriculture:watering_can:3>, [[<ore:ingotSuperium>, <mysticalagriculture:crafting:53>, null], [<ore:ingotSuperium>, <mysticalagriculture:watering_can:2>, <ore:ingotSuperium>], [null, <ore:ingotSuperium>, null]]);
+recipes.addShaped(<mysticalagriculture:watering_can:2>, [[<ore:ingotIntermedium>, <mysticalagriculture:crafting:52>, null], [<ore:ingotIntermedium>, <mysticalagriculture:watering_can:1>, <ore:ingotIntermedium>], [null, <ore:ingotIntermedium>, null]]);
+recipes.addShaped(<mysticalagriculture:watering_can:1>, [[<ore:ingotPrudentium>, <mysticalagriculture:crafting:51>, null], [<ore:ingotPrudentium>, <mysticalagriculture:watering_can>, <ore:ingotPrudentium>], [null, <ore:ingotPrudentium>, null]]);
+
+
 
 
 

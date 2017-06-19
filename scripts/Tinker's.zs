@@ -32,7 +32,7 @@ recipes.remove(<tconstruct:materials:14>);
 recipes.addShaped(<tconstruct:materials:14>, [[<railcraft:generic:7>, <railcraft:generic:7>, <railcraft:generic:7>], [<railcraft:generic:7>, <ore:cast>, <railcraft:generic:7>], [<railcraft:generic:7>, <railcraft:generic:7>, <railcraft:generic:7>]]);
 
 recipes.remove(<tinker_io:smart_output>);
-recipes.addShaped(<tinker_io:smart_output>, [[<ore:blockSeared>, <minecraft:packed_ice>, <ore:blockSeared>], [<minecraft:packed_ice>, <tconstruct:smeltery_io>, <minecraft:packed_ice>], [<ore:blockSeared>, <minecraft:packed_ice>, <ore:blockSeared>]]);
+recipes.addShaped(<tinker_io:smart_output>, [[<moreplates:KnightslimeGear>, <minecraft:packed_ice>, <moreplates:KnightslimeGear>], [<minecraft:packed_ice>, <tconstruct:smeltery_io>, <minecraft:packed_ice>], [<moreplates:KnightslimeGear>, <minecraft:packed_ice>, <moreplates:KnightslimeGear>]]);
 recipes.remove(<tinker_io:fuel_input_machine>);
 recipes.addShaped(<tinker_io:fuel_input_machine>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ore:blockSeared>, <natura:blaze_hopper>, <ore:blockSeared>], [<ore:blockSeared>, <minecraft:furnace>, <ore:blockSeared>]]);
 

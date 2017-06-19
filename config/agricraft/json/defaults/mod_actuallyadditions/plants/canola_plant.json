@@ -84,7 +84,7 @@
     ]
   },
   "texture": {
-    "render_type": "hash",
+    "render_type": "cross",
     "seed_texture": "actuallyadditions:items/itemCanolaSeed",
     "plant_textures": [
       "actuallyadditions:blocks/blockCanolaStage1",

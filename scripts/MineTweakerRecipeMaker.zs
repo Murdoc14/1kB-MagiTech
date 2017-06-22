@@ -20,8 +20,6 @@ recipes.remove(<mysticalagriculture:watering_can:1>);
 recipes.remove(<botania:alchemyCatalyst>);
 recipes.remove(<botania:fertilizer>);
 recipes.remove(<mysticalagriculture:watering_can>);
-recipes.remove(<tp:watering_can_upgrade>);
-recipes.remove(<tp:watering_can>);
 recipes.remove(<projecte:item.pe_dm_axe>);
 recipes.remove(<projecte:item.pe_dm_hammer>);
 recipes.remove(<projecte:item.pe_dm_hoe>);

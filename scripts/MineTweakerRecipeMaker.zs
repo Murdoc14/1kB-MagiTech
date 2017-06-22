@@ -12,6 +12,15 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<mysticalagriculture:watering_can:4>);
+recipes.remove(<mysticalagriculture:watering_can:3>);
+recipes.remove(<mysticalagriculture:watering_can:2>);
+recipes.remove(<mysticalagriculture:watering_can:1>);
+recipes.remove(<botania:alchemyCatalyst>);
+recipes.remove(<botania:fertilizer>);
+recipes.remove(<mysticalagriculture:watering_can>);
+recipes.remove(<tp:watering_can_upgrade>);
+recipes.remove(<tp:watering_can>);
 recipes.remove(<projecte:item.pe_dm_axe>);
 recipes.remove(<projecte:item.pe_dm_hammer>);
 recipes.remove(<projecte:item.pe_dm_hoe>);
@@ -53,7 +62,6 @@ recipes.remove(<projecte:item.pe_arcana_ring:2>);
 recipes.remove(<projecte:item.pe_arcana_ring:1>);
 recipes.remove(<projecte:item.pe_arcana_ring>);
 recipes.remove(<mysticalagriculture:experience_seeds>);
-recipes.remove(<mysticalagriculture:dye_seeds>);
 recipes.remove(<eplus:table_upgrade>);
 recipes.remove(<eplus:advanced_table>);
 
@@ -68,6 +76,7 @@ recipes.remove(<eplus:advanced_table>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<slug:Rf_Energy_Converter>, [<ore:workbench>]);
 recipes.addShapeless(<moreplates:KnightslimePlate>, [<tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <immersiveengineering:tool>]);
 recipes.addShapeless(<moreplates:PigIronPlate>, [<tconstruct:ingots:4>, <tconstruct:ingots:4>, <tconstruct:ingots:4>, <tconstruct:ingots:4>, <immersiveengineering:tool>]);
 recipes.addShapeless(<moreplates:AwakenedDraconiumPlate>, [<draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <immersiveengineering:tool>]);
@@ -90,6 +99,7 @@ recipes.addShapeless(<moreplates:OsmiumPlate>, [<ore:ingotOsmium>, <ore:ingotOsm
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<botania:alchemyCatalyst>, [[<ore:livingrock>, <ore:ingotLumium>, <ore:livingrock>], [<minecraft:brewing_stand>, <xreliquary:salamander_eye>, <minecraft:brewing_stand>], [<ore:livingrock>, <ore:ingotLumium>, <ore:livingrock>]]);
 recipes.addShaped(<eplus:decoration:4>, [[null, <ore:rodBlaze>, null], [<ore:rodBlaze>, <minecraft:enchanted_book>, <ore:rodBlaze>], [null, <ore:rodBlaze>, null]]);
 recipes.addShaped(<eplus:advanced_table>, [[<extrautils2:decorativesolidwood:1>, <stevescarts:ModuleComponents:45>, <extrautils2:decorativesolidwood:1>], [<minecraft:ender_eye>, <minecraft:enchanting_table>, <minecraft:ender_eye>], [<extrautils2:decorativesolidwood:1>, <stevescarts:BlockMetalStorage:2>, <extrautils2:decorativesolidwood:1>]]);
 recipes.addShaped(<mysticalagriculture:watering_can:4>, [[<ore:ingotSupremium>, <mysticalagriculture:crafting:54>, null], [<ore:ingotSupremium>, <mysticalagriculture:watering_can:3>, <ore:ingotSupremium>], [null, <ore:ingotSupremium>, null]]);

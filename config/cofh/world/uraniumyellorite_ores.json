@@ -4,8 +4,9 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": [
-					{"name": "bigreactors:brore", "weight":80},
-					{"name": "ic2:resource", "metadata": 4, "weight":20}
+					{"name": "bigreactors:brore", "weight":0},
+					{"name": "ic2:resource", "metadata": 4, "weight":0}
+					{"name": "immersiveengineering.ore", "metadata": 5, "weight":100}
 				],
 				"material": "stone",
 				"cluster-size": 8

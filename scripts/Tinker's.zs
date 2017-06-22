@@ -43,3 +43,6 @@ recipes.addShaped(<tinker_io:fuel_input_machine>, [[<ore:blockSeared>, <ore:bloc
 ###mods.tconstruct.Smeltery.addFuel(<liquid:pyrotheum>);
 ###mods.tconstruct.Smeltery.removeFuel(<liquid:lava>);
 
+
+
+mods.tconstruct.Smeltery.addAlloy(<liquid:abyssalnite> * 144, [<liquid:knightslime> * 144, <liquid:manyullyn> * 144, <liquid:draconium> * 16]);

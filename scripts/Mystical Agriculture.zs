@@ -200,11 +200,11 @@ recipes.addShaped(<mysticalagriculture:master_infusion_crystal>, [[<mysticalagri
 
 
 
+mods.botania.ManaInfusion.addAlchemy(<mysticalagriculture:fertilized_essence>, <xreliquary:mob_ingredient:9>, 35000);
 
 
 
-
-
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:watering_can>, [<ore:ingotInferium>, <mysticalagriculture:inferium_ingot>, <mysticalagriculture:fertilized_essence>, <mysticalagriculture:inferium_ingot>, <mysticalagriculture:inferium_ingot>], 15000);
 
 
 

@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<slug:Rf_Energy_Converter>);
 recipes.remove(<mysticalagriculture:watering_can:4>);
 recipes.remove(<mysticalagriculture:watering_can:3>);
 recipes.remove(<mysticalagriculture:watering_can:2>);

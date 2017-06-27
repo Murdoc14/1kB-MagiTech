@@ -23,7 +23,7 @@ mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, <liquid:ender> *
 mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, <liquid:ender> * 250, <tconstruct:clay_cast>.withTag({PartType: "tconstruct:pan_head"}), true, 32);
 
 recipes.remove(<tinker_io:SolidFuel>);
-mods.forestry.Carpenter.addRecipe(<tinker_io:SolidFuel> * 8, [[<ore:ingotAluminum>, <minecraft:gunpowder>, null], [<ore:coal>, null, null], [null, null, null]], 1800, <liquid:creosote> * 3000);
+mods.forestry.Carpenter.addRecipe(<tinker_io:SolidFuel> * 8, [[<ore:ingotAluminum>, <ore:gunpowder>, null], [<ore:coal>, <ore:dustSulfur>, null], [null, null, null]], 1800, <liquid:creosote> * 4000);
 
 recipes.remove(<enderio:itemMachinePart:1>);
 mods.tconstruct.Casting.addTableRecipe(<enderio:itemMachinePart:1>, <liquid:stone> * 288, <appliedenergistics2:material:40>, true, 60);
@@ -34,7 +34,7 @@ recipes.addShaped(<tconstruct:materials:14>, [[<railcraft:generic:7>, <railcraft
 recipes.remove(<tinker_io:smart_output>);
 recipes.addShaped(<tinker_io:smart_output>, [[<moreplates:KnightslimeGear>, <minecraft:packed_ice>, <moreplates:KnightslimeGear>], [<minecraft:packed_ice>, <tconstruct:smeltery_io>, <minecraft:packed_ice>], [<moreplates:KnightslimeGear>, <minecraft:packed_ice>, <moreplates:KnightslimeGear>]]);
 recipes.remove(<tinker_io:fuel_input_machine>);
-recipes.addShaped(<tinker_io:fuel_input_machine>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ore:blockSeared>, <natura:blaze_hopper>, <ore:blockSeared>], [<ore:blockSeared>, <minecraft:furnace>, <ore:blockSeared>]]);
+recipes.addShaped(<tinker_io:fuel_input_machine>, [[<extrautils2:compressedcobblestone:4>, <moreplates:KnightslimeGear>, <extrautils2:compressedcobblestone:4>], [<moreplates:KnightslimeGear>, <natura:blaze_hopper>, <moreplates:KnightslimeGear>], [<extrautils2:compressedcobblestone:4>, <moreplates:KnightslimeGear>, <extrautils2:compressedcobblestone:4>]]);
 
 ###New Fuels For Smeltery
 ###InputFluid, TemperatureAmount, Time in Ticks
@@ -46,3 +46,5 @@ recipes.addShaped(<tinker_io:fuel_input_machine>, [[<ore:blockSeared>, <ore:bloc
 
 
 mods.tconstruct.Smeltery.addAlloy(<liquid:abyssalnite> * 144, [<liquid:knightslime> * 144, <liquid:manyullyn> * 144, <liquid:draconium> * 16]);
+recipes.remove(<agricraft:clipper>);
+mods.tconstruct.Casting.addTableRecipe(<agricraft:clipper>, <liquid:mirion> * 1152, <mysticalagriculture:supremium_shears_aoe>, true, 100);

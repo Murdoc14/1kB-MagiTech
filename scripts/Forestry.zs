@@ -37,7 +37,7 @@ mods.forestry.Carpenter.addRecipe(<forestry:hardenedMachine>, [[<stevescarts:Mod
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:8>);
 mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:8> * 2, [[null, <industrialwires:ic2Connector:8>, null], [<industrialwires:ic2Connector:8>, <appliedenergistics2:material:1>, <industrialwires:ic2Connector:8>], [<appliedenergistics2:material:1>, <ore:blockSignalum>, <appliedenergistics2:material:1>]],500);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:10>);
-mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:10> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockApatite>, <appliedenergistics2:material:1>]],500);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:10> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <appliedenergistics2:quartz_block>, <appliedenergistics2:material:1>]],500);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:7>);
 mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:7> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockArdite>, <appliedenergistics2:material:1>]],500);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:12>);
@@ -53,14 +53,20 @@ mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:5> * 2, [[n
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:4>);
 mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:4> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockGold>, <appliedenergistics2:material:1>]],500);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:1>);
-mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:1> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <ore:slabTin>, <immersiveengineering:connector:12>], [<ore:nuggetElectrum>, <ore:slabTin>, <ore:nuggetElectrum>]],500);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:1> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockTin>, <appliedenergistics2:material:1>]],500);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:2>);
-mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:2> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <ore:slabBronze>, <immersiveengineering:connector:12>], [<ore:nuggetElectrum>, <ore:slabBronze>, <ore:nuggetElectrum>]],500);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:2> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockBronze>, <appliedenergistics2:material:1>]],500);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes:3>);
-mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:3> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <ore:slabIron>, <immersiveengineering:connector:12>], [<ore:nuggetElectrum>, <ore:slabIron>, <ore:nuggetElectrum>]],500);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes:3> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockIron>, <appliedenergistics2:material:1>]],500);
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionicTubes>);
-mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <ore:slabCopper>, <immersiveengineering:connector:12>], [<ore:nuggetElectrum>, <ore:slabCopper>, <ore:nuggetElectrum>]],500);
+mods.forestry.ThermionicFabricator.addCast(<forestry:thermionicTubes> * 2, [[null, <immersiveengineering:connector:12>, null], [<immersiveengineering:connector:12>, <appliedenergistics2:material:1>, <immersiveengineering:connector:12>], [<appliedenergistics2:material:1>, <ore:blockCopper>, <appliedenergistics2:material:1>]],500);
 
 
-
-
+print(<forestry:thermionicTubes:7>.displayName);
+<forestry:thermionicTubes:7>.displayName = "Ardite Electron Tube";
+print(<forestry:thermionicTubes:11>.displayName);
+<forestry:thermionicTubes:11>.displayName = "Cobalt Electron Tube";
+print(<forestry:thermionicTubes:6>.displayName);
+<forestry:thermionicTubes:6>.displayName = "Manyullyn Electron Tube";
+print(<forestry:thermionicTubes:10>.displayName);
+<forestry:thermionicTubes:10>.displayName = "Certus Electron Tube";

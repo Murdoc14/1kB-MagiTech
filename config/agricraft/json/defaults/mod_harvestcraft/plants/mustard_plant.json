@@ -1,12 +1,12 @@
 {
   "path": "mod_harvestcraft/plants/mustard_plant.json",
   "enabled": true,
-  "id": "mustard_crop",
+  "id": "mustard_plant",
   "plant_name": "Mustard",
   "seed_name": "Mustard Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:mustardseedItem",
+      "item": "harvestcraft:mustardseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:mustardseedsItem",
+        "item": "harvestcraft:mustardseedsitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -57,7 +57,7 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/mustardseedItem",
+    "seed_texture": "harvestcraft:items/mustardseeditem",
     "plant_textures": [
       "harvestcraft:blocks/crops/mustardseeds_stage_0",
       "harvestcraft:blocks/crops/mustardseeds_stage_0",

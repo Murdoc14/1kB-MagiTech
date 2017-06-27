@@ -1,12 +1,12 @@
 {
-  "path": "mod_harvestcraft/plants/peanut_plant.json",
+  "path": "mod_actuallyadditions/flax_plant.json",
   "enabled": true,
-  "id": "peanut_plant",
-  "plant_name": "Peanut",
-  "seed_name": "Peanut Seeds",
+  "id": "flax_plant",
+  "plant_name": "Flax",
+  "seed_name": "Flax Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:peanutseeditem",
+      "item": "actuallyadditions:itemFlaxSeed",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,9 +18,9 @@
   ],
   "description": {
     "translations": {},
-    "default": "Peanut Seeds."
+    "default": "Testing 1, 2, 3."
   },
-  "growth_chance": 0.9,
+  "growth_chance": 1.0,
   "growth_bonus": 0.025,
   "bonemeal": true,
   "tier": 1,
@@ -35,10 +35,10 @@
     "products": [
       {
         "min": 1,
-        "max": 5,
-        "chance": 0.9,
+        "max": 3,
+        "chance": 0.95,
         "required": true,
-        "item": "harvestcraft:peanutitem",
+        "item": "minecraft:string",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -56,17 +56,17 @@
     "conditions": []
   },
   "texture": {
-    "render_type": "hash",
-    "seed_texture": "harvestcraft:items/peanutitem",
+    "render_type": "cross",
+    "seed_texture": "ActuallyAdditions:items/itemFlaxSeed",
     "plant_textures": [
-      "harvestcraft:blocks/crops/peanut_stage_0",
-      "harvestcraft:blocks/crops/peanut_stage_0",
-      "harvestcraft:blocks/crops/peanut_stage_0",
-      "harvestcraft:blocks/crops/peanut_stage_1",
-      "harvestcraft:blocks/crops/peanut_stage_1",
-      "harvestcraft:blocks/crops/peanut_stage_2",
-      "harvestcraft:blocks/crops/peanut_stage_2",
-      "harvestcraft:blocks/crops/peanut_stage_3"
+      "ActuallyAdditions:blocks/blockFlaxStage1",
+      "ActuallyAdditions:blocks/blockFlaxStage2",
+      "ActuallyAdditions:blocks/blockFlaxStage3",
+      "ActuallyAdditions:blocks/blockFlaxStage3",
+      "ActuallyAdditions:blocks/blockFlaxStage4",
+      "ActuallyAdditions:blocks/blockFlaxStage5",
+      "ActuallyAdditions:blocks/blockFlaxStage5",
+      "ActuallyAdditions:blocks/blockFlaxStage6"
     ]
   }
 }

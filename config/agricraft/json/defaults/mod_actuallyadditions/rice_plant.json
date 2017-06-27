@@ -1,12 +1,12 @@
 {
-  "path": "mod_harvestcraft/plants/peanut_plant.json",
+  "path": "mod_actuallyadditions/rice_plant.json",
   "enabled": true,
-  "id": "peanut_plant",
-  "plant_name": "Peanut",
-  "seed_name": "Peanut Seeds",
+  "id": "rice_plant",
+  "plant_name": "Rice",
+  "seed_name": "Rice Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:peanutseeditem",
+      "item": "actuallyadditions:itemRiceSeed",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,9 +18,9 @@
   ],
   "description": {
     "translations": {},
-    "default": "Peanut Seeds."
+    "default": "Testing 1, 2, 3."
   },
-  "growth_chance": 0.9,
+  "growth_chance": 1.0,
   "growth_bonus": 0.025,
   "bonemeal": true,
   "tier": 1,
@@ -35,10 +35,10 @@
     "products": [
       {
         "min": 1,
-        "max": 5,
-        "chance": 0.9,
+        "max": 3,
+        "chance": 0.95,
         "required": true,
-        "item": "harvestcraft:peanutitem",
+        "item": "actuallyadditions:itemFood:16",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -57,16 +57,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/peanutitem",
+    "seed_texture": "ActuallyAdditions:items/itemRiceSeed",
     "plant_textures": [
-      "harvestcraft:blocks/crops/peanut_stage_0",
-      "harvestcraft:blocks/crops/peanut_stage_0",
-      "harvestcraft:blocks/crops/peanut_stage_0",
-      "harvestcraft:blocks/crops/peanut_stage_1",
-      "harvestcraft:blocks/crops/peanut_stage_1",
-      "harvestcraft:blocks/crops/peanut_stage_2",
-      "harvestcraft:blocks/crops/peanut_stage_2",
-      "harvestcraft:blocks/crops/peanut_stage_3"
+      "ActuallyAdditions:blocks/blockRiceStage1",
+      "ActuallyAdditions:blocks/blockRiceStage2",
+      "ActuallyAdditions:blocks/blockRiceStage3",
+      "ActuallyAdditions:blocks/blockRiceStage3",
+      "ActuallyAdditions:blocks/blockRiceStage4",
+      "ActuallyAdditions:blocks/blockRiceStage5",
+      "ActuallyAdditions:blocks/blockRiceStage5",
+      "ActuallyAdditions:blocks/blockRiceStage6"
     ]
   }
 }

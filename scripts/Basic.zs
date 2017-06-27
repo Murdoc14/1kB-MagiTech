@@ -3,8 +3,7 @@ recipes.remove(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [[<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>], [<extrautils2:compressedcobblestone>, null, <extrautils2:compressedcobblestone>], [<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>]]);
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <ore:itemFlint>]);
-recipes.remove(<agricraft:clipper>);
-recipes.addShaped(<agricraft:clipper>, [[<mysticalagriculture:enderium_seeds>, <ore:ingotMirion>, <mysticalagriculture:draconium_seeds>], [<botanicaladdons:resource:2>, <mysticalagriculture:superium_shears>, <ore:ingotMirion>], [<mysticalagriculture:manyullyn_seeds>, <botanicaladdons:resource:2>, <mysticalagriculture:terrasteel_seeds>]]);
+
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 furnace.remove(<ore:nuggetSteel>);

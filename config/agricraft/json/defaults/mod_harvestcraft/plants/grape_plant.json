@@ -1,12 +1,12 @@
 {
   "path": "mod_harvestcraft/plants/grape_plant.json",
   "enabled": true,
-  "id": "grape_crop",
+  "id": "grape_plant",
   "plant_name": "Grape",
   "seed_name": "Grape Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:grapeseedItem",
+      "item": "harvestcraft:grapeseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:grapeItem",
+        "item": "harvestcraft:grapeitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -57,7 +57,7 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/grapeItem",
+    "seed_texture": "harvestcraft:items/grapeitem",
     "plant_textures": [
       "harvestcraft:blocks/crops/grape_stage_0",
       "harvestcraft:blocks/crops/grape_stage_0",

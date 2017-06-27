@@ -1,12 +1,12 @@
 {
-  "path": "mod_harvestcraft/plants/peanut_plant.json",
+  "path": "mod_mysticalagriculture/plants/titanium_plant.json",
   "enabled": true,
-  "id": "peanut_plant",
-  "plant_name": "Peanut",
-  "seed_name": "Peanut Seeds",
+  "id": "titanium_plant",
+  "plant_name": "Titanium Crop",
+  "seed_name": "Titanium Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:peanutseeditem",
+      "item": "mysticalagriculture:titanium_seeds",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,11 +18,11 @@
   ],
   "description": {
     "translations": {},
-    "default": "Peanut Seeds."
+    "default": "Titanium Seeds."
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
-  "bonemeal": true,
+  "bonemeal": false,
   "tier": 1,
   "weedable": false,
   "aggressive": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:peanutitem",
+        "item": "mysticalagriculture:titanium_essence",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -56,17 +56,17 @@
     "conditions": []
   },
   "texture": {
-    "render_type": "hash",
-    "seed_texture": "harvestcraft:items/peanutitem",
+    "render_type": "cross",
+    "seed_texture": "mysticalagriculture:items/titanium_seeds",
     "plant_textures": [
-      "harvestcraft:blocks/crops/peanut_stage_0",
-      "harvestcraft:blocks/crops/peanut_stage_0",
-      "harvestcraft:blocks/crops/peanut_stage_0",
-      "harvestcraft:blocks/crops/peanut_stage_1",
-      "harvestcraft:blocks/crops/peanut_stage_1",
-      "harvestcraft:blocks/crops/peanut_stage_2",
-      "harvestcraft:blocks/crops/peanut_stage_2",
-      "harvestcraft:blocks/crops/peanut_stage_3"
+      "mysticalagriculture:blocks/crop0",
+      "mysticalagriculture:blocks/crop1",
+      "mysticalagriculture:blocks/crop2",
+      "mysticalagriculture:blocks/crop2",
+      "mysticalagriculture:blocks/crop3",
+      "mysticalagriculture:blocks/crop4",
+      "mysticalagriculture:blocks/crop4",
+      "mysticalagriculture:blocks/titanium_crop"
     ]
   }
 }

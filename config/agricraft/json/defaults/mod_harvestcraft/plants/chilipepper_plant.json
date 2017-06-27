@@ -1,12 +1,12 @@
 {
   "path": "mod_harvestcraft/plants/chilipepper_plant.json",
   "enabled": true,
-  "id": "chilipepper_crop",
+  "id": "chilipepper_plant",
   "plant_name": "Chili Pepper",
   "seed_name": "Chili Pepper Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:chilipepperseedItem",
+      "item": "harvestcraft:chilipepperseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:chilipepperItem",
+        "item": "harvestcraft:chilipepperitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -57,7 +57,7 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/chilipepperItem",
+    "seed_texture": "harvestcraft:items/chilipepperitem",
     "plant_textures": [
       "harvestcraft:blocks/crops/chilipepper_stage_0",
       "harvestcraft:blocks/crops/chilipepper_stage_0",

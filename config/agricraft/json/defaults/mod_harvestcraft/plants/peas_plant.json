@@ -1,12 +1,12 @@
 {
   "path": "mod_harvestcraft/plants/peas_plant.json",
   "enabled": true,
-  "id": "peas_crop",
+  "id": "peas_plant",
   "plant_name": "Peas",
   "seed_name": "Peas Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:peasseedItem",
+      "item": "harvestcraft:peasseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:peasItem",
+        "item": "harvestcraft:peasitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -57,7 +57,7 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/peasItem",
+    "seed_texture": "harvestcraft:items/peasitem",
     "plant_textures": [
       "harvestcraft:blocks/crops/peas_stage_0",
       "harvestcraft:blocks/crops/peas_stage_0",

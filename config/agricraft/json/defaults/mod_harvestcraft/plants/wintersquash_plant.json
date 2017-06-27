@@ -1,12 +1,12 @@
 {
   "path": "mod_harvestcraft/plants/wintersquash_plant.json",
   "enabled": true,
-  "id": "wintersquash_crop",
+  "id": "wintersquash_plant",
   "plant_name": "Winter Squash",
   "seed_name": "Winter Squash Seeds",
   "seed_items": [
     {
-      "item": "harvestcraft:wintersquashseedItem",
+      "item": "harvestcraft:wintersquashseeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:wintersquashItem",
+        "item": "harvestcraft:wintersquashitem",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -57,7 +57,7 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/wintersquashItem",
+    "seed_texture": "harvestcraft:items/wintersquashitem",
     "plant_textures": [
       "harvestcraft:blocks/crops/wintersquash_stage_0",
       "harvestcraft:blocks/crops/wintersquash_stage_0",

@@ -12,13 +12,18 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<energyconverters:energy_producer_eu:4>);
+recipes.remove(<energyconverters:energy_producer_eu:3>);
+recipes.remove(<energyconverters:energy_producer_eu:2>);
+recipes.remove(<energyconverters:energy_producer_eu:1>);
+recipes.remove(<energyconverters:energy_producer_eu>);
+recipes.remove(<energyconverters:energy_bridge>);
 recipes.remove(<tconstruct:piggybackpack>);
 recipes.remove(<tp:diamond_cobblegen_block>);
 recipes.remove(<tp:iron_cobblegen_block>);
 recipes.remove(<tp:cobblegen_block>);
 recipes.remove(<arche:phistone>);
 recipes.remove(<harvestcraft:rainbowcurryitem>);
-recipes.remove(<slug:Rf_Energy_Converter>);
 recipes.remove(<tconstruct:tooltables>);
 recipes.remove(<mysticalagriculture:watering_can:4>);
 recipes.remove(<mysticalagriculture:watering_can:3>);
@@ -83,8 +88,11 @@ recipes.remove(<mysticalagriculture:experience_seeds>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<energyconverters:energy_producer_eu:2>, [<energyconverters:energy_bridge>, <minecraft:crafting_table>, <minecraft:crafting_table>, <minecraft:crafting_table>]);
+recipes.addShapeless(<energyconverters:energy_producer_eu:1>, [<energyconverters:energy_bridge>, <minecraft:crafting_table>, <ore:workbench>]);
+recipes.addShapeless(<energyconverters:energy_producer_eu>, [<energyconverters:energy_bridge>, <minecraft:crafting_table>]);
+recipes.addShapeless(<energyconverters:energy_bridge>, [<tconstruct:tooltables>]);
 recipes.addShapeless(<tconstruct:tooltables>, [<minecraft:crafting_table>]);
-recipes.addShapeless(<slug:Rf_Energy_Converter>, [<tconstruct:tooltables>]);
 recipes.addShapeless(<moreplates:KnightslimePlate>, [<tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <immersiveengineering:tool>]);
 recipes.addShapeless(<moreplates:PigIronPlate>, [<tconstruct:ingots:4>, <tconstruct:ingots:4>, <tconstruct:ingots:4>, <tconstruct:ingots:4>, <immersiveengineering:tool>]);
 recipes.addShapeless(<moreplates:AwakenedDraconiumPlate>, [<draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <draconicevolution:draconic_ingot>, <immersiveengineering:tool>]);
@@ -107,6 +115,8 @@ recipes.addShapeless(<moreplates:OsmiumPlate>, [<ore:ingotOsmium>, <ore:ingotOsm
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<energyconverters:energy_producer_eu:4>, [[<energyconverters:energy_bridge>, <minecraft:crafting_table>, <minecraft:crafting_table>], [<minecraft:crafting_table>, <minecraft:crafting_table>, <minecraft:crafting_table>]]);
+recipes.addShaped(<energyconverters:energy_producer_eu:3>, [[<energyconverters:energy_bridge>, <minecraft:crafting_table>, <minecraft:crafting_table>], [<minecraft:crafting_table>, <minecraft:crafting_table>, null]]);
 recipes.addShaped(<tconstruct:piggybackpack>, [[<minecraft:saddle>], [<ironbackpacks:basicBackpack>]]);
 recipes.addShaped(<tp:diamond_cobblegen_block>, [[<avaritia:resource>, <avaritia:resource>, <avaritia:resource>], [<avaritia:resource>, <tp:iron_cobblegen_block>, <avaritia:resource>], [<avaritia:resource>, <avaritia:resource>, <avaritia:resource>]]);
 recipes.addShaped(<tp:iron_cobblegen_block>, [[<moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>], [<moreplates:ElectricalSteelPlate>, <tp:cobblegen_block>, <moreplates:ElectricalSteelPlate>], [<moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>]]);

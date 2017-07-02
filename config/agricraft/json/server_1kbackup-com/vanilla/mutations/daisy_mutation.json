@@ -1,8 +1,0 @@
-{
-  "path": "vanilla/mutations/daisy_mutation.json",
-  "enabled": true,
-  "chance": 0.25,
-  "child": "daisy_plant",
-  "parent1": "orchid_plant",
-  "parent2": "dandelion_plant"
-}

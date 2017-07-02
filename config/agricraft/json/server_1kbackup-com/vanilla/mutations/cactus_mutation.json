@@ -1,8 +1,0 @@
-{
-  "path": "vanilla/mutations/cactus_mutation.json",
-  "enabled": true,
-  "chance": 0.25,
-  "child": "cactus_plant",
-  "parent1": "sugarcane_plant",
-  "parent2": "poppy_plant"
-}

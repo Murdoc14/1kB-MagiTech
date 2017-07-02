@@ -1,8 +1,0 @@
-{
-  "path": "mod_mysticalagriculture/mutations/glowstone_ingot_mutation.json",
-  "enabled": true,
-  "chance": 0.15,
-  "child": "glowstone_ingot_plant",
-  "parent1": "osmium_plant",
-  "parent2": "glowstone_plant"
-}

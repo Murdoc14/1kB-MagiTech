@@ -1,8 +1,0 @@
-{
-  "path": "mod_mysticalagriculture/mutations/lumium_mutation.json",
-  "enabled": true,
-  "chance": 0.15,
-  "child": "lumium_plant",
-  "parent1": "invar_plant",
-  "parent2": "electrum_plant"
-}

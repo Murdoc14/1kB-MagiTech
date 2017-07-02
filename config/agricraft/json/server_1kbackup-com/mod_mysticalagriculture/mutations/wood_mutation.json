@@ -1,8 +1,0 @@
-{
-  "path": "mod_mysticalagriculture/mutations/wood_mutation.json",
-  "enabled": true,
-  "chance": 0.25,
-  "child": "wood_plant",
-  "parent1": "dirt_plant",
-  "parent2": "nature_plant"
-}

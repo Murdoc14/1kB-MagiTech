@@ -1,18 +1,22 @@
 {
 	"populate": {
-		"certus": {
+		"meteor": {
 			"distribution": "uniform",
 			"generator": {
+				"type": "geode",
 				"block": [
-					{"name": "appliedenergistics2:quartz_ore", "weight":95},
+					{"name": "appliedenergistics2:quartz_ore", "weight":55},
 					{"name": "appliedenergistics2:charged_quartz_ore", "weight":5}
+					{"name": "appliedenergistics2:sky_stone_block", "weight":40}
 				],
 				"material": "stone",
-				"cluster-size": 4
+				"cluster-size": 3,
+				"crust": "appliedenergistics2:sky_stone_block"
 			},
-			"cluster-count": 10,
-			"min-height": 24,
-			"max-height": 48,
+			"cluster-count": 1,
+			"chunk-chance": 7,
+			"min-height": 30,
+			"max-height": 180,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {

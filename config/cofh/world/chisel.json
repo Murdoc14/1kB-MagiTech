@@ -14,15 +14,7 @@
       "min-height": 20,
       "max-height": 55,
       "retrogen": true,
-      "biome": {
-        "restriction": "whitelist",
-        "value": [
-          {
-            "type": "temperature",
-            "entry": "COLD"
-          }
-        ]
-      },
+      "biome": "all",
       "dimension": {
         "restriction": "blacklist",
         "value": [
@@ -45,15 +37,7 @@
       "min-height": 20,
       "max-height": 55,
       "retrogen": true,
-      "biome": {
-        "restriction": "whitelist",
-        "value": [
-          {
-            "type": "temperature",
-            "entry": "COLD"
-          }
-        ]
-      },
+      "biome": "all",
       "dimension": {
         "restriction": "blacklist",
         "value": [

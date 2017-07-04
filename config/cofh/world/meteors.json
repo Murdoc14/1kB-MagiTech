@@ -7,16 +7,16 @@
 				"block": [
 					{"name": "appliedenergistics2:quartz_ore", "weight":55},
 					{"name": "appliedenergistics2:charged_quartz_ore", "weight":5}
-					{"name": "appliedenergistics2:sky_stone_block", "weight":30}
-					{"name": "thermalfoundation:ore", "metadata": 6, "weight":5},
-					{"name": "thermalfoundation:ore", "metadata": 7, "weight":5},
+					{"name": "appliedenergistics2:sky_stone_block", "weight":36}
+					{"name": "thermalfoundation:ore", "metadata": 6, "weight":2},
+					{"name": "thermalfoundation:ore", "metadata": 7, "weight":2},
 
 				],
 				"material": "stone",
 				"cluster-size": 3,
 				"crust": "minecraft:obsidian"
 			},
-			"cluster-count": 1,
+			"cluster-count": 2,
 			"chunk-chance": 1,
 			"min-height": 40,
 			"max-height": 60,

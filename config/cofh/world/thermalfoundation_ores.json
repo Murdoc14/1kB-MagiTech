@@ -210,7 +210,7 @@
         "material": "stone",
         "cluster-size": 4
       },
-      "cluster-count": 7,
+      "cluster-count": 6,
       "min-height": 20,
       "max-height": 40,
       "retrogen": true,

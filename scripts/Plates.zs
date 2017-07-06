@@ -41,26 +41,71 @@ recipes.addShapeless(<embers:plateDawnstone>, [<ore:ingotDawnstone>, <ore:ingotD
 
 
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:32>, <liquid:iron>, <tconstruct:cast_custom:3>);
-mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:32>, <liquid:iron> * 288, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:ArditePlate>, <liquid:ardite> * 144, <tconstruct:cast_custom:3>, false, 60);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:CobaltPlate>, <liquid:cobalt> * 144, <tconstruct:cast_custom:3>, false, 60);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:ManyullynPlate>, <liquid:manyullyn> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:DraconiumPlate>, <liquid:draconium> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:OsmiumPlate>, <liquid:osmium> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:ManasteelPlate>, <liquid:manasteel> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:TerrasteelPlate>, <liquid:terrasteel> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:ElementiumPlate>, <liquid:elementium> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:ConductiveIronPlate>, <liquid:conductiveiron> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:ElectricalSteelPlate>, <liquid:electricalsteel> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:EnergeticAlloyPlate>, <liquid:energeticalloy> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:PulsatingIronPlate>, <liquid:pulsatingiron> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:RedstoneAlloyPlate>, <liquid:redstonealloy> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:VibrantAlloyPlate>, <liquid:vibrantalloy> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:DarkSteelPlate>, <liquid:darksteel> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:SoulariumPlate>, <liquid:soularium> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:KnightslimePlate>, <liquid:knightslime> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<moreplates:PigIronPlate>, <liquid:pigiron> * 144, <tconstruct:cast_custom:3>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<embers:plateDawnstone>, <liquid:dawnstone> * 144, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:32>, <liquid:iron> * 288, <tconstruct:cast_custom:3>, false, 120);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:33>, <liquid:gold>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:33>, <liquid:gold> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:320>, <liquid:copper>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:320>, <liquid:copper> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:321>, <liquid:tin>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:321>, <liquid:tin> * 288, <tconstruct:cast_custom:3>, false, 40);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:322>, <liquid:silver>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:322>, <liquid:silver> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:323>, <liquid:lead>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:323>, <liquid:lead> * 288, <tconstruct:cast_custom:3>, false, 40);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:324>, <liquid:aluminum>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:324>, <liquid:aluminum> * 288, <tconstruct:cast_custom:3>, false, 40);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:325>, <liquid:nickel>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:325>, <liquid:nickel> * 288, <tconstruct:cast_custom:3>, false, 120);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:326>, <liquid:platinum>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:326>, <liquid:platinum> * 288, <tconstruct:cast_custom:3>, false, 120);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:327>, <liquid:iridium>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:327>, <liquid:iridium> * 288, <tconstruct:cast_custom:3>, false, 240);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:328>, <liquid:mithril>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:328>, <liquid:mithril> * 288, <tconstruct:cast_custom:3>, false, 240);
+
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:352>, <liquid:steel>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:352>, <liquid:steel> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:353>, <liquid:electrum>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:353>, <liquid:electrum> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:354>, <liquid:invar>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:354>, <liquid:invar> * 288, <tconstruct:cast_custom:3>, false, 160);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:355>, <liquid:bronze>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:355>, <liquid:bronze> * 288, <tconstruct:cast_custom:3>, false, 40);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:356>, <liquid:constantan>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:356>, <liquid:constantan> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:357>, <liquid:signalum>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:357>, <liquid:signalum> * 288, <tconstruct:cast_custom:3>, false, 160);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:358>, <liquid:lumium>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:358>, <liquid:lumium> * 288, <tconstruct:cast_custom:3>, false, 160);
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:359>, <liquid:enderium>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:359>, <liquid:enderium> * 288, <tconstruct:cast_custom:3>, false, 200);
+
+
+
+
+
+
+
+
+mods.tconstruct.Casting.addTableRecipe(<moreplates:ArditePlate>, <liquid:ardite> * 288, <tconstruct:cast_custom:3>, false, 60);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:CobaltPlate>, <liquid:cobalt> * 288, <tconstruct:cast_custom:3>, false, 60);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:ManyullynPlate>, <liquid:manyullyn> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:DraconiumPlate>, <liquid:draconium> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:OsmiumPlate>, <liquid:osmium> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:ManasteelPlate>, <liquid:manasteel> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:TerrasteelPlate>, <liquid:terrasteel> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:ElementiumPlate>, <liquid:elementium> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:ConductiveIronPlate>, <liquid:conductiveiron> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:ElectricalSteelPlate>, <liquid:electricalsteel> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:EnergeticAlloyPlate>, <liquid:energeticalloy> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:PulsatingIronPlate>, <liquid:pulsatingiron> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:RedstoneAlloyPlate>, <liquid:redstonealloy> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:VibrantAlloyPlate>, <liquid:vibrantalloy> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:DarkSteelPlate>, <liquid:darksteel> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:SoulariumPlate>, <liquid:soularium> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:KnightslimePlate>, <liquid:knightslime> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<moreplates:PigIronPlate>, <liquid:pigiron> * 288, <tconstruct:cast_custom:3>, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<embers:plateDawnstone>, <liquid:dawnstone> * 288, <tconstruct:cast_custom:3>, false, 80);
 
 
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:32>, <ore:ingotIron>, <immersiveengineering:mold>, 500);

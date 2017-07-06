@@ -40,6 +40,8 @@ recipes.addShapeless(<thermalfoundation:material:328>, [<ore:ingotMithril>, <ore
 recipes.addShapeless(<embers:plateDawnstone>, [<ore:ingotDawnstone>, <ore:ingotDawnstone>, <ore:ingotDawnstone>, <ore:ingotDawnstone>, <immersiveengineering:tool>]);
 
 
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:32>, <liquid:iron>, <tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:32>, <liquid:iron> * 288, <tconstruct:cast_custom:3>, false, 80);
 mods.tconstruct.Casting.addTableRecipe(<moreplates:ArditePlate>, <liquid:ardite> * 144, <tconstruct:cast_custom:3>, false, 60);
 mods.tconstruct.Casting.addTableRecipe(<moreplates:CobaltPlate>, <liquid:cobalt> * 144, <tconstruct:cast_custom:3>, false, 60);
 mods.tconstruct.Casting.addTableRecipe(<moreplates:ManyullynPlate>, <liquid:manyullyn> * 144, <tconstruct:cast_custom:3>, false, 80);

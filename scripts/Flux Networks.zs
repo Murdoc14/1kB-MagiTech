@@ -12,7 +12,7 @@ mods.forestry.ThermionicFabricator.addCast(<fluxnetworks:FluxStorage>, [[<fluxne
 recipes.remove(<fluxnetworks:HerculeanFluxStorage>);
 mods.forestry.ThermionicFabricator.addCast(<fluxnetworks:HerculeanFluxStorage>, [[<fluxnetworks:FluxStorage>, <fluxnetworks:FluxStorage>, <fluxnetworks:FluxStorage>], [<appliedenergistics2:quartz_vibrant_glass>, null, <appliedenergistics2:quartz_vibrant_glass>], [<fluxnetworks:FluxStorage>, <fluxnetworks:FluxStorage>, <fluxnetworks:FluxStorage>]],5000);
 recipes.remove(<fluxnetworks:GargantuanFluxStorage>);
-mods.forestry.ThermionicFabricator.addCast(<fluxnetworks:GargantuanFluxStorage>, [[<fluxnetworks:HerculeanFluxStorage>, <fluxnetworks:HerculeanFluxStorage>, <fluxnetworks:HerculeanFluxStorage>], [<appliedenergistics2:quartz_vibrant_glass>, null, <appliedenergistics2:quartz_vibrant_glass>], [<fluxnetworks:HerculeanFluxStorage>, <fluxnetworks:HerculeanFluxStorage>, <fluxnetworks:HerculeanFluxStorage>]],8000);
+mods.forestry.ThermionicFabricator.addCast(<fluxnetworks:GargantuanFluxStorage>, [[<fluxnetworks:HerculeanFluxStorage>, <fluxnetworks:HerculeanFluxStorage>, <fluxnetworks:HerculeanFluxStorage>], [<appliedenergistics2:quartz_vibrant_glass>, null, <appliedenergistics2:quartz_vibrant_glass>], [<fluxnetworks:HerculeanFluxStorage>, <fluxnetworks:HerculeanFluxStorage>, <fluxnetworks:HerculeanFluxStorage>]],10000);
 
 
 

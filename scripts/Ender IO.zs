@@ -59,7 +59,6 @@ recipes.remove(<enderio:itemMaterial:2>);
 recipes.addShaped(<enderio:itemMaterial:2>*2, [[<ore:itemClay>, <thermalfoundation:material:801>, <ore:itemClay>], [<extrautils2:compressedgravel>, <ic2:misc_resource:4>, <extrautils2:compressedgravel>], [<ore:itemClay>, <thermalfoundation:material:801>, <ore:itemClay>]]);
 
 furnace.remove(<ore:itemConduitBinder>);
-###mods.ic2.Compressor.addRecipe(<enderio:itemMaterial:1>*2,<enderio:itemMaterial:2>*2);
 mods.extrautils.Resonator.add(<enderio:itemMaterial:1>*2, <enderio:itemMaterial:2>, 1600, true);
 
 # -- Dark Steel Items

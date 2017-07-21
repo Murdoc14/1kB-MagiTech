@@ -1,5 +1,80 @@
+# - Manapool
+recipes.remove(<botania:pool>);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<botania:pool>, 200, 200,
+   [null, null, null,
+   <embers:blockCaminiteBrick>, null, <embers:blockCaminiteBrick>,
+   <embers:blockCaminiteBrick>, <embers:blockCaminiteBrick>, <embers:blockCaminiteBrick>]);
+   
+recipes.remove(<botania:pool:3>);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<botania:pool:3>, 200, 200,
+   [null, null, null,
+   <botania:shimmerrock>, null, <botania:shimmerrock>,
+   <botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]);   
 
+# - Manaspreader
+recipes.remove(<botania:spreader>);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<botania:spreader>, 200, 200,
+   [<botania:livingwood>, <botania:livingwood>, <botania:livingwood>,
+   <minecraft:gold_block>, <botania:petal:*>, null,
+   <botania:livingwood>, <botania:livingwood>, <botania:livingwood>]);
 
+recipes.remove(<botania:spreader:2>);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:spreader:2>, 500, 300, [null, <botania:manaResource:7>, null, <botania:manaResource:7>, <botania:spreader>, <botania:manaResource:7>, null, <botania:manaResource:7>, null, <botania:dreamwood:5>, <botania:dreamwood:5>, <botania:dreamwood:5>, <botania:dreamwood:5>]);
+
+recipes.remove(<botania:spreader:3>); 
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<botania:spreader:3>, 2000, 10, 
+   [null, null, null,
+   null, <botania:manaResource:5>, null,
+   null, <botania:spreader:2>, null,
+   <botania:storage:4>, <botania:storage:4>, <botania:storage:4>, <botania:storage:4>,
+   null, null,
+   null, null,
+   null, null,
+   null, null]);
+   
+# - Terra Plate   
+recipes.remove(<botania:terraPlate>);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:terraPlate>, 2000, 300, [
+   <astralsorcery:ItemCraftingComponent:1>, <minecraft:lapis_block>, <astralsorcery:ItemCraftingComponent:1>,
+   <botania:rune>, <botania:storage>, <botania:rune:1>,
+   <botania:rune:2>, <botania:rune:8>, <botania:rune:3>,
+   <astralsorcery:ItemCraftingComponent>, <astralsorcery:ItemCraftingComponent>, <astralsorcery:ItemCraftingComponent>, <astralsorcery:ItemCraftingComponent>]);
+   
+# - RunicAltar
+recipes.remove(<botania:runeAltar>);   
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:runeAltar>, 500, 300, [
+   <botania:livingrock>, <botania:livingrock>, <botania:livingrock>,
+   <botania:livingrock>, <embers:mechCore>, <botania:livingrock>,
+   <botania:livingrock>, <botania:storage>, <botania:livingrock>,
+   <botania:manaResource:1>, <botania:manaResource:2>, <botania:manaResource:2>, <botania:manaResource:1>]);
+  
+# - Botanical Brewery
+recipes.remove(<botania:brewery>);   
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:brewery>, 500, 300, [
+   <botania:livingrock>, <minecraft:brewing_stand>, <botania:livingrock>,
+   <botania:livingrock>, <botania:rune:8>, <botania:livingrock>,
+   <botania:livingrock>, <botania:storage>, <botania:livingrock>,
+   <botania:livingrock0Slab>, <botania:livingrock0Slab>, <botania:livingrock0Slab>, <botania:livingrock0Slab>]);  
+   
+# -- Catalysts   
+recipes.remove(<botania:alchemyCatalyst>);   
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:alchemyCatalyst>, 500, 300, [
+   <astralsorcery:ItemIlluminationPowder>, <roots:runeStoneSymbolGlowing>, <astralsorcery:ItemIlluminationPowder>,
+   <minecraft:brewing_stand>, <xreliquary:salamander_eye>, <minecraft:brewing_stand>,
+   <astralsorcery:ItemIlluminationPowder>, <roots:runeStoneSymbolGlowing>, <astralsorcery:ItemIlluminationPowder>,
+   <botania:livingrock>, <botania:livingrock>, <botania:livingrock>, <botania:livingrock>]);   
+
+recipes.remove(<botania:conjurationCatalyst>);     
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<botania:conjurationCatalyst>, 2000, 10, [
+   <botania:livingrock>, <botania:manaResource:8>, <botania:livingrock>,
+   <botania:manaResource:7>, <botania:alchemyCatalyst>, <botania:manaResource:7>,
+   <botania:livingrock>, <botania:manaResource:7>, <botania:livingrock>,
+   <botania:livingrock>, <botania:livingrock>, <botania:livingrock>, <botania:livingrock>,
+   <roots:otherworldLeaf>, <roots:otherworldLeaf>,
+   <roots:otherworldLeaf>, <roots:otherworldLeaf>,
+   <roots:otherworldLeaf>, <roots:otherworldLeaf>,
+   <roots:otherworldLeaf>, <roots:otherworldLeaf>]);
+   
 # - Manasteel
 mods.botania.ManaInfusion.removeRecipe(<botania:manaResource>);
 mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
@@ -10,9 +85,24 @@ mods.botania.ManaInfusion.addInfusion(<botania:manaResource>, <ore:ingotIron>, 3
 mods.botania.ManaInfusion.addInfusion(<botania:manaResource:17>, <ore:nuggetIron>, 333);
 mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockIron>, 27000);
 
+# - Dreamwood
+###mods.botania.ElvenTrade.removeRecipe(<botania:dreamwood>);
+mods.botania.ElvenTrade.addRecipe([<botania:dreamwood>], [<botania:livingwood>, <roots:logWildwood>]);
+
+# - Pixie Dust
+##mods.botania.ElvenTrade.removeRecipe([<botania:manaResource:8>]);
+mods.botania.ElvenTrade.addRecipe([<botania:manaResource:8>], [<botania:manaResource:1>, <botania:manaResource:1>]);
+
+# - Dragonstone
+##mods.botania.ElvenTrade.removeRecipe([<botania:manaResource:9>]);
+##mods.botania.ElvenTrade.removeRecipe([<botania:storage:4>]);
+recipes.remove(<botania:storage:4>);
+mods.botania.ElvenTrade.addRecipe([<botania:manaResource:9>], [<minecraft:diamond>, <minecraft:diamond>]);
+mods.botania.ElvenTrade.addRecipe([<botania:storage:4>], [<minecraft:diamond_block>, <minecraft:diamond_block>]);
+
 # -- Petal Apothocary
 recipes.remove(<botania:altar>);
-recipes.addShaped(<botania:altar>, [[<ore:slabCobblestone>, <botania:petal:*>, <ore:slabCobblestone>], [null, <minecraft:cauldron>], [<ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>]]);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<botania:altar>, 200, 200, [<ore:slabCobblestone>, <botania:petal:*>, <ore:slabCobblestone>, null, <minecraft:cauldron>, null, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed2xCobblestone>]);
 
 # -- Lexica Botania
 recipes.remove(<botania:lexicon>);
@@ -20,11 +110,39 @@ recipes.addShaped(<botania:lexicon>, [[<ore:nuggetGold>, <botania:flower:*>, <or
 
 # -- Glimmering Livingwood
 recipes.remove(<botania:livingwood:5>);
-recipes.addShaped(<botania:livingwood:5>, [[<ore:nuggetTerrasteel>, <ore:dustGlowstone>, <ore:nuggetTerrasteel>], [<ore:dustGlowstone>, <botania:livingwood>, <ore:dustGlowstone>], [<ore:nuggetTerrasteel>, <ore:dustGlowstone>, <ore:nuggetTerrasteel>]]);
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<botania:livingwood:5>, 2000, 10, [
+   <botania:manaResource:18>, null, <botania:manaResource:18>,
+   null, <botania:livingwood>, null,
+   <botania:manaResource:18>, null, <botania:manaResource:18>,
+   <roots:otherworldLeaf>, <roots:otherworldLeaf>, <roots:otherworldLeaf>, <roots:otherworldLeaf>,
+   <astralsorcery:ItemIlluminationPowder>, <astralsorcery:ItemIlluminationPowder>,
+   <astralsorcery:ItemIlluminationPowder>, <astralsorcery:ItemIlluminationPowder>,
+   <astralsorcery:ItemIlluminationPowder>, <astralsorcery:ItemIlluminationPowder>,
+   <astralsorcery:ItemIlluminationPowder>, <astralsorcery:ItemIlluminationPowder>]);
+ 
+# -- Glimmering Dreamwood
+recipes.remove(<botania:dreamwood:5>);
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<botania:dreamwood:5>, 2000, 10, [
+   null, null, null,
+   null, <botania:dreamwood>, null,
+   null, null, null,
+   <roots:otherworldLeaf>, <roots:otherworldLeaf>, <roots:otherworldLeaf>, <roots:otherworldLeaf>,
+   <astralsorcery:ItemIlluminationPowder>, <astralsorcery:ItemIlluminationPowder>,
+   <astralsorcery:ItemIlluminationPowder>, <astralsorcery:ItemIlluminationPowder>,
+   <astralsorcery:ItemIlluminationPowder>, <astralsorcery:ItemIlluminationPowder>,
+   <astralsorcery:ItemIlluminationPowder>, <astralsorcery:ItemIlluminationPowder>]);
 
 # -- Elven Gateway Core
-###recipes.remove(<botania:alfheimPortal>);
-###recipes.addShaped(<botania:alfheimPortal>, [[<ore:livingwood>, <bloodmagic:ItemBloodOrb:2>, <ore:livingwood>], [<mysticalagriculture:mystical_flower_essence>, <ore:ingotTerrasteel>, <mysticalagriculture:mystical_flower_essence>], [<ore:livingwood>, <botanicaladdons:spellFocus>, <ore:livingwood>]]);
+recipes.remove(<botania:alfheimPortal>);
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<botania:alfheimPortal>, 5000, 30, [
+   <roots:barkWildwoodSymbolGlowing>, null, <roots:barkWildwoodSymbolGlowing>,
+   null, <roots:otherworldSubstance>, null,
+   <roots:barkWildwoodSymbolGlowing>, null, <roots:barkWildwoodSymbolGlowing>,
+   <roots:logWildwoodSymbol>, <roots:logWildwoodSymbol>, <roots:logWildwoodSymbol>, <roots:logWildwoodSymbol>,
+   <botania:manaResource:18>, <botania:manaResource:18>,
+   <botania:manaResource:18>, <botania:manaResource:18>,
+   <botania:manaResource:18>, <botania:manaResource:18>,
+   <botania:manaResource:18>, <botania:manaResource:18>]);
 
 # -- Mana Lenses
 recipes.remove(<botania:lens>);
@@ -36,19 +154,88 @@ recipes.addShaped(<botania:lens:10>, [[<ore:dustRedstone>, <ore:blockIron>, <ore
 recipes.remove(<botania:manaResource:12>);
 recipes.addShapeless(<botania:manaResource:12>, [<ore:manaString>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>, <ore:redstoneRoot>]);
 
+# - Sparks
+recipes.remove(<botania:spark>);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:spark>, 500, 300, [
+   null, <botania:petal:*>, null,
+   <xreliquary:mob_ingredient:7>, <forge:bucketFilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <xreliquary:mob_ingredient:7>,
+   null, <botania:petal:*>, null,
+   <xreliquary:mob_ingredient:8>, <xreliquary:mob_ingredient:8>, <xreliquary:mob_ingredient:8>, <xreliquary:mob_ingredient:8>]);
+
+recipes.remove(<botania:corporeaSpark>);
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<botania:corporeaSpark>, 5000, 30, [
+   null, null, null,
+   null, <botania:spark>, null,
+   null, null, null,
+   <botania:manaResource:15>, <botania:manaResource:15>, <botania:manaResource:15>, <botania:manaResource:15>,
+   <botania:manaResource:8>, <botania:manaResource:8>,
+   <botania:manaResource:8>, <botania:manaResource:8>,
+   <botania:manaResource:8>, <botania:manaResource:8>,
+   <botania:manaResource:8>, <botania:manaResource:8>]);
+   
+recipes.remove(<botania:corporeaSpark:1>);
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<botania:corporeaSpark:1>, 5000, 30, [
+   null, null, null,
+   null, <botania:corporeaSpark>, null,
+   null, null, null,
+   <botania:manaResource:9>, <botania:manaResource:9>, <botania:manaResource:9>, <botania:manaResource:9>,
+   <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>,
+   <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>,
+   <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>,
+   <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>]);   
+   
 # - Spark Augments
 recipes.remove(<botania:sparkUpgrade:*>);
-recipes.addShaped(<botania:sparkUpgrade>, [[null, <ore:elvenPixieDust>], [<ore:ingotManasteel>, <bloodmagic:ItemSlate:2>, <ore:ingotManasteel>], [null, <ore:runeWaterB>]]);
-recipes.addShaped(<botania:sparkUpgrade:1>, [[null, <ore:elvenPixieDust>], [<ore:ingotManasteel>, <bloodmagic:ItemSlate:2>, <ore:ingotManasteel>], [null, <ore:runeFireB>]]);
-recipes.addShaped(<botania:sparkUpgrade:2>, [[null, <ore:elvenPixieDust>], [<ore:ingotManasteel>, <bloodmagic:ItemSlate:2>, <ore:ingotManasteel>], [null, <ore:runeEarthB>]]);
-recipes.addShaped(<botania:sparkUpgrade:3>, [[null, <ore:elvenPixieDust>], [<ore:ingotManasteel>, <bloodmagic:ItemSlate:2>, <ore:ingotManasteel>], [null, <ore:runeAirB>]]);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:sparkUpgrade>, 2000, 300, [
+   null, <botania:manaResource:8>, null,
+   <botania:manaResource>, <embers:golemsEye>, <botania:manaResource>,
+   null, <botania:rune>, null,
+   <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>]);
 
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:sparkUpgrade:1>, 2000, 300, [
+   null, <botania:manaResource:8>, null,
+   <botania:manaResource>, <embers:golemsEye>, <botania:manaResource>,
+   null, <botania:rune:1>, null,
+   <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>]);
+
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:sparkUpgrade:2>, 2000, 300, [
+   null, <botania:manaResource:8>, null,
+   <botania:manaResource>, <embers:golemsEye>, <botania:manaResource>,
+   null, <botania:rune:3>, null,
+   <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>]);
+   
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:sparkUpgrade:3>, 2000, 300, [
+   null, <botania:manaResource:8>, null,
+   <botania:manaResource>, <embers:golemsEye>, <botania:manaResource>,
+   null, <botania:rune:2>, null,
+   <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>, <astralsorcery:ItemCraftingComponent:4>]);
+   
 # -- Pylons
+recipes.remove(<botania:pylon>);   
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:pylon>, 500, 300, [
+   null, <botania:storage>, null,
+   <moreplates:ManasteelGear>, <botania:storage:3>, <moreplates:ManasteelGear>,
+   null, <botania:storage>, null,
+   <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>]);  
 
+recipes.remove(<botania:pylon:1>);   
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:pylon:1>, 1000, 300, [
+   null, <roots:otherworldSubstance>, null,
+   <moreplates:TerrasteelGear>, <botania:pylon>, <moreplates:TerrasteelGear>,
+   null, <roots:otherworldSubstance>, null,
+   <roots:otherworldLeaf>, <roots:otherworldLeaf>, <roots:otherworldLeaf>, <roots:otherworldLeaf>]);
 
+recipes.remove(<botania:pylon:2>);
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<botania:pylon:2>, 5000, 30, [
+   null, <roots:otherworldSubstance>, null,
+   <moreplates:ElementiumGear>, <botania:pylon>, <moreplates:ElementiumGear>,
+   null, <roots:otherworldSubstance>, null,
+   <roots:otherworldLeaf>, <roots:otherworldLeaf>, <roots:otherworldLeaf>, <roots:otherworldLeaf>,
+   <botania:manaResource:8>, <botania:manaResource:8>,
+   <botania:manaResource:8>, <botania:manaResource:8>,
+   <botania:manaResource:8>, <botania:manaResource:8>,
+   <botania:manaResource:8>, <botania:manaResource:8>]);
 
-
-# -- Catalysts
 
 
 
@@ -116,7 +303,11 @@ recipes.addShaped(<botania:manasteelBoots>, [[<ore:ingotManasteel>, null, <ore:i
 
 # -- Mana Tablet
 recipes.remove(<botania:manaTablet:1000>);
-mods.botania.RuneAltar.addRecipe(<botania:manaTablet>.withTag({mana: 500000}), [<xreliquary:emperor_chalice>, <bloodmagic:ItemSlate:1>, <ore:runeAirB>, <ore:runeEarthB>, <ore:runeManaB>, <ore:runeFireB>, <ore:runeWaterB>, <bloodmagic:ItemSlate:1>], 500000);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<botania:manaTablet:1000>, 500, 300, [
+   <botania:livingrock>, <botania:livingrock>, <botania:livingrock>,
+   <botania:livingrock>, <botania:storage:3>, <botania:livingrock>,
+   <botania:livingrock>, <botania:livingrock>, <botania:livingrock>,
+   <botania:manaResource:1>, <botania:manaResource:1>, <botania:manaResource:1>, <botania:manaResource:1>]);
 
 # - Unbalanced Items Removed
 # -- Loonium

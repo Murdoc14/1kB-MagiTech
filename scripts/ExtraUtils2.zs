@@ -90,7 +90,7 @@ recipes.remove(<extrautils2:quarryproxy>);
 recipes.addShaped(<extrautils2:quarryproxy>, [[<ore:endstone>, <minecraft:end_rod>, <ore:endstone>], [<ore:endstone>, <ic2:diamond_drill:26>, <ore:endstone>], [<actuallyadditions:blockMisc:8>, <actuallyadditions:blockMisc:8>, <actuallyadditions:blockMisc:8>]]);
 
 
-
+mods.tconstruct.Smeltery.addAlloy(<liquid:enchantedmetal> * 144, [<liquid:emerald> * 288, <liquid:gold> * 144, <liquid:xpjuice> *576]);
 
 
 

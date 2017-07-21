@@ -29,7 +29,6 @@ recipes.remove(<mysticalagriculture:watering_can:4>);
 recipes.remove(<mysticalagriculture:watering_can:3>);
 recipes.remove(<mysticalagriculture:watering_can:2>);
 recipes.remove(<mysticalagriculture:watering_can:1>);
-recipes.remove(<botania:alchemyCatalyst>);
 recipes.remove(<botania:fertilizer>);
 recipes.remove(<mysticalagriculture:watering_can>);
 recipes.remove(<projecte:item.pe_dm_axe>);
@@ -121,7 +120,6 @@ recipes.addShaped(<tconstruct:piggybackpack>, [[<minecraft:saddle>], [<ironbackp
 recipes.addShaped(<tp:diamond_cobblegen_block>, [[<avaritia:resource>, <avaritia:resource>, <avaritia:resource>], [<avaritia:resource>, <tp:iron_cobblegen_block>, <avaritia:resource>], [<avaritia:resource>, <avaritia:resource>, <avaritia:resource>]]);
 recipes.addShaped(<tp:iron_cobblegen_block>, [[<moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>], [<moreplates:ElectricalSteelPlate>, <tp:cobblegen_block>, <moreplates:ElectricalSteelPlate>], [<moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>]]);
 recipes.addShaped(<tp:cobblegen_block>, [[<ore:plateSteel>, <ore:compressed2xCobblestone>, <ore:plateSteel>], [<chickens:liquid_egg:1>, <moreplates:ConductiveIronGear>, <chickens:liquid_egg>], [<ore:plateSteel>, <ore:compressed2xCobblestone>, <ore:plateSteel>]]);
-recipes.addShaped(<botania:alchemyCatalyst>, [[<ore:livingrock>, <ore:ingotLumium>, <ore:livingrock>], [<minecraft:brewing_stand>, <xreliquary:salamander_eye>, <minecraft:brewing_stand>], [<ore:livingrock>, <ore:ingotLumium>, <ore:livingrock>]]);
 recipes.addShaped(<mysticalagriculture:watering_can:4>, [[<ore:ingotSupremium>, <mysticalagriculture:crafting:54>, null], [<ore:ingotSupremium>, <mysticalagriculture:watering_can:3>, <ore:ingotSupremium>], [null, <ore:ingotSupremium>, null]]);
 recipes.addShaped(<mysticalagriculture:watering_can:3>, [[<ore:ingotSuperium>, <mysticalagriculture:crafting:53>, null], [<ore:ingotSuperium>, <mysticalagriculture:watering_can:2>, <ore:ingotSuperium>], [null, <ore:ingotSuperium>, null]]);
 recipes.addShaped(<mysticalagriculture:watering_can:2>, [[<ore:ingotIntermedium>, <mysticalagriculture:crafting:52>, null], [<ore:ingotIntermedium>, <mysticalagriculture:watering_can:1>, <ore:ingotIntermedium>], [null, <ore:ingotIntermedium>, null]]);

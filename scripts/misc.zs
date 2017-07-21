@@ -67,7 +67,7 @@ mods.forestry.ThermionicFabricator.addCast(<tinker_io:Upgrade:5>,
  
 recipes.remove(<tinker_io:Upgrade:6>); 
 mods.forestry.ThermionicFabricator.addCast(<tinker_io:Upgrade:6>,
- [[<ore:obsidian>, <tinker_io:WhatABeautifulBlock>, <ore:obsidian>], [<ore:obsidian>, <tinker_io:Upgrade:4>, <ore:obsidian>], [<ore:obsidian>, <tinker_io:WhatABeautifulBlock>, <ore:obsidian>]],8000);             
+ [[<ore:obsidian>, <tinker_io:WhatABeautifulBlock>, <ore:obsidian>], [<ore:obsidian>, <tinker_io:Upgrade:4>, <ore:obsidian>], [<ore:obsidian>, <tinker_io:WhatABeautifulBlock>, <ore:obsidian>]],10000);             
  
 recipes.remove(<tinker_io:Upgrade:7>); 
 mods.forestry.ThermionicFabricator.addCast(<tinker_io:Upgrade:7>,
@@ -127,62 +127,62 @@ mods.forestry.Carpenter.addRecipe(<mekanism:ControlCircuit:3>, [[null, <forestry
   
 recipes.remove(<gendustry:GeneticsProcessor>); 
 mods.forestry.ThermionicFabricator.addCast(<gendustry:GeneticsProcessor>,
- [[<ore:manaDiamond>, <forestry:thermionicTubes:12>, <ore:manaDiamond>], [<actuallyadditions:blockCrystalEmpowered>, <thermalfoundation:storage_alloy:7>, <actuallyadditions:blockCrystalEmpowered>], [<ore:manaDiamond>, <forestry:thermionicTubes:12>, <ore:manaDiamond>]],8000);                  
+ [[<ore:manaDiamond>, <forestry:thermionicTubes:12>, <ore:manaDiamond>], [<actuallyadditions:blockCrystalEmpowered>, <thermalfoundation:storage_alloy:7>, <actuallyadditions:blockCrystalEmpowered>], [<ore:manaDiamond>, <forestry:thermionicTubes:12>, <ore:manaDiamond>]],10000);                  
  
 recipes.remove(<gendustry:EnvProcessor>); 
 mods.forestry.ThermionicFabricator.addCast(<gendustry:EnvProcessor>,
- [[<ore:manaDiamond>, <forestry:thermionicTubes:10>, <ore:manaDiamond>], [<actuallyadditions:blockCrystalEmpowered:1>, <ore:blockMetal>, <actuallyadditions:blockCrystalEmpowered:1>], [<ore:manaDiamond>, <forestry:thermionicTubes:10>, <ore:manaDiamond>]],8000);                   
+ [[<ore:manaDiamond>, <forestry:thermionicTubes:10>, <ore:manaDiamond>], [<actuallyadditions:blockCrystalEmpowered:1>, <ore:blockMetal>, <actuallyadditions:blockCrystalEmpowered:1>], [<ore:manaDiamond>, <forestry:thermionicTubes:10>, <ore:manaDiamond>]],10000);                   
  
  
  
 recipes.remove(<gendustry:UpgradeFrame>); 
 mods.forestry.ThermionicFabricator.addCast(<gendustry:UpgradeFrame>,
- [[<ore:ingotOsmium>, <actuallyadditions:itemDust:3>, <ore:ingotOsmium>], [<actuallyadditions:itemDust:3>, <ore:xuUpgradeBlank>, <actuallyadditions:itemDust:3>], [<ore:ingotOsmium>, <actuallyadditions:itemDust:3>, <ore:ingotOsmium>]],8000);                    
+ [[<ore:ingotOsmium>, <actuallyadditions:itemDust:3>, <ore:ingotOsmium>], [<actuallyadditions:itemDust:3>, <ore:xuUpgradeBlank>, <actuallyadditions:itemDust:3>], [<ore:ingotOsmium>, <actuallyadditions:itemDust:3>, <ore:ingotOsmium>]],10000);                    
  
  
 recipes.remove(<mekanism:AnchorUpgrade>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:AnchorUpgrade>,
- [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustDiamond>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],8000);                     
+ [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustDiamond>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],10000);                     
  
  
 recipes.remove(<mekanism:EnergyUpgrade>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:EnergyUpgrade>,
- [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustGold>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],8000);
+ [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustGold>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],10000);
 
  
 recipes.remove(<mekanism:FilterUpgrade>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:FilterUpgrade>,
- [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustTin>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],8000);
+ [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustTin>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],10000);
  
 recipes.remove(<mekanism:GasUpgrade>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:GasUpgrade>,
- [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustIron>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],8000); 
+ [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustIron>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],10000); 
  
  
 recipes.remove(<mekanism:MufflingUpgrade>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:MufflingUpgrade>,
- [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustSteel>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],8000); 
+ [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustSteel>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],10000); 
  
  
  recipes.remove(<mekanism:SpeedUpgrade>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:SpeedUpgrade>,
- [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustOsmium>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],8000); 
+ [[null, <ore:blockGlassColorless>, null], [<ore:itemEnrichedAlloy>, <ore:dustOsmium>, <ore:itemEnrichedAlloy>], [null, <ore:blockGlassColorless>, null]],10000); 
  
 recipes.remove(<mekanism:TierInstaller:3>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:TierInstaller:3>,
- [[<mekanism:AtomicAlloy>, <mekanism:ControlCircuit:3>, <ore:alloyUltimate>], [<mekanism:TierInstaller:2>, <ore:blockDiamond>, <mekanism:TierInstaller:2>], [<ore:alloyUltimate>, <mekanism:ControlCircuit:3>, <ore:alloyUltimate>]],8000); 
+ [[<mekanism:AtomicAlloy>, <mekanism:ControlCircuit:3>, <ore:alloyUltimate>], [<mekanism:TierInstaller:2>, <ore:blockDiamond>, <mekanism:TierInstaller:2>], [<ore:alloyUltimate>, <mekanism:ControlCircuit:3>, <ore:alloyUltimate>]],10000); 
 
 recipes.remove(<mekanism:TierInstaller:2>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:TierInstaller:2>,
- [[<ore:alloyElite>, <mekanism:ControlCircuit:2>, <ore:alloyElite>], [<mekanism:TierInstaller:1>, <ore:blockGold>, <mekanism:TierInstaller:1>], [<ore:alloyElite>, <mekanism:ControlCircuit:2>, <ore:alloyElite>]],8000); 
+ [[<ore:alloyElite>, <mekanism:ControlCircuit:2>, <ore:alloyElite>], [<mekanism:TierInstaller:1>, <ore:blockGold>, <mekanism:TierInstaller:1>], [<ore:alloyElite>, <mekanism:ControlCircuit:2>, <ore:alloyElite>]],10000); 
 
 recipes.remove(<mekanism:TierInstaller:1>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:TierInstaller:1>,
- [[<ore:itemEnrichedAlloy>, <mekanism:ControlCircuit:1>, <ore:itemEnrichedAlloy>], [<mekanism:TierInstaller>, <ore:blockOsmium>, <mekanism:TierInstaller>], [<ore:itemEnrichedAlloy>, <mekanism:ControlCircuit:1>, <ore:itemEnrichedAlloy>]],8000); 
+ [[<ore:itemEnrichedAlloy>, <mekanism:ControlCircuit:1>, <ore:itemEnrichedAlloy>], [<mekanism:TierInstaller>, <ore:blockOsmium>, <mekanism:TierInstaller>], [<ore:itemEnrichedAlloy>, <mekanism:ControlCircuit:1>, <ore:itemEnrichedAlloy>]],10000); 
 
 recipes.remove(<mekanism:TierInstaller>); 
 mods.forestry.ThermionicFabricator.addCast(<mekanism:TierInstaller>,
- [[<ore:ingotRedstoneAlloy>, <mekanism:ControlCircuit>, <ore:ingotRedstoneAlloy>], [<ore:ingotArdite>, <ore:blockIron>, <ore:ingotArdite>], [<ore:ingotRedstoneAlloy>, <mekanism:ControlCircuit>, <ore:ingotRedstoneAlloy>]],8000); 
+ [[<ore:ingotRedstoneAlloy>, <mekanism:ControlCircuit>, <ore:ingotRedstoneAlloy>], [<ore:ingotArdite>, <ore:blockIron>, <ore:ingotArdite>], [<ore:ingotRedstoneAlloy>, <mekanism:ControlCircuit>, <ore:ingotRedstoneAlloy>]],10000); 
 
 
 

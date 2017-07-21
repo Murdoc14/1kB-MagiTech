@@ -1,0 +1,28 @@
+{
+	"populate": {
+		"uraniumyellorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{"name": "bigreactors:brore", "weight":0},
+					{"name": "ic2:resource", "metadata": 4, "weight":0}
+					{"name": "immersiveengineering.ore", "metadata": 5, "weight":100}
+				],
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

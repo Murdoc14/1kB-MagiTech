@@ -78,14 +78,6 @@
 					"maxHeight":0
 				},
 				{
-					"blockID":"nethermetals:tantalum_ore",
-					"size":0,
-					"variation":0,
-					"frequency":0,
-					"minHeight":0,
-					"maxHeight":0
-				},
-				{
 					"blockID":"nethermetals:nether_tungsten_ore",
 					"size":0,
 					"variation":0,

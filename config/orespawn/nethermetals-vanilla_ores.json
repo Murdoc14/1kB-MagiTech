@@ -53,7 +53,7 @@
 					"maxHeight":128
 				},
 				{
-					"blockID":"nethermetals:redstone_ore",
+					"blockID":"nethermetals:nether_redstone_ore",
 					"size":6,
 					"variation":6,
 					"frequency":6,

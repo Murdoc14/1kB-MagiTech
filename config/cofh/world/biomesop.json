@@ -1,7 +1,7 @@
 {
   "populate": {
     "amethyst": {
-      "template": "uniform",
+      "distribution": "uniform",
       "block": {
         "name": "biomesoplenty:gemore",
         "metadata": 0
@@ -29,7 +29,7 @@
       ]
     },
     "ruby": {
-      "template": "uniform",
+      "distribution": "uniform",
       "block": {
         "name": "biomesoplenty:gemore",
         "metadata": 1
@@ -57,7 +57,7 @@
       ]
     },
     "peridot": {
-      "template": "uniform",
+      "distribution": "uniform",
       "block": {
         "name": "biomesoplenty:gemore",
         "metadata": 2
@@ -85,7 +85,7 @@
       ]
     },
     "topaz": {
-      "template": "uniform",
+      "distribution": "uniform",
       "block": {
         "name": "biomesoplenty:gemore",
         "metadata": 3
@@ -113,7 +113,7 @@
       ]
     },
     "tanzanite": {
-      "template": "uniform",
+      "distribution": "uniform",
       "block": {
         "name": "biomesoplenty:gemore",
         "metadata": 4
@@ -141,7 +141,7 @@
       ]
     },
     "malachite": {
-      "template": "uniform",
+      "distribution": "uniform",
       "block": {
         "name": "biomesoplenty:gemore",
         "metadata": 5
@@ -169,7 +169,7 @@
       ]
     },
     "sapphire": {
-      "template": "uniform",
+      "distribution": "uniform",
       "block": {
         "name": "biomesoplenty:gemore",
         "metadata": 6
@@ -197,7 +197,7 @@
       ]
     },
     "amber": {
-      "template": "uniform",
+      "distribution": "uniform",
       "block": {
         "name": "biomesoplenty:gemore",
         "metadata": 7

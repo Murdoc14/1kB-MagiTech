@@ -1,6 +1,6 @@
 {
   "path": "resource/mutations/redstodendron_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 1.0,
   "child": "redstodendron_plant",
   "parent1": "ferranium_plant",

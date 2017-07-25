@@ -8,11 +8,11 @@
           "metadata": 1
         },
         "material": "netherrack",
-        "cluster-size": 0
+        "cluster-size": 1
       },
       "cluster-count": 0,
       "min-height": 0,
-      "max-height": 0,
+      "max-height": 128,
       "retrogen": true,
       "biome": "all",
       "dimension": {
@@ -31,11 +31,11 @@
           "metadata": 2
         },
         "material": "end_stone",
-        "cluster-size": 0
+        "cluster-size": 1
       },
       "cluster-count": 0,
       "min-height": 0,
-      "max-height": 0,
+      "max-height": 128,
       "retrogen": true,
       "biome": "all",
       "dimension": {

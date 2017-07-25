@@ -5,7 +5,7 @@
       "generator": {
         "block": "mysticalagriculture:inferium_ore",
         "material": "stone",
-        "cluster-size": 0
+        "cluster-size": 1
       },
       "cluster-count": 0,
       "min-height": 40,
@@ -25,7 +25,7 @@
       "generator": {
         "block": "mysticalagriculture:nether_inferium_ore",
         "material": "netherrack",
-        "cluster-size": 0
+        "cluster-size": 1
       },
       "cluster-count": 0,
       "min-height": 10,

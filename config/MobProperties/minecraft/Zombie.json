@@ -1,6 +1,13 @@
 {
   "_name": "Zombie",
   "drops": [],
-  "pre_stats": [],
-  "stats": []
+  "stats": [
+    {
+      "_comment": "set mob health to 90% of value",
+      "function": "modifier",
+      "attribute": "generic.maxHealth",
+      "value": "80",
+      "override": "true"
+    }
+  ]
 }

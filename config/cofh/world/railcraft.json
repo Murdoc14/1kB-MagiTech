@@ -7,7 +7,7 @@
         "material": "lava",
         "cluster-size": 1
       },
-      "cluster-count": 1,
+      "cluster-count": 10,
       "min-height": 0,
       "max-height": 14,
       "retrogen": true,

@@ -7,6 +7,7 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <ore:itemFl
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 furnace.remove(<ore:nuggetSteel>);
+furnace.remove(<ore:ingotSteel>);
 recipes.remove(<railcraft:generic:7>);
 recipes.addShapeless(<railcraft:generic:7>, [<ic2:forge_hammer>.noReturn(), <minecraft:obsidian>.noReturn()]);
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<minecraft:obsidian>, <railcraft:generic:7>, 30000);

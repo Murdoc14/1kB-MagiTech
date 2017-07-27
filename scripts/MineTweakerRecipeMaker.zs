@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<thermalfoundation:material:96>);
 recipes.remove(<energyconverters:energy_producer_eu:4>);
 recipes.remove(<energyconverters:energy_producer_eu:3>);
 recipes.remove(<energyconverters:energy_producer_eu:2>);
@@ -19,9 +20,6 @@ recipes.remove(<energyconverters:energy_producer_eu:1>);
 recipes.remove(<energyconverters:energy_producer_eu>);
 recipes.remove(<energyconverters:energy_bridge>);
 recipes.remove(<tconstruct:piggybackpack>);
-recipes.remove(<tp:diamond_cobblegen_block>);
-recipes.remove(<tp:iron_cobblegen_block>);
-recipes.remove(<tp:cobblegen_block>);
 recipes.remove(<arche:phistone>);
 recipes.remove(<harvestcraft:rainbowcurryitem>);
 recipes.remove(<tconstruct:tooltables>);
@@ -119,7 +117,6 @@ recipes.addShaped(<energyconverters:energy_producer_eu:3>, [[<energyconverters:e
 recipes.addShaped(<tconstruct:piggybackpack>, [[<minecraft:saddle>], [<ironbackpacks:basicBackpack>]]);
 recipes.addShaped(<tp:diamond_cobblegen_block>, [[<avaritia:resource>, <avaritia:resource>, <avaritia:resource>], [<avaritia:resource>, <tp:iron_cobblegen_block>, <avaritia:resource>], [<avaritia:resource>, <avaritia:resource>, <avaritia:resource>]]);
 recipes.addShaped(<tp:iron_cobblegen_block>, [[<moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>], [<moreplates:ElectricalSteelPlate>, <tp:cobblegen_block>, <moreplates:ElectricalSteelPlate>], [<moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>, <moreplates:ElectricalSteelPlate>]]);
-recipes.addShaped(<tp:cobblegen_block>, [[<ore:plateSteel>, <ore:compressed2xCobblestone>, <ore:plateSteel>], [<chickens:liquid_egg:1>, <moreplates:ConductiveIronGear>, <chickens:liquid_egg>], [<ore:plateSteel>, <ore:compressed2xCobblestone>, <ore:plateSteel>]]);
 recipes.addShaped(<mysticalagriculture:watering_can:4>, [[<ore:ingotSupremium>, <mysticalagriculture:crafting:54>, null], [<ore:ingotSupremium>, <mysticalagriculture:watering_can:3>, <ore:ingotSupremium>], [null, <ore:ingotSupremium>, null]]);
 recipes.addShaped(<mysticalagriculture:watering_can:3>, [[<ore:ingotSuperium>, <mysticalagriculture:crafting:53>, null], [<ore:ingotSuperium>, <mysticalagriculture:watering_can:2>, <ore:ingotSuperium>], [null, <ore:ingotSuperium>, null]]);
 recipes.addShaped(<mysticalagriculture:watering_can:2>, [[<ore:ingotIntermedium>, <mysticalagriculture:crafting:52>, null], [<ore:ingotIntermedium>, <mysticalagriculture:watering_can:1>, <ore:ingotIntermedium>], [null, <ore:ingotIntermedium>, null]]);

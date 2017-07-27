@@ -1,5 +1,5 @@
 {
-  "path": "mod_natura/cotton_plant.json",
+  "path": "mod_natura/plants/cotton_plant.json",
   "enabled": true,
   "id": "cotton_plant",
   "plant_name": "Cotton",

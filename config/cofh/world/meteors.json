@@ -5,19 +5,19 @@
 			"generator": {
 				"type": "geode",
 				"block": [
-					{"name": "appliedenergistics2:quartz_ore", "weight":55},
+					{"name": "appliedenergistics2:quartz_ore", "weight":50},
 					{"name": "appliedenergistics2:charged_quartz_ore", "weight":5}
-					{"name": "appliedenergistics2:sky_stone_block", "weight":36}
-					{"name": "thermalfoundation:ore", "metadata": 6, "weight":2},
-					{"name": "thermalfoundation:ore", "metadata": 7, "weight":2},
+					{"name": "appliedenergistics2:sky_stone_block", "weight":39}
+					{"name": "thermalfoundation:ore", "metadata": 6, "weight":3},
+					{"name": "thermalfoundation:ore", "metadata": 7, "weight":3},
 
 				],
 				"material": "stone",
 				"cluster-size": 3,
-				"crust": "minecraft:obsidian"
+				"crust": "appliedenergistics2:sky_stone_block"
 			},
 			"cluster-count": 2,
-			"chunk-chance": 1,
+			"chunk-chance": 2,
 			"min-height": 40,
 			"max-height": 60,
 			"retrogen": "true",

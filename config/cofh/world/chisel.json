@@ -8,7 +8,7 @@
           "metadata": 7
         },
         "material": "stone",
-        "cluster-size": 8
+        "cluster-size": 16
       },
       "cluster-count": 1,
       "min-height": 20,
@@ -31,7 +31,7 @@
           "metadata": 7
         },
         "material": "stone",
-        "cluster-size": 8
+        "cluster-size": 16
       },
       "cluster-count": 1,
       "min-height": 20,

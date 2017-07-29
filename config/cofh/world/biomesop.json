@@ -8,11 +8,10 @@
       },
       "material": "minecraft:stone",
       "clusterSize": 1,
-      "cluster-count": 1,
+      "cluster-count": 3,
       "minHeight": 20,
       "maxHeight": 70,
-      "retrogen": false,
-      "biomeRestriction": "none",
+      "retrogen": "true",
       "biome": {
         "restriction": "whitelist",
         "value": [
@@ -35,12 +34,11 @@
         "metadata": 1
       },
       "material": "minecraft:stone",
-      "clusterSize": 0,
-      "cluster-count": 0,
+      "clusterSize": 1,
+      "cluster-count": 3,
       "minHeight": 20,
       "maxHeight": 70,
-      "retrogen": false,
-      "biomeRestriction": "none",
+      "retrogen": "true",
       "biome": {
         "restriction": "whitelist",
         "value": [
@@ -63,12 +61,11 @@
         "metadata": 2
       },
       "material": "minecraft:stone",
-      "clusterSize": 0,
-      "cluster-count": 0,
+      "clusterSize": 1,
+      "cluster-count": 3,
       "minHeight": 20,
       "maxHeight": 70,
-      "retrogen": false,
-      "biomeRestriction": "none",
+      "retrogen": "true",
       "biome": {
         "restriction": "whitelist",
         "value": [
@@ -91,12 +88,11 @@
         "metadata": 3
       },
       "material": "minecraft:stone",
-      "clusterSize": 0,
-      "cluster-count": 0,
+      "clusterSize": 1,
+      "cluster-count": 3,
       "minHeight": 20,
       "maxHeight": 70,
-      "retrogen": false,
-      "biomeRestriction": "none",
+      "retrogen": "true",
       "biome": {
         "restriction": "whitelist",
         "value": [
@@ -119,12 +115,11 @@
         "metadata": 4
       },
       "material": "minecraft:stone",
-      "clusterSize": 0,
-      "cluster-count": 0,
+      "clusterSize": 1,
+      "cluster-count": 3,
       "minHeight": 20,
       "maxHeight": 70,
-      "retrogen": false,
-      "biomeRestriction": "none",
+      "retrogen": "true",
       "biome": {
         "restriction": "whitelist",
         "value": [
@@ -147,12 +142,11 @@
         "metadata": 5
       },
       "material": "minecraft:stone",
-      "clusterSize": 0,
-      "cluster-count": 0,
+      "clusterSize": 1,
+      "cluster-count": 3,
       "minHeight": 20,
       "maxHeight": 70,
-      "retrogen": false,
-      "biomeRestriction": "none",
+      "retrogen": "true",
       "biome": {
         "restriction": "whitelist",
         "value": [
@@ -175,12 +169,11 @@
         "metadata": 6
       },
       "material": "minecraft:stone",
-      "clusterSize": 0,
-      "cluster-count": 0,
+      "clusterSize": 1,
+      "cluster-count": 3,
       "minHeight": 20,
       "maxHeight": 70,
-      "retrogen": false,
-      "biomeRestriction": "none",
+      "retrogen": "true",
       "biome": {
         "restriction": "whitelist",
         "value": [
@@ -203,12 +196,11 @@
         "metadata": 7
       },
       "material": "minecraft:stone",
-      "clusterSize": 0,
-      "cluster-count": 0,
+      "clusterSize": 1,
+      "cluster-count": 3,
       "minHeight": 20,
       "maxHeight": 70,
-      "retrogen": false,
-      "biomeRestriction": "none",
+      "retrogen": "true",
       "biome": {
         "restriction": "whitelist",
         "value": [

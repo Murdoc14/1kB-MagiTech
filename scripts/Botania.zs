@@ -90,15 +90,15 @@ mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockIron>, 27000)
 mods.botania.ElvenTrade.addRecipe([<botania:dreamwood>], [<botania:livingwood>, <roots:logWildwood>]);
 
 # - Pixie Dust
-##mods.botania.ElvenTrade.removeRecipe([<botania:manaResource:8>]);
+mods.botania.ElvenTrade.removeRecipe([<botania:manaResource:8>]);
 mods.botania.ElvenTrade.addRecipe([<botania:manaResource:8>], [<botania:manaResource:1>, <botania:manaResource:1>]);
 
 # - Dragonstone
-##mods.botania.ElvenTrade.removeRecipe([<botania:manaResource:9>]);
-##mods.botania.ElvenTrade.removeRecipe([<botania:storage:4>]);
+mods.botania.ElvenTrade.removeRecipe([<botania:manaResource:9>]);
+mods.botania.ElvenTrade.removeRecipe([<botania:storage:4>]);
 recipes.remove(<botania:storage:4>);
-mods.botania.ElvenTrade.addRecipe([<botania:manaResource:9>], [<minecraft:diamond>, <minecraft:diamond>]);
-mods.botania.ElvenTrade.addRecipe([<botania:storage:4>], [<minecraft:diamond_block>, <minecraft:diamond_block>]);
+mods.botania.ElvenTrade.addRecipe([<botania:manaResource:9>], [<botania:manaResource:2>, <botania:manaResource:2>]);
+mods.botania.ElvenTrade.addRecipe([<botania:storage:4>], [<botania:storage:3>, <botania:storage:3>]);
 
 # -- Petal Apothocary
 recipes.remove(<botania:altar>);

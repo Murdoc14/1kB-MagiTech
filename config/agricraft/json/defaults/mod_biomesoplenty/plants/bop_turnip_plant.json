@@ -1,12 +1,12 @@
 {
-  "path": "mod_natura/barley_plant.json",
+  "path": "mod_biomesoplenty/plants/bop_turnip_plant.json",
   "enabled": true,
-  "id": "barley_plant",
-  "plant_name": "Barley",
-  "seed_name": "Barley Seeds",
+  "id": "bop_turnip_plant_plant",
+  "plant_name": "Pink Turnip",
+  "seed_name": "Turnip Seeds",
   "seed_items": [
     {
-      "item": "natura:overworld_seeds",
+      "item": "biomesoplenty:turnip_seeds",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,9 +18,9 @@
   ],
   "description": {
     "translations": {},
-    "default": "Testing 1, 2, 3."
+    "default": "Turnip Seeds."
   },
-  "growth_chance": 1.0,
+  "growth_chance": 0.9,
   "growth_bonus": 0.025,
   "bonemeal": true,
   "tier": 1,
@@ -35,10 +35,10 @@
     "products": [
       {
         "min": 1,
-        "max": 3,
-        "chance": 0.95,
+        "max": 5,
+        "chance": 1.0,
         "required": true,
-        "item": "natura:materials",
+        "item": "biomesoplenty:turnip",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -57,17 +57,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "natura:items/seeds/barley_seeds",
+    "seed_texture": "biomesoplenty:items/turnip_seeds",
     "plant_textures": [
-      "ActuallyAdditions:blocks/crops/cotton/barley_stage_0",
-      "ActuallyAdditions:blocks/crops/cotton/barley_stage_1",
-      "ActuallyAdditions:blocks/crops/cotton/barley_stage_2",
-      "ActuallyAdditions:blocks/crops/cotton/barley_stage_2",
-      "ActuallyAdditions:blocks/crops/cotton/barley_stage_3",
-      "ActuallyAdditions:blocks/crops/cotton/barley_stage_4",
-      "ActuallyAdditions:blocks/crops/cotton/barley_stage_5",
-      "ActuallyAdditions:blocks/crops/cotton/barley_stage_5",
-      null
+      "biomesoplenty:blocks/turnip_stage_0",
+      "biomesoplenty:blocks/turnip_stage_0",
+      "biomesoplenty:blocks/turnip_stage_0",
+      "biomesoplenty:blocks/turnip_stage_1",
+      "biomesoplenty:blocks/turnip_stage_1",
+      "biomesoplenty:blocks/turnip_stage_2",
+      "biomesoplenty:blocks/turnip_stage_2",
+      "biomesoplenty:blocks/turnip_stage_3"
     ]
   }
 }
